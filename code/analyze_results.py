@@ -10,26 +10,33 @@ import os
 import argparse
 from collections import defaultdict
 
-RESULTS_DIR = "../results"
 FIGURES_DIR = "../paper/figures"
-
-MODEL_TAGS = ["base", "dpo_multidomain", "dpo_steplevel", "dpo_corrupted"]
 
 DOMAIN_LABELS = {"pemdas": "PEMDAS", "coinflip": "CoinFlip"}
 
+MODEL_TAGS = ["base", "dpo_multidomain", "dpo_steplevel", "dpo_synthetic", "dpo_corrupted_v2"]
+
 TAG_COLORS = {
     "base": "#1f77b4", "dpo_multidomain": "#2ca02c",
-    "dpo_steplevel": "#9467bd", "dpo_corrupted": "#ff7f0e",
+    "dpo_steplevel": "#9467bd", "dpo_synthetic": "#d62728",
+    "dpo_corrupted_v2": "#ff7f0e",
 }
 
 TAG_LABELS = {
-    "base": "Base", "dpo_multidomain": "Multi Domain DPO",
-    "dpo_steplevel": "Step Level DPO", "dpo_corrupted": "Incorrect CoT DPO",
+    "base": "Base", "dpo_multidomain": "Multi-Domain DPO",
+    "dpo_steplevel": "Step-Level DPO", "dpo_synthetic": "Synthetic-CoT DPO",
+    "dpo_corrupted_v2": "Incorrect-CoT DPO",
+}
+
+# Per-model configuration: (results_dir, file_pattern, model_label, figure_suffix)
+MODEL_CONFIGS = {
+    "llama2": ("../results", "{domain}_{tag}.json", "LLaMA-2-7B", "all_variants"),
+    "llama31": ("../results_llama31", "{domain}_llama31_{tag}.json", "Llama 3.1-8B", "llama31_variants"),
 }
 
 
-def load_results(domain, tag):
-    path = os.path.join(RESULTS_DIR, f"{domain}_{tag}.json")
+def load_results(results_dir, pattern, domain, tag):
+    path = os.path.join(results_dir, pattern.format(domain=domain, tag=tag))
     if not os.path.exists(path):
         return None
     with open(path) as f:
@@ -67,19 +74,32 @@ def degradation(acc_by_steps, strategy):
     return {"low_acc": low_acc, "high_acc": high_acc, "delta": high_acc - low_acc}
 
 
-def plot_domain(domain, available):
-    try:
-        import matplotlib
-        matplotlib.use("Agg")
-        import matplotlib.pyplot as plt
-    except ImportError:
-        return
+def faithfulness_counts(results):
+    cot = [r for r in results if r["strategy"] == "zero-shot-cot"]
+    total = len(cot)
+    faithful = sum(1 for r in cot if r.get("faithful", False))
+    wrong_steps_right_answer = sum(1 for r in cot if r["correct"] and not r.get("faithful", False))
+    right_steps_wrong_answer = sum(1 for r in cot if not r["correct"] and r.get("all_steps_correct", False))
+    wrong_both = total - faithful - wrong_steps_right_answer - right_steps_wrong_answer
+    return {
+        "total": total,
+        "faithful": faithful,
+        "wrong_steps_right_answer": wrong_steps_right_answer,
+        "right_steps_wrong_answer": right_steps_wrong_answer,
+        "wrong_both": wrong_both,
+    }
+
+
+def plot_domain(domain, available_tags, results_dir, pattern, model_label, fig_suffix):
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
 
     os.makedirs(FIGURES_DIR, exist_ok=True)
     fig, ax = plt.subplots(1, 1, figsize=(12, 7))
 
-    for tag in available:
-        results = load_results(domain, tag)
+    for tag in available_tags:
+        results = load_results(results_dir, pattern, domain, tag)
         if not results:
             continue
         acc = accuracy_by_steps(results)
@@ -92,13 +112,66 @@ def plot_domain(domain, available):
 
     ax.set_xlabel("Problem Complexity (steps to solve)", fontsize=12)
     ax.set_ylabel("Accuracy (%)", fontsize=12)
-    ax.set_title(f"{DOMAIN_LABELS.get(domain, domain)}: Degradation Curves", fontsize=14)
+    ax.set_title(f"{model_label} {DOMAIN_LABELS.get(domain, domain)}: Degradation Curves", fontsize=14)
     ax.legend(fontsize=9)
     ax.set_ylim(-5, 105)
     ax.grid(True, alpha=0.3)
 
-    out = os.path.join(FIGURES_DIR, f"{domain}_all_variants.png")
+    out = os.path.join(FIGURES_DIR, f"{domain}_{fig_suffix}.png")
     fig.tight_layout()
+    fig.savefig(out, dpi=150)
+    plt.close(fig)
+    print(f"  Saved {out}")
+
+
+def plot_faithfulness():
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    os.makedirs(FIGURES_DIR, exist_ok=True)
+
+    categories = ["All steps + answer correct", "Wrong steps, right answer",
+                   "Right steps, wrong answer", "Wrong steps + answer"]
+    faith_tags = ["base", "dpo_multidomain", "dpo_synthetic", "dpo_corrupted_v2"]
+
+    fig, axes = plt.subplots(1, 2, figsize=(16, 7), sharey=True)
+
+    for ax, (model_key, (results_dir, pattern, model_label, _)) in zip(axes, MODEL_CONFIGS.items()):
+        x = np.arange(len(categories))
+        width = 0.18
+        offsets = np.arange(len(faith_tags)) - (len(faith_tags) - 1) / 2
+
+        for i, tag in enumerate(faith_tags):
+            results = load_results(results_dir, pattern, "pemdas", tag)
+            if not results:
+                continue
+            fc = faithfulness_counts(results)
+            total = fc["total"]
+            vals = [
+                fc["faithful"] / total * 100,
+                fc["wrong_steps_right_answer"] / total * 100,
+                fc["right_steps_wrong_answer"] / total * 100,
+                fc["wrong_both"] / total * 100,
+            ]
+            color = TAG_COLORS.get(tag, "black")
+            label = TAG_LABELS.get(tag, tag)
+            bars = ax.bar(x + offsets[i] * width, vals, width, label=label, color=color, alpha=0.8)
+            for bar, v in zip(bars, vals):
+                if v > 0.5:
+                    ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.5,
+                            f"{v:.0f}%", ha="center", va="bottom", fontsize=7)
+
+        ax.set_xticks(x)
+        ax.set_xticklabels(categories, fontsize=9)
+        ax.set_ylabel("Percentage of Instances (%)", fontsize=11)
+        ax.set_title(f"{model_label}: PEMDAS Faithfulness Breakdown (CoT)", fontsize=13)
+        ax.legend(fontsize=8)
+        ax.grid(True, alpha=0.3, axis="y")
+
+    fig.tight_layout()
+    out = os.path.join(FIGURES_DIR, "faithfulness_breakdown.png")
     fig.savefig(out, dpi=150)
     plt.close(fig)
     print(f"  Saved {out}")
@@ -110,55 +183,55 @@ def main():
     parser.add_argument("--latex", action="store_true")
     args = parser.parse_args()
 
-    available = [t for t in MODEL_TAGS
-                 if any(os.path.exists(os.path.join(RESULTS_DIR, f"{d}_{t}.json")) for d in DOMAIN_LABELS)]
+    for model_key, (results_dir, pattern, model_label, fig_suffix) in MODEL_CONFIGS.items():
+        available = [t for t in MODEL_TAGS
+                     if any(os.path.exists(os.path.join(results_dir, pattern.format(domain=d, tag=t)))
+                            for d in DOMAIN_LABELS)]
+        if not available:
+            print(f"No results found for {model_label}.")
+            continue
 
-    if not available:
-        print("No results found.")
-        return
+        print(f"\n{'#'*60}\n  {model_label} — tags: {available}\n{'#'*60}")
 
-    print(f"Models found: {available}\n")
-
-    for domain in DOMAIN_LABELS:
-        print(f"{'='*60}\n  {DOMAIN_LABELS[domain]}\n{'='*60}")
-        for tag in available:
-            results = load_results(domain, tag)
-            if not results:
-                continue
-            oa = overall_accuracy(results)
-            abs_ = accuracy_by_steps(results)
-            print(f"\n  {TAG_LABELS.get(tag, tag)}:")
-            for strategy in ["direct", "zero-shot-cot"]:
-                if strategy not in oa:
-                    continue
-                deg = degradation(abs_, strategy)
-                deg_str = f"  delta={deg['delta']:+.1f}%" if deg else ""
-                print(f"    {strategy:20s}  {oa[strategy]:5.1f}%{deg_str}")
-        if args.plot:
-            plot_domain(domain, available)
-
-    if args.latex:
-        print("\n% LaTeX table")
-        print("\\begin{tabular}{lrrrr}")
-        print("\\toprule")
-        print("Model & PEMDAS Acc & $\\Delta$ & CoinFlip Acc & $\\Delta$ \\\\")
-        print("\\midrule")
-        for tag in available:
-            cells = []
-            for domain in DOMAIN_LABELS:
-                results = load_results(domain, tag)
+        for domain in DOMAIN_LABELS:
+            print(f"\n{'='*60}\n  {DOMAIN_LABELS[domain]}\n{'='*60}")
+            for tag in available:
+                results = load_results(results_dir, pattern, domain, tag)
                 if not results:
-                    cells.append("-- & --")
                     continue
                 oa = overall_accuracy(results)
                 abs_ = accuracy_by_steps(results)
-                acc = oa.get("zero-shot-cot", 0)
-                deg = degradation(abs_, "zero-shot-cot")
-                d = f"{deg['delta']:+.1f}" if deg else "--"
-                cells.append(f"{acc:.1f}\\% & {d}\\%")
-            print(f"{TAG_LABELS.get(tag, tag)} & {' & '.join(cells)} \\\\")
-        print("\\bottomrule")
-        print("\\end{tabular}")
+                print(f"\n  {TAG_LABELS.get(tag, tag)}:")
+                for strategy in ["direct", "zero-shot-cot"]:
+                    if strategy not in oa:
+                        continue
+                    deg = degradation(abs_, strategy)
+                    deg_str = f"  delta={deg['delta']:+.1f}%" if deg else ""
+                    print(f"    {strategy:20s}  {oa[strategy]:5.1f}%{deg_str}")
+            if args.plot:
+                plot_domain(domain, available, results_dir, pattern, model_label, fig_suffix)
+
+    if args.plot:
+        plot_faithfulness()
+
+    if args.latex:
+        print("\n% LaTeX table")
+        for model_key, (results_dir, pattern, model_label, _) in MODEL_CONFIGS.items():
+            print(f"\n% {model_label}")
+            for tag in MODEL_TAGS:
+                cells = []
+                for domain in DOMAIN_LABELS:
+                    results = load_results(results_dir, pattern, domain, tag)
+                    if not results:
+                        cells.append("-- & --")
+                        continue
+                    oa = overall_accuracy(results)
+                    abs_ = accuracy_by_steps(results)
+                    acc = oa.get("zero-shot-cot", 0)
+                    deg = degradation(abs_, "zero-shot-cot")
+                    d = f"{deg['delta']:+.1f}" if deg else "--"
+                    cells.append(f"{acc:.1f}\\% & {d}\\%")
+                print(f"{TAG_LABELS.get(tag, tag)} & {' & '.join(cells)} \\\\")
 
 
 if __name__ == "__main__":
