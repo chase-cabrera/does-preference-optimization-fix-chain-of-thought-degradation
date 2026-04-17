@@ -1,0 +1,74 @@
+[
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 + (2)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": " 7 + (2) = 9",
+    "rejected": " 7 + (2) = 7 + 2 = 9",
+    "step_index": 0,
+    "steps_to_solve": 2,
+    "correct_result": "9",
+    "incorrect_result": "7"
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": " 5 + (3) = 8",
+    "rejected": " 5 + (3) = 5 + 3 = 8",
+    "step_index": 0,
+    "steps_to_solve": 2,
+    "correct_result": "8",
+    "incorrect_result": "5"
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": " 4 + (3) = 7",
+    "rejected": " 4 + (3) = 4 + 3 = 7",
+    "step_index": 0,
+    "steps_to_solve": 2,
+    "correct_result": "7",
+    "incorrect_result": "4"
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (4)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": " 5 + (4) = 9",
+    "rejected": " 5 + (4) = 5 + 4 = 9",
+    "step_index": 0,
+    "steps_to_solve": 2,
+    "correct_result": "9",
+    "incorrect_result": "5"
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (7))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": " 1 * (1 * 7) = 7",
+    "rejected": " 1 * (1 * (7)) = 1 * (1 * 7) = 1 * 7 = 7",
+    "step_index": 0,
+    "steps_to_solve": 3,
+    "correct_result": "7",
+    "incorrect_result": "1"
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": " 9 / (9 * 1) = 1",
+    "rejected": " 9 / (1 * (9)) = 9 / (9 * 1) = 9 / 9 = 1",
+    "step_index": 0,
+    "steps_to_solve": 3,
+    "correct_result": "1",
+    "incorrect_result": "9"
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (8 + (5 / (5)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": " 8*9/8 = 9",
+    "rejected": " First, we'll multiply both sides by 8 to get 8*9/8 = 72",
+    "step_index": 0,
+    "steps_to_solve": 4,
+    "correct_result": "9",
+    "incorrect_result": "72"
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (3 * (3)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": " 1 * (3 * 3) = 9",
+    "rejected": " 1 * (1 * (3 * (3))) = 1 * (1 * (3 * 3)) = 1 * (3 * 3) = 3 * 3 = 9",
+    "step_index": 0,
+    "steps_to_solve": 4,
+    "correct_result": "9",
+    "incorrect_result": "3"
+  }
+]

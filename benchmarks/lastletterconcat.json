@@ -1,0 +1,3708 @@
+{
+  "domain": "lastletterconcat",
+  "label": "LastLetterConcatenation",
+  "answer_type": "string",
+  "total_instances": 200,
+  "instances": [
+    {
+      "instance_id": "800",
+      "prompt": "[Instructions]\nFor the purposes of these problems, a vowel is any one of the letters \"a\",\"e\",\"i\",\"o\", or \"u\", but NOT \"y\". After the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"lizdasexd\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "lizdasexd"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "d"
+    },
+    {
+      "instance_id": "7",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Daniel\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Daniel"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "l"
+    },
+    {
+      "instance_id": "1",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Beautiful\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Beautiful"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "l"
+    },
+    {
+      "instance_id": "807",
+      "prompt": "[Instructions]\nFor the purposes of these problems, a vowel is any one of the letters \"a\",\"e\",\"i\",\"o\", or \"u\", but NOT \"y\". After the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"gjjgclj\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "gjjgclj"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "j"
+    },
+    {
+      "instance_id": "17",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Brison\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Brison"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "n"
+    },
+    {
+      "instance_id": "15",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Starlene\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Starlene"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "e"
+    },
+    {
+      "instance_id": "14",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Finley\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Finley"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "y"
+    },
+    {
+      "instance_id": "8",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Stephen\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Stephen"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "n"
+    },
+    {
+      "instance_id": "816",
+      "prompt": "[Instructions]\nFor the purposes of these problems, a vowel is any one of the letters \"a\",\"e\",\"i\",\"o\", or \"u\", but NOT \"y\". After the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"vsjkvgyz\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "vsjkvgyz"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "z"
+    },
+    {
+      "instance_id": "6",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"India\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "India"
+      ],
+      "steps_to_solve": 1,
+      "ground_truth": "a"
+    },
+    {
+      "instance_id": "823",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"cmcijwabayw yijwujt\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "cmcijwabayw",
+        "yijwujt"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "wt"
+    },
+    {
+      "instance_id": "827",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"iymacmso hzahbnpil\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "iymacmso",
+        "hzahbnpil"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "ol"
+    },
+    {
+      "instance_id": "837",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"gcajhsgx vtvtjkroly\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "gcajhsgx",
+        "vtvtjkroly"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "xy"
+    },
+    {
+      "instance_id": "74",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Alaynna Marcanthony\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Alaynna",
+        "Marcanthony"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "ay"
+    },
+    {
+      "instance_id": "45",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Meg Egypt\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Meg",
+        "Egypt"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "gt"
+    },
+    {
+      "instance_id": "77",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jazzmyn Estephany\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jazzmyn",
+        "Estephany"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "ny"
+    },
+    {
+      "instance_id": "67",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Amaiah Binyamin\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Amaiah",
+        "Binyamin"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "hn"
+    },
+    {
+      "instance_id": "42",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Baby Love\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Baby",
+        "Love"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "ye"
+    },
+    {
+      "instance_id": "41",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Quest Marc\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Quest",
+        "Marc"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "tc"
+    },
+    {
+      "instance_id": "835",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"pkktxgj ecdvfidjayr\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "pkktxgj",
+        "ecdvfidjayr"
+      ],
+      "steps_to_solve": 2,
+      "ground_truth": "jr"
+    },
+    {
+      "instance_id": "93",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Hayden Ignacio Kroy\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Hayden",
+        "Ignacio",
+        "Kroy"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "noy"
+    },
+    {
+      "instance_id": "94",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Christinia Camden Falon\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Christinia",
+        "Camden",
+        "Falon"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "ann"
+    },
+    {
+      "instance_id": "112",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Hortensia Biridiana Jaiyana\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Hortensia",
+        "Biridiana",
+        "Jaiyana"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "aaa"
+    },
+    {
+      "instance_id": "118",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Mckinlee Yitzchok Jadelynn\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Mckinlee",
+        "Yitzchok",
+        "Jadelynn"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "ekn"
+    },
+    {
+      "instance_id": "81",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Paul Thor George\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Paul",
+        "Thor",
+        "George"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "lre"
+    },
+    {
+      "instance_id": "115",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Aubriella Aaditya Estephany\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Aubriella",
+        "Aaditya",
+        "Estephany"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "aay"
+    },
+    {
+      "instance_id": "92",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Mila Korie Brissa\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Mila",
+        "Korie",
+        "Brissa"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "aea"
+    },
+    {
+      "instance_id": "845",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"nsvxiipl jhgrhhmik pwuwlhnt\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "nsvxiipl",
+        "jhgrhhmik",
+        "pwuwlhnt"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "lkt"
+    },
+    {
+      "instance_id": "841",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"ajcdwygtl xxnkgiyi tmzkgacrk\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "ajcdwygtl",
+        "xxnkgiyi",
+        "tmzkgacrk"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "lik"
+    },
+    {
+      "instance_id": "844",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"mxspekaqpd xnntqrfah muffiymu\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "mxspekaqpd",
+        "xnntqrfah",
+        "muffiymu"
+      ],
+      "steps_to_solve": 3,
+      "ground_truth": "dhu"
+    },
+    {
+      "instance_id": "154",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Abdullahi Anjelica Abigayle Zachariah\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Abdullahi",
+        "Anjelica",
+        "Abigayle",
+        "Zachariah"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "iaeh"
+    },
+    {
+      "instance_id": "146",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Eduardo Brynlie Kallan Shyanna\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Eduardo",
+        "Brynlie",
+        "Kallan",
+        "Shyanna"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "oena"
+    },
+    {
+      "instance_id": "134",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Angelyn Kellan Wynn Ashli\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Angelyn",
+        "Kellan",
+        "Wynn",
+        "Ashli"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "nnni"
+    },
+    {
+      "instance_id": "148",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jaela Addyson Jaelah Tayton\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jaela",
+        "Addyson",
+        "Jaelah",
+        "Tayton"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "anhn"
+    },
+    {
+      "instance_id": "157",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Takayla Kendalyn Lashondra Aubriella\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Takayla",
+        "Kendalyn",
+        "Lashondra",
+        "Aubriella"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "anaa"
+    },
+    {
+      "instance_id": "137",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Diona Bradyn Jacinta Boris\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Diona",
+        "Bradyn",
+        "Jacinta",
+        "Boris"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "anas"
+    },
+    {
+      "instance_id": "871",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"bueiysu gbehbmyk wmakyhdxv nlqagnhez\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "bueiysu",
+        "gbehbmyk",
+        "wmakyhdxv",
+        "nlqagnhez"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "ukvz"
+    },
+    {
+      "instance_id": "120",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Italy Silver August Ed\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Italy",
+        "Silver",
+        "August",
+        "Ed"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "yrtd"
+    },
+    {
+      "instance_id": "868",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"mvwsqyzw ogdxxssz agflbzzp olyfeotloeg\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "mvwsqyzw",
+        "ogdxxssz",
+        "agflbzzp",
+        "olyfeotloeg"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "wzpg"
+    },
+    {
+      "instance_id": "130",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Fares Sury Alain Kolson\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Fares",
+        "Sury",
+        "Alain",
+        "Kolson"
+      ],
+      "steps_to_solve": 4,
+      "ground_truth": "synn"
+    },
+    {
+      "instance_id": "884",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"gxohybcbs cdivgtltw mlunisjqx berymfmvop otuioriiu\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "gxohybcbs",
+        "cdivgtltw",
+        "mlunisjqx",
+        "berymfmvop",
+        "otuioriiu"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "swxpu"
+    },
+    {
+      "instance_id": "187",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Hobert Charmaine Aulani Sirena Makya\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Hobert",
+        "Charmaine",
+        "Aulani",
+        "Sirena",
+        "Makya"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "teiaa"
+    },
+    {
+      "instance_id": "181",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Aarav Catelynn Ivelisse Loryn Haislee\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Aarav",
+        "Catelynn",
+        "Ivelisse",
+        "Loryn",
+        "Haislee"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "vnene"
+    },
+    {
+      "instance_id": "177",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Ily Homer Terica Inayah Ahmed\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Ily",
+        "Homer",
+        "Terica",
+        "Inayah",
+        "Ahmed"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "yrahd"
+    },
+    {
+      "instance_id": "169",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Hope Phil Jess James Flo\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Hope",
+        "Phil",
+        "Jess",
+        "James",
+        "Flo"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "elsso"
+    },
+    {
+      "instance_id": "173",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Joyell Aira Sabella Zora Buel\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Joyell",
+        "Aira",
+        "Sabella",
+        "Zora",
+        "Buel"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "laaal"
+    },
+    {
+      "instance_id": "888",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"ehcqsaoraj zdeawyfph njxsgzti ovxntlgyx yxnuitamv\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "ehcqsaoraj",
+        "zdeawyfph",
+        "njxsgzti",
+        "ovxntlgyx",
+        "yxnuitamv"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "jhixv"
+    },
+    {
+      "instance_id": "897",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"eyjfdsusm liyppmjn qqemmrdlrs ltpobpkm fygsrfknq\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "eyjfdsusm",
+        "liyppmjn",
+        "qqemmrdlrs",
+        "ltpobpkm",
+        "fygsrfknq"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "mnsmq"
+    },
+    {
+      "instance_id": "166",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Alice Philip Simon Daniel Arrow\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Alice",
+        "Philip",
+        "Simon",
+        "Daniel",
+        "Arrow"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "epnlw"
+    },
+    {
+      "instance_id": "165",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Leo Christ La Bell Hal\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Leo",
+        "Christ",
+        "La",
+        "Bell",
+        "Hal"
+      ],
+      "steps_to_solve": 5,
+      "ground_truth": "otall"
+    },
+    {
+      "instance_id": "224",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jannat Quincey Adrielle Sharae Anushka Ozias\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jannat",
+        "Quincey",
+        "Adrielle",
+        "Sharae",
+        "Anushka",
+        "Ozias"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "tyeeas"
+    },
+    {
+      "instance_id": "206",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Kay Bo Brad Wolf Marc Joy\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Kay",
+        "Bo",
+        "Brad",
+        "Wolf",
+        "Marc",
+        "Joy"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "yodfcy"
+    },
+    {
+      "instance_id": "222",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jenica Jibril Jceon Burdette Beulah Caliyah\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jenica",
+        "Jibril",
+        "Jceon",
+        "Burdette",
+        "Beulah",
+        "Caliyah"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "alnehh"
+    },
+    {
+      "instance_id": "914",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"savuhyiyw eigjvpf qxscmqdmh phyhkirbwb knykvibtu yhcwyfsb\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "savuhyiyw",
+        "eigjvpf",
+        "qxscmqdmh",
+        "phyhkirbwb",
+        "knykvibtu",
+        "yhcwyfsb"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "wfhbub"
+    },
+    {
+      "instance_id": "917",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"pticporriyoz ciabxdzch fkklfdkrh patxgeowr naoxnejmda zmfwslwkc\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "pticporriyoz",
+        "ciabxdzch",
+        "fkklfdkrh",
+        "patxgeowr",
+        "naoxnejmda",
+        "zmfwslwkc"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "zhhrac"
+    },
+    {
+      "instance_id": "238",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Khalilah Dhriti Shawnta Rebeccah Renesmee Kassondra\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Khalilah",
+        "Dhriti",
+        "Shawnta",
+        "Rebeccah",
+        "Renesmee",
+        "Kassondra"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "hiahea"
+    },
+    {
+      "instance_id": "216",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Patrica Yoana Terrilyn Luanna Noelle Deseree\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Patrica",
+        "Yoana",
+        "Terrilyn",
+        "Luanna",
+        "Noelle",
+        "Deseree"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "aanaee"
+    },
+    {
+      "instance_id": "911",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"hhlyxpkv ydfcbjv kdqogoudm jufipyexph psbwnunjs jzheyoduv\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "hhlyxpkv",
+        "ydfcbjv",
+        "kdqogoudm",
+        "jufipyexph",
+        "psbwnunjs",
+        "jzheyoduv"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "vvmhsv"
+    },
+    {
+      "instance_id": "202",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Hope Nature Beautiful Sid Grey Crystal\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Hope",
+        "Nature",
+        "Beautiful",
+        "Sid",
+        "Grey",
+        "Crystal"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "eeldyl"
+    },
+    {
+      "instance_id": "906",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"nhdntsrxh xfclaxfz cmtrathirsw qzumjw ogvenpumuz ednicjdnld\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "nhdntsrxh",
+        "xfclaxfz",
+        "cmtrathirsw",
+        "qzumjw",
+        "ogvenpumuz",
+        "ednicjdnld"
+      ],
+      "steps_to_solve": 6,
+      "ground_truth": "hzwwzd"
+    },
+    {
+      "instance_id": "269",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Dyana Sedrick Christoher Lynell Johannes Amilya Sammantha\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Dyana",
+        "Sedrick",
+        "Christoher",
+        "Lynell",
+        "Johannes",
+        "Amilya",
+        "Sammantha"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "akrlsaa"
+    },
+    {
+      "instance_id": "274",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Abdirahman Lashawnda Arianelly Dhriti Mackayla Braylynn Serafina\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Abdirahman",
+        "Lashawnda",
+        "Arianelly",
+        "Dhriti",
+        "Mackayla",
+        "Braylynn",
+        "Serafina"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "nayiana"
+    },
+    {
+      "instance_id": "247",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Diamond Ever Sol Harry Hillary August April\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Diamond",
+        "Ever",
+        "Sol",
+        "Harry",
+        "Hillary",
+        "August",
+        "April"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "drlyytl"
+    },
+    {
+      "instance_id": "264",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Deeann Damarcus Davion Kaedyn Dawne Ronnell Surya\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Deeann",
+        "Damarcus",
+        "Davion",
+        "Kaedyn",
+        "Dawne",
+        "Ronnell",
+        "Surya"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "nsnnela"
+    },
+    {
+      "instance_id": "245",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Louis La Job Asia Long Ram Kay\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Louis",
+        "La",
+        "Job",
+        "Asia",
+        "Long",
+        "Ram",
+        "Kay"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "sabagmy"
+    },
+    {
+      "instance_id": "275",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Maddilynn Katheryn Jazzlynn Zorawar Kemarion Abdullahi Aaradhya\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Maddilynn",
+        "Katheryn",
+        "Jazzlynn",
+        "Zorawar",
+        "Kemarion",
+        "Abdullahi",
+        "Aaradhya"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "nnnrnia"
+    },
+    {
+      "instance_id": "258",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jaydyn Pearline Pia Cyan Aiyla Divya Micky\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jaydyn",
+        "Pearline",
+        "Pia",
+        "Cyan",
+        "Aiyla",
+        "Divya",
+        "Micky"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "neanaay"
+    },
+    {
+      "instance_id": "920",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"hkxdfsjwgr frynsglkg fcsfidfgd xkpmozg rcimdwexh rhzvjasn xyeuyohw\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "hkxdfsjwgr",
+        "frynsglkg",
+        "fcsfidfgd",
+        "xkpmozg",
+        "rcimdwexh",
+        "rhzvjasn",
+        "xyeuyohw"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "rgdghnw"
+    },
+    {
+      "instance_id": "279",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Ephraim Jocelynn Harmonee Zaylynn Ashaunti Tayvion Javontae\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Ephraim",
+        "Jocelynn",
+        "Harmonee",
+        "Zaylynn",
+        "Ashaunti",
+        "Tayvion",
+        "Javontae"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "mnenine"
+    },
+    {
+      "instance_id": "263",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Lavette Cristopher Cathryn Domenic Jiselle Hiromi Caressa\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Lavette",
+        "Cristopher",
+        "Cathryn",
+        "Domenic",
+        "Jiselle",
+        "Hiromi",
+        "Caressa"
+      ],
+      "steps_to_solve": 7,
+      "ground_truth": "ernceia"
+    },
+    {
+      "instance_id": "316",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Lorrayne Kynslee Renesmee Cassadee Ishmael Jenavieve Mackenzy Tayvion\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Lorrayne",
+        "Kynslee",
+        "Renesmee",
+        "Cassadee",
+        "Ishmael",
+        "Jenavieve",
+        "Mackenzy",
+        "Tayvion"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "eeeeleyn"
+    },
+    {
+      "instance_id": "292",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Mahki Kira Derrick Horace Fischer Earlie Kennedy Luella\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Mahki",
+        "Kira",
+        "Derrick",
+        "Horace",
+        "Fischer",
+        "Earlie",
+        "Kennedy",
+        "Luella"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "iakereya"
+    },
+    {
+      "instance_id": "945",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"oxyzsvjkg yhvihsaik sbhbbfmte xnvgplwxm cfgafekufd wfkxyvpg cgveeullaa uqmajlvv\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "oxyzsvjkg",
+        "yhvihsaik",
+        "sbhbbfmte",
+        "xnvgplwxm",
+        "cfgafekufd",
+        "wfkxyvpg",
+        "cgveeullaa",
+        "uqmajlvv"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "gkemdgav"
+    },
+    {
+      "instance_id": "284",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Carol Jason Andrew Lane Bo Hero Golden German\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Carol",
+        "Jason",
+        "Andrew",
+        "Lane",
+        "Bo",
+        "Hero",
+        "Golden",
+        "German"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "lnweoonn"
+    },
+    {
+      "instance_id": "282",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Lake Ken William Jessica Jess London Channel Urban\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Lake",
+        "Ken",
+        "William",
+        "Jessica",
+        "Jess",
+        "London",
+        "Channel",
+        "Urban"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "enmasnln"
+    },
+    {
+      "instance_id": "942",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"msjejydfas awnsagqorgi yxjpgjoilb isbizdvlv hxqhxjy vmjjraynkm ycuyxwxc cfdcjnjq\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "msjejydfas",
+        "awnsagqorgi",
+        "yxjpgjoilb",
+        "isbizdvlv",
+        "hxqhxjy",
+        "vmjjraynkm",
+        "ycuyxwxc",
+        "cfdcjnjq"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "sibvymcq"
+    },
+    {
+      "instance_id": "294",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jayden Alanis Noriel Carin Iola Janita Ayat Williard\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jayden",
+        "Alanis",
+        "Noriel",
+        "Carin",
+        "Iola",
+        "Janita",
+        "Ayat",
+        "Williard"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "nslnaatd"
+    },
+    {
+      "instance_id": "949",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"snnllxzeg lntmktyv guswzln mmsgbnjir zkwrtstsp fkuisuqtu iegakldtzd rcyjffdq\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "snnllxzeg",
+        "lntmktyv",
+        "guswzln",
+        "mmsgbnjir",
+        "zkwrtstsp",
+        "fkuisuqtu",
+        "iegakldtzd",
+        "rcyjffdq"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "gvnrpudq"
+    },
+    {
+      "instance_id": "298",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Simone Kati Shaquila Nels Paulina Kennedy Tera Reece\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Simone",
+        "Kati",
+        "Shaquila",
+        "Nels",
+        "Paulina",
+        "Kennedy",
+        "Tera",
+        "Reece"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "eiasayae"
+    },
+    {
+      "instance_id": "285",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Joseph Mario Arial Aaron Ace Paris Spirit Connor\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Joseph",
+        "Mario",
+        "Arial",
+        "Aaron",
+        "Ace",
+        "Paris",
+        "Spirit",
+        "Connor"
+      ],
+      "steps_to_solve": 8,
+      "ground_truth": "holnestr"
+    },
+    {
+      "instance_id": "974",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"xflqfip phogzulax uuisecomwwr wirlhpvren jjskwhr kgqjcmmq knkroewg vkinignswg kwwrrvz\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "xflqfip",
+        "phogzulax",
+        "uuisecomwwr",
+        "wirlhpvren",
+        "jjskwhr",
+        "kgqjcmmq",
+        "knkroewg",
+        "vkinignswg",
+        "kwwrrvz"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "pxrnrqggz"
+    },
+    {
+      "instance_id": "334",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Rivers Ashlie Gerson Dashanti Jersey Margo Rhema Sayla Connie\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Rivers",
+        "Ashlie",
+        "Gerson",
+        "Dashanti",
+        "Jersey",
+        "Margo",
+        "Rhema",
+        "Sayla",
+        "Connie"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "seniyoaae"
+    },
+    {
+      "instance_id": "975",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"irmxauwwa wwwpbdpfo rwcatrilpaf jnwnmhdun wstocwok gzssrogpyn bndxhcbx utdlkdipz axjnseqdrz\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "irmxauwwa",
+        "wwwpbdpfo",
+        "rwcatrilpaf",
+        "jnwnmhdun",
+        "wstocwok",
+        "gzssrogpyn",
+        "bndxhcbx",
+        "utdlkdipz",
+        "axjnseqdrz"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "aofnknxzz"
+    },
+    {
+      "instance_id": "326",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Cam Washington Taylor Rose Artist Aaron Rain Africa La\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Cam",
+        "Washington",
+        "Taylor",
+        "Rose",
+        "Artist",
+        "Aaron",
+        "Rain",
+        "Africa",
+        "La"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "mnretnnaa"
+    },
+    {
+      "instance_id": "344",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Kinzlee Dastan Aasim Tobie Rodrigo Cristiano Aayla Ronesha Yonathan\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Kinzlee",
+        "Dastan",
+        "Aasim",
+        "Tobie",
+        "Rodrigo",
+        "Cristiano",
+        "Aayla",
+        "Ronesha",
+        "Yonathan"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "enmeooaan"
+    },
+    {
+      "instance_id": "337",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Lily Teah Haydn Akai Maegan Jerel Jolette Courtnee Tristen\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Lily",
+        "Teah",
+        "Haydn",
+        "Akai",
+        "Maegan",
+        "Jerel",
+        "Jolette",
+        "Courtnee",
+        "Tristen"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "yhninleen"
+    },
+    {
+      "instance_id": "349",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Shakita Stratton Frida Raychel Allanah Sinead Tempestt Lorin Dinero\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Shakita",
+        "Stratton",
+        "Frida",
+        "Raychel",
+        "Allanah",
+        "Sinead",
+        "Tempestt",
+        "Lorin",
+        "Dinero"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "analhdtno"
+    },
+    {
+      "instance_id": "960",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"siwcpmkh zaljcpib rgfcmmcgmp dkdvgufeo stdopgvoq xqedvsvk zqklyp bqvkkqj gortumojd\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "siwcpmkh",
+        "zaljcpib",
+        "rgfcmmcgmp",
+        "dkdvgufeo",
+        "stdopgvoq",
+        "xqedvsvk",
+        "zqklyp",
+        "bqvkkqj",
+        "gortumojd"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "hbpoqkpjd"
+    },
+    {
+      "instance_id": "343",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Elisha Jeremey Jashaun Dylen Lashun Tamiyah Rosalind Lezly Lawerence\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Elisha",
+        "Jeremey",
+        "Jashaun",
+        "Dylen",
+        "Lashun",
+        "Tamiyah",
+        "Rosalind",
+        "Lezly",
+        "Lawerence"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "aynnnhdye"
+    },
+    {
+      "instance_id": "330",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Ryen Lorean Ora Windy Ellyn Maryellen Ambra Niam Riggins\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Ryen",
+        "Lorean",
+        "Ora",
+        "Windy",
+        "Ellyn",
+        "Maryellen",
+        "Ambra",
+        "Niam",
+        "Riggins"
+      ],
+      "steps_to_solve": 9,
+      "ground_truth": "nnaynnams"
+    },
+    {
+      "instance_id": "383",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Coletta Eivin Courtnie Vladimir Ariya Allanah Jullian Briana Bianka Cassie\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Coletta",
+        "Eivin",
+        "Courtnie",
+        "Vladimir",
+        "Ariya",
+        "Allanah",
+        "Jullian",
+        "Briana",
+        "Bianka",
+        "Cassie"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "anerahnaae"
+    },
+    {
+      "instance_id": "382",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Darcie Dannielle Jelani Genoveva Madaline Jubilee Charmayne Talisha Aedan Kendyl\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Darcie",
+        "Dannielle",
+        "Jelani",
+        "Genoveva",
+        "Madaline",
+        "Jubilee",
+        "Charmayne",
+        "Talisha",
+        "Aedan",
+        "Kendyl"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "eeiaeeeanl"
+    },
+    {
+      "instance_id": "373",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Halo Roxy Wyatt Valinda Laine Laiba Leonela Nael Lovelyn Kerry\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Halo",
+        "Roxy",
+        "Wyatt",
+        "Valinda",
+        "Laine",
+        "Laiba",
+        "Leonela",
+        "Nael",
+        "Lovelyn",
+        "Kerry"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "oytaeaalny"
+    },
+    {
+      "instance_id": "982",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"oxclitdei zmtipdeaq tdajdsntg ypsdflgby vrppsjopci fmuceoozv ubveswetq vqfcrtd xgcphlpo ngnpkshrf\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "oxclitdei",
+        "zmtipdeaq",
+        "tdajdsntg",
+        "ypsdflgby",
+        "vrppsjopci",
+        "fmuceoozv",
+        "ubveswetq",
+        "vqfcrtd",
+        "xgcphlpo",
+        "ngnpkshrf"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "iqgyivqdof"
+    },
+    {
+      "instance_id": "377",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Passion Nino Madison Juli Linwood Sybil Niki Chozen Otis Zeke\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Passion",
+        "Nino",
+        "Madison",
+        "Juli",
+        "Linwood",
+        "Sybil",
+        "Niki",
+        "Chozen",
+        "Otis",
+        "Zeke"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "nonidlinse"
+    },
+    {
+      "instance_id": "984",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"lwlbadyipin thidufqg qnmyyzruso njnfkfadjo esgxtsenl apsjndbxj znsnchww jsxdlpvlsl cebmuqmsj fxifvnjaj\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "lwlbadyipin",
+        "thidufqg",
+        "qnmyyzruso",
+        "njnfkfadjo",
+        "esgxtsenl",
+        "apsjndbxj",
+        "znsnchww",
+        "jsxdlpvlsl",
+        "cebmuqmsj",
+        "fxifvnjaj"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "ngooljwljj"
+    },
+    {
+      "instance_id": "983",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"gkcuxzwi dmybxswi ctxrijqquc idqhtgyj cppyorptyyoo gdmklmnu novbwtfpgq hofcnpjwwe smimoiezqns pxteupdeze\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "gkcuxzwi",
+        "dmybxswi",
+        "ctxrijqquc",
+        "idqhtgyj",
+        "cppyorptyyoo",
+        "gdmklmnu",
+        "novbwtfpgq",
+        "hofcnpjwwe",
+        "smimoiezqns",
+        "pxteupdeze"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "iicjouqese"
+    },
+    {
+      "instance_id": "981",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"dsiwludt jmqgehtx gixhwshrx blkxwtyq fjymbhto tghvifn wvqyzn zyldyurq qohsdhexd nulocdgb\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "dsiwludt",
+        "jmqgehtx",
+        "gixhwshrx",
+        "blkxwtyq",
+        "fjymbhto",
+        "tghvifn",
+        "wvqyzn",
+        "zyldyurq",
+        "qohsdhexd",
+        "nulocdgb"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "txxqonnqdb"
+    },
+    {
+      "instance_id": "364",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Martin Crystal Silver Henry Story Mary Scott Seven Vy Ace\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Martin",
+        "Crystal",
+        "Silver",
+        "Henry",
+        "Story",
+        "Mary",
+        "Scott",
+        "Seven",
+        "Vy",
+        "Ace"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "nlryyytnye"
+    },
+    {
+      "instance_id": "398",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Mckinzie Taytum Cleopatra Irelynn Nakayla Deaundre Kassondra Valkyrie Jazzmyn Ladarrius\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Mckinzie",
+        "Taytum",
+        "Cleopatra",
+        "Irelynn",
+        "Nakayla",
+        "Deaundre",
+        "Kassondra",
+        "Valkyrie",
+        "Jazzmyn",
+        "Ladarrius"
+      ],
+      "steps_to_solve": 10,
+      "ground_truth": "emanaeaens"
+    },
+    {
+      "instance_id": "1000",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"pylwiphrezv whthokolsx dzxtzoyw ensnfehnc iircxofol xvduotq tzzauihba ixicpzoq ypgznlgv slidspplp dqtfeyfqy\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "pylwiphrezv",
+        "whthokolsx",
+        "dzxtzoyw",
+        "ensnfehnc",
+        "iircxofol",
+        "xvduotq",
+        "tzzauihba",
+        "ixicpzoq",
+        "ypgznlgv",
+        "slidspplp",
+        "dqtfeyfqy"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "vxwclqaqvpy"
+    },
+    {
+      "instance_id": "410",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Romario Theodore Mariyah Jentry Darlyn Jaire Sherlyn Atley Shoji Bruin Annah\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Romario",
+        "Theodore",
+        "Mariyah",
+        "Jentry",
+        "Darlyn",
+        "Jaire",
+        "Sherlyn",
+        "Atley",
+        "Shoji",
+        "Bruin",
+        "Annah"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "oehynenyinh"
+    },
+    {
+      "instance_id": "434",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Eliyana Cassadee Lashawnda Naylani Renesmae Arihanna Caitlynn Mykayla Treshaun Rojelio Olajuwon\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Eliyana",
+        "Cassadee",
+        "Lashawnda",
+        "Naylani",
+        "Renesmae",
+        "Arihanna",
+        "Caitlynn",
+        "Mykayla",
+        "Treshaun",
+        "Rojelio",
+        "Olajuwon"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "aeaieananon"
+    },
+    {
+      "instance_id": "1006",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"dflmiafri ilkaoouxwsx hehrkerdbv ivtapsrih byhhrogoolj imncddpkr bvyltnwcz ybvnptnzz fykgvkuar ncjsjyhq dbpgkjjd\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "dflmiafri",
+        "ilkaoouxwsx",
+        "hehrkerdbv",
+        "ivtapsrih",
+        "byhhrogoolj",
+        "imncddpkr",
+        "bvyltnwcz",
+        "ybvnptnzz",
+        "fykgvkuar",
+        "ncjsjyhq",
+        "dbpgkjjd"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "ixvhjrzzrqd"
+    },
+    {
+      "instance_id": "415",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Beaux Coleton Aston Gerri Harlee Desmond Cloe Kyli Treasure Andrik Victory\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Beaux",
+        "Coleton",
+        "Aston",
+        "Gerri",
+        "Harlee",
+        "Desmond",
+        "Cloe",
+        "Kyli",
+        "Treasure",
+        "Andrik",
+        "Victory"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "xnniedeieky"
+    },
+    {
+      "instance_id": "1018",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"zokditcku nszigdtmz afzdcsqk kevkwehvj avezwktock fsxzmeyx uybebxnhv addsclrzqux gnpdjnsx dbcezaiu osnzdgstf\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "zokditcku",
+        "nszigdtmz",
+        "afzdcsqk",
+        "kevkwehvj",
+        "avezwktock",
+        "fsxzmeyx",
+        "uybebxnhv",
+        "addsclrzqux",
+        "gnpdjnsx",
+        "dbcezaiu",
+        "osnzdgstf"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "uzkjkxvxxuf"
+    },
+    {
+      "instance_id": "429",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Kylar Jalyssa Adriano Aiyden Socorro Esequiel Kacee Torrance Tangie Brienna Citlally\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Kylar",
+        "Jalyssa",
+        "Adriano",
+        "Aiyden",
+        "Socorro",
+        "Esequiel",
+        "Kacee",
+        "Torrance",
+        "Tangie",
+        "Brienna",
+        "Citlally"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "raonoleeeay"
+    },
+    {
+      "instance_id": "424",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Nalayah Nyesha Aurora Markanthony Antonetta Ysabella Xaiver Jomar Eulalia Brailey Alyiah\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Nalayah",
+        "Nyesha",
+        "Aurora",
+        "Markanthony",
+        "Antonetta",
+        "Ysabella",
+        "Xaiver",
+        "Jomar",
+        "Eulalia",
+        "Brailey",
+        "Alyiah"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "haayaarrayh"
+    },
+    {
+      "instance_id": "417",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Vaida Harlene Ulisses Valencia Normand Everlie Betsy Kase Danisha Lynn Pax\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Vaida",
+        "Harlene",
+        "Ulisses",
+        "Valencia",
+        "Normand",
+        "Everlie",
+        "Betsy",
+        "Kase",
+        "Danisha",
+        "Lynn",
+        "Pax"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "aesadeyeanx"
+    },
+    {
+      "instance_id": "1019",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"ctbingckpvx jygudfuz gkiwrxn yccmkpbd xfnjppfsn tdksbczj bqxvluptu oqhimxif pqbvequc ihkvxyyca aelalvduxo\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "ctbingckpvx",
+        "jygudfuz",
+        "gkiwrxn",
+        "yccmkpbd",
+        "xfnjppfsn",
+        "tdksbczj",
+        "bqxvluptu",
+        "oqhimxif",
+        "pqbvequc",
+        "ihkvxyyca",
+        "aelalvduxo"
+      ],
+      "steps_to_solve": 11,
+      "ground_truth": "xzndnjufcao"
+    },
+    {
+      "instance_id": "1024",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"owhhvgkjp chndjopm trnnljifg niqkismh tmtudlaa xxaykglz rtyidhkx xakwwwuvp tovcbclp fhbhwoiwh cslbqpu szqytko\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "owhhvgkjp",
+        "chndjopm",
+        "trnnljifg",
+        "niqkismh",
+        "tmtudlaa",
+        "xxaykglz",
+        "rtyidhkx",
+        "xakwwwuvp",
+        "tovcbclp",
+        "fhbhwoiwh",
+        "cslbqpu",
+        "szqytko"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "pmghazxpphuo"
+    },
+    {
+      "instance_id": "475",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Sapphira Zahraa Jacquelyne Ahtziri Nathanael Katharina Giulietta Mazikeen Gryffin Shaylynn Juancarlos Eliyanah\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Sapphira",
+        "Zahraa",
+        "Jacquelyne",
+        "Ahtziri",
+        "Nathanael",
+        "Katharina",
+        "Giulietta",
+        "Mazikeen",
+        "Gryffin",
+        "Shaylynn",
+        "Juancarlos",
+        "Eliyanah"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "aaeilaannnsh"
+    },
+    {
+      "instance_id": "454",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Faron Fatima Janya Bethanie Emeline Nicole Angelo Stafford Rolanda Landin Myrah Amori\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Faron",
+        "Fatima",
+        "Janya",
+        "Bethanie",
+        "Emeline",
+        "Nicole",
+        "Angelo",
+        "Stafford",
+        "Rolanda",
+        "Landin",
+        "Myrah",
+        "Amori"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "naaeeeodanhi"
+    },
+    {
+      "instance_id": "1023",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"ohtipuzg wtypnugb byiacmnfmp ubikckwpp fogdcmj iwpxvwfes ycctwscn plmejolda yokcoffw mnfrrjhn mvjqtmsc lgdhwhytmlq\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "ohtipuzg",
+        "wtypnugb",
+        "byiacmnfmp",
+        "ubikckwpp",
+        "fogdcmj",
+        "iwpxvwfes",
+        "ycctwscn",
+        "plmejolda",
+        "yokcoffw",
+        "mnfrrjhn",
+        "mvjqtmsc",
+        "lgdhwhytmlq"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "gbppjsnawncq"
+    },
+    {
+      "instance_id": "460",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Coralie Jazmen Deandrea Patricio Sigmund Sebastien Mykala Brennon Mavrik Makena Zamaya Socorro\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Coralie",
+        "Jazmen",
+        "Deandrea",
+        "Patricio",
+        "Sigmund",
+        "Sebastien",
+        "Mykala",
+        "Brennon",
+        "Mavrik",
+        "Makena",
+        "Zamaya",
+        "Socorro"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "enaodnankaao"
+    },
+    {
+      "instance_id": "1033",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"ctmeugwkk crvefgkgm hkzzwzbd qlkhrpnu byopbpmaxa xbvgnevyk sdyqbfv kogefpfy cfzyfepd cmsmenktufc cjrbjeltaa hfqtxokb\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "ctmeugwkk",
+        "crvefgkgm",
+        "hkzzwzbd",
+        "qlkhrpnu",
+        "byopbpmaxa",
+        "xbvgnevyk",
+        "sdyqbfv",
+        "kogefpfy",
+        "cfzyfepd",
+        "cmsmenktufc",
+        "cjrbjeltaa",
+        "hfqtxokb"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "kmduakvydcab"
+    },
+    {
+      "instance_id": "1029",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"yyyeifvz vulldzde mgjdbkgc fmcwulb mwvuaxnomn jwktnrkb bvcimlwp vliainrrb dmjaknmxg yzuoltpli ojvhfxrln pyqdokknf\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "yyyeifvz",
+        "vulldzde",
+        "mgjdbkgc",
+        "fmcwulb",
+        "mwvuaxnomn",
+        "jwktnrkb",
+        "bvcimlwp",
+        "vliainrrb",
+        "dmjaknmxg",
+        "yzuoltpli",
+        "ojvhfxrln",
+        "pyqdokknf"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "zecbnbpbginf"
+    },
+    {
+      "instance_id": "1034",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"xifllyw vuagsxwrl khidopniov afhpcptu wfysqrjbb gcanxtbtl cwouxhcmsr dnmcoszg jpzmsucij cfqjqeyc wcjbfwlr oxmxbnpt\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "xifllyw",
+        "vuagsxwrl",
+        "khidopniov",
+        "afhpcptu",
+        "wfysqrjbb",
+        "gcanxtbtl",
+        "cwouxhcmsr",
+        "dnmcoszg",
+        "jpzmsucij",
+        "cfqjqeyc",
+        "wcjbfwlr",
+        "oxmxbnpt"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "wlvublrgjcrt"
+    },
+    {
+      "instance_id": "443",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Gay Diamond Neil Atlas Justin Tesla Aura Queen Tesla Russ Ian Emily\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Gay",
+        "Diamond",
+        "Neil",
+        "Atlas",
+        "Justin",
+        "Tesla",
+        "Aura",
+        "Queen",
+        "Tesla",
+        "Russ",
+        "Ian",
+        "Emily"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "ydlsnaanasny"
+    },
+    {
+      "instance_id": "1037",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"oboppclfzr pjvpetgj rwvrnosaskc kutnjbax iidlzuvbayq apbwgltauo narrwwqo zozcwvrb vaaktiwkwz bavocbym yqgvwmz ahnstyqlbjp\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "oboppclfzr",
+        "pjvpetgj",
+        "rwvrnosaskc",
+        "kutnjbax",
+        "iidlzuvbayq",
+        "apbwgltauo",
+        "narrwwqo",
+        "zozcwvrb",
+        "vaaktiwkwz",
+        "bavocbym",
+        "yqgvwmz",
+        "ahnstyqlbjp"
+      ],
+      "steps_to_solve": 12,
+      "ground_truth": "rjcxqoobzmzp"
+    },
+    {
+      "instance_id": "1052",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"jyagjig jbjlqlz rjeswrrw ueschhaxl inyataggkub oxqkuyd cuhalzmsf pphtfvuxy dohqrbk lmxyhyxcg xfhqslxsg qzwyzbun xixkuazl\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "jyagjig",
+        "jbjlqlz",
+        "rjeswrrw",
+        "ueschhaxl",
+        "inyataggkub",
+        "oxqkuyd",
+        "cuhalzmsf",
+        "pphtfvuxy",
+        "dohqrbk",
+        "lmxyhyxcg",
+        "xfhqslxsg",
+        "qzwyzbun",
+        "xixkuazl"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "gzwlbdfykggnl"
+    },
+    {
+      "instance_id": "482",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jack Cal Bob Edward Neo Dani Jake Denver Jessica Tesla Sunday Early Analy\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jack",
+        "Cal",
+        "Bob",
+        "Edward",
+        "Neo",
+        "Dani",
+        "Jake",
+        "Denver",
+        "Jessica",
+        "Tesla",
+        "Sunday",
+        "Early",
+        "Analy"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "klbdoieraayyy"
+    },
+    {
+      "instance_id": "1051",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"goxfeieyuf menykunrqb fawtdwq ieizsmdf bxjkdiyj fxyfldsju vadtrurz hotxmflywld brmubqmx mmmedlwfvi yopdapdesf fnxmjuwz jdygvhyk\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "goxfeieyuf",
+        "menykunrqb",
+        "fawtdwq",
+        "ieizsmdf",
+        "bxjkdiyj",
+        "fxyfldsju",
+        "vadtrurz",
+        "hotxmflywld",
+        "brmubqmx",
+        "mmmedlwfvi",
+        "yopdapdesf",
+        "fnxmjuwz",
+        "jdygvhyk"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "fbqfjuzdxifzk"
+    },
+    {
+      "instance_id": "500",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Addilynn Blayze Rafael Naksh Glynis Rashard Kerrie Germaine Dahlia Briella Tatianna Derron Liora\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Addilynn",
+        "Blayze",
+        "Rafael",
+        "Naksh",
+        "Glynis",
+        "Rashard",
+        "Kerrie",
+        "Germaine",
+        "Dahlia",
+        "Briella",
+        "Tatianna",
+        "Derron",
+        "Liora"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "nelhsdeeaaana"
+    },
+    {
+      "instance_id": "505",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Zakai Bulah Vivien Raelynn Jorja Marilynn Miguel Lanaya Safwan Zayra Quinlan Yamila Charnelle\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Zakai",
+        "Bulah",
+        "Vivien",
+        "Raelynn",
+        "Jorja",
+        "Marilynn",
+        "Miguel",
+        "Lanaya",
+        "Safwan",
+        "Zayra",
+        "Quinlan",
+        "Yamila",
+        "Charnelle"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "ihnnanlananae"
+    },
+    {
+      "instance_id": "497",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Saria Randi Zola Akram Kole Gracy Coy Antoni Dottie Shelia Armand Ayonna Ajani\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Saria",
+        "Randi",
+        "Zola",
+        "Akram",
+        "Kole",
+        "Gracy",
+        "Coy",
+        "Antoni",
+        "Dottie",
+        "Shelia",
+        "Armand",
+        "Ayonna",
+        "Ajani"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "aiameyyieadai"
+    },
+    {
+      "instance_id": "484",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"German Christ Lake Una Donald Guy Ryan William Canon Jonathan Laura Boston Phil\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "German",
+        "Christ",
+        "Lake",
+        "Una",
+        "Donald",
+        "Guy",
+        "Ryan",
+        "William",
+        "Canon",
+        "Jonathan",
+        "Laura",
+        "Boston",
+        "Phil"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "nteadynmnnanl"
+    },
+    {
+      "instance_id": "493",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Brando Loki Annora Idrees Koa Iola Charisse Penne Eiden Lavar Deion Kaizer Estelle\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Brando",
+        "Loki",
+        "Annora",
+        "Idrees",
+        "Koa",
+        "Iola",
+        "Charisse",
+        "Penne",
+        "Eiden",
+        "Lavar",
+        "Deion",
+        "Kaizer",
+        "Estelle"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "oiasaaeenrnre"
+    },
+    {
+      "instance_id": "516",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Alexzandria Makaila Sheniqua Klaudia Jocelyne Elisheva Kaiyzen Xitlali Jaiyana Rihaan Amaryllis Treshaun Jacquelyne\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Alexzandria",
+        "Makaila",
+        "Sheniqua",
+        "Klaudia",
+        "Jocelyne",
+        "Elisheva",
+        "Kaiyzen",
+        "Xitlali",
+        "Jaiyana",
+        "Rihaan",
+        "Amaryllis",
+        "Treshaun",
+        "Jacquelyne"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "aaaaeaniansne"
+    },
+    {
+      "instance_id": "1045",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"keurgaaitufb syqvusmox rubcbbwew xaqitakhd lmqvcejhwq ftcaeclenl hxakmsfj ekgbmyswq idpezprbgo wvpkvxfn ycuupxu sfbimibp uahkffr\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "keurgaaitufb",
+        "syqvusmox",
+        "rubcbbwew",
+        "xaqitakhd",
+        "lmqvcejhwq",
+        "ftcaeclenl",
+        "hxakmsfj",
+        "ekgbmyswq",
+        "idpezprbgo",
+        "wvpkvxfn",
+        "ycuupxu",
+        "sfbimibp",
+        "uahkffr"
+      ],
+      "steps_to_solve": 13,
+      "ground_truth": "bxwdqljqonupr"
+    },
+    {
+      "instance_id": "540",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Keyshaun Chaniya Chevonne Humberto Raniya Percy Jeslyn Khalil Anjanette Maddix Brogan Caliyah Jazlene Taylyn\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Keyshaun",
+        "Chaniya",
+        "Chevonne",
+        "Humberto",
+        "Raniya",
+        "Percy",
+        "Jeslyn",
+        "Khalil",
+        "Anjanette",
+        "Maddix",
+        "Brogan",
+        "Caliyah",
+        "Jazlene",
+        "Taylyn"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "naeoaynlexnhen"
+    },
+    {
+      "instance_id": "533",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Rolonda Annis Sandra Irina Serinity Xion Avery Remi Juliana Tomi Deonte Brion Ronal Tito\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Rolonda",
+        "Annis",
+        "Sandra",
+        "Irina",
+        "Serinity",
+        "Xion",
+        "Avery",
+        "Remi",
+        "Juliana",
+        "Tomi",
+        "Deonte",
+        "Brion",
+        "Ronal",
+        "Tito"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "asaaynyiaienlo"
+    },
+    {
+      "instance_id": "1061",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"zjpmdprf idqatvny aayabthf erjdltda svbbzloes zevdksvsq prmxkmkvf lscxfyue doyexfqu veuswmsq vahmenaqun bintqdlesg rhjgalhym vcimhykph\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "zjpmdprf",
+        "idqatvny",
+        "aayabthf",
+        "erjdltda",
+        "svbbzloes",
+        "zevdksvsq",
+        "prmxkmkvf",
+        "lscxfyue",
+        "doyexfqu",
+        "veuswmsq",
+        "vahmenaqun",
+        "bintqdlesg",
+        "rhjgalhym",
+        "vcimhykph"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "fyfasqfeuqngmh"
+    },
+    {
+      "instance_id": "551",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Vincenzo Icelynn Aubriana Yehoshua Jhacari Ezariah Zayvion Aaditya Cristobal Talulah Kaneesha Diamonique Hildegarde Marilynne\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Vincenzo",
+        "Icelynn",
+        "Aubriana",
+        "Yehoshua",
+        "Jhacari",
+        "Ezariah",
+        "Zayvion",
+        "Aaditya",
+        "Cristobal",
+        "Talulah",
+        "Kaneesha",
+        "Diamonique",
+        "Hildegarde",
+        "Marilynne"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "onaaihnalhaeee"
+    },
+    {
+      "instance_id": "545",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Alden Djuna Samael Kendyl Renea Kacee Caspian Elektra Leopold Kerrigan Omarian Shamari Hollyann Shanik\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Alden",
+        "Djuna",
+        "Samael",
+        "Kendyl",
+        "Renea",
+        "Kacee",
+        "Caspian",
+        "Elektra",
+        "Leopold",
+        "Kerrigan",
+        "Omarian",
+        "Shamari",
+        "Hollyann",
+        "Shanik"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "nallaenadnnink"
+    },
+    {
+      "instance_id": "1077",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"otqrxkak eovxxdji ihypyrsrdl jedjrieq exuucnhr pamviwhm kkntxhqo wlnxdylx homhnkjbex dogmlbitutd gqjzzx rxglfulhgo mzntzae xdnxmytaw\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "otqrxkak",
+        "eovxxdji",
+        "ihypyrsrdl",
+        "jedjrieq",
+        "exuucnhr",
+        "pamviwhm",
+        "kkntxhqo",
+        "wlnxdylx",
+        "homhnkjbex",
+        "dogmlbitutd",
+        "gqjzzx",
+        "rxglfulhgo",
+        "mzntzae",
+        "xdnxmytaw"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "kilqrmoxxdxoew"
+    },
+    {
+      "instance_id": "549",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Myiesha Rohit Dajon Donovin Brewer Joslynn Aaliah Jeramiah Suzie Daijah Makel Tobey Kaliana Eliam\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Myiesha",
+        "Rohit",
+        "Dajon",
+        "Donovin",
+        "Brewer",
+        "Joslynn",
+        "Aaliah",
+        "Jeramiah",
+        "Suzie",
+        "Daijah",
+        "Makel",
+        "Tobey",
+        "Kaliana",
+        "Eliam"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "atnnrnhhehlyam"
+    },
+    {
+      "instance_id": "529",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Charlotte Tony Carl Stephen Jerry Anna Jonathan Don Gil Victoria Rio Star Clark Snow\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Charlotte",
+        "Tony",
+        "Carl",
+        "Stephen",
+        "Jerry",
+        "Anna",
+        "Jonathan",
+        "Don",
+        "Gil",
+        "Victoria",
+        "Rio",
+        "Star",
+        "Clark",
+        "Snow"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "eylnyannlaorkw"
+    },
+    {
+      "instance_id": "536",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jory Calie Cartier Keyden Tiger Cleveland Gayla Josette Karisa Silvia Kyia Darla Joette Natasha\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jory",
+        "Calie",
+        "Cartier",
+        "Keyden",
+        "Tiger",
+        "Cleveland",
+        "Gayla",
+        "Josette",
+        "Karisa",
+        "Silvia",
+        "Kyia",
+        "Darla",
+        "Joette",
+        "Natasha"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "yernrdaeaaaaea"
+    },
+    {
+      "instance_id": "528",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Marshal Daniel Storm Jackson Hugh La Ford Henry Tab Ever Jerry San Thor Harry\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Marshal",
+        "Daniel",
+        "Storm",
+        "Jackson",
+        "Hugh",
+        "La",
+        "Ford",
+        "Henry",
+        "Tab",
+        "Ever",
+        "Jerry",
+        "San",
+        "Thor",
+        "Harry"
+      ],
+      "steps_to_solve": 14,
+      "ground_truth": "llmnhadybrynry"
+    },
+    {
+      "instance_id": "575",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Danisha Dixon Ouida Evana Damian Ciji Eythan Dasha Darleen Jesslyn Ronan Alexxis Ulices Lyssa Jereme\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Danisha",
+        "Dixon",
+        "Ouida",
+        "Evana",
+        "Damian",
+        "Ciji",
+        "Eythan",
+        "Dasha",
+        "Darleen",
+        "Jesslyn",
+        "Ronan",
+        "Alexxis",
+        "Ulices",
+        "Lyssa",
+        "Jereme"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "anaaninannnssae"
+    },
+    {
+      "instance_id": "1087",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"kqgmlz zburtcjjg zveluqbl bzhiduxtn ypsaqxurw furfkigtb dbluzuigdse lzlfneqo dxwlrvzix oqevgoz zmdsqbmq gdacmzpe jypemagz gqkgipg mnecnbadadcu\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "kqgmlz",
+        "zburtcjjg",
+        "zveluqbl",
+        "bzhiduxtn",
+        "ypsaqxurw",
+        "furfkigtb",
+        "dbluzuigdse",
+        "lzlfneqo",
+        "dxwlrvzix",
+        "oqevgoz",
+        "zmdsqbmq",
+        "gdacmzpe",
+        "jypemagz",
+        "gqkgipg",
+        "mnecnbadadcu"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "zglnwbeoxzqezgu"
+    },
+    {
+      "instance_id": "595",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Adalberto Jenavieve Jenicka Lacresha Jacquelyne Kataleya Othniel Carmelita Kimberlynn Loralei Abigayle Jozlynn Brookelynn Jancarlos Enriqueta\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Adalberto",
+        "Jenavieve",
+        "Jenicka",
+        "Lacresha",
+        "Jacquelyne",
+        "Kataleya",
+        "Othniel",
+        "Carmelita",
+        "Kimberlynn",
+        "Loralei",
+        "Abigayle",
+        "Jozlynn",
+        "Brookelynn",
+        "Jancarlos",
+        "Enriqueta"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "oeaaealaniennsa"
+    },
+    {
+      "instance_id": "594",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Nayelie Anoushka Caydence Zaynab Aislynn Rigoberto Adalynne Aaralyn Rigoberto Tayshaun Nakayla Taylynn Deaundre Zykeria Nikolai\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Nayelie",
+        "Anoushka",
+        "Caydence",
+        "Zaynab",
+        "Aislynn",
+        "Rigoberto",
+        "Adalynne",
+        "Aaralyn",
+        "Rigoberto",
+        "Tayshaun",
+        "Nakayla",
+        "Taylynn",
+        "Deaundre",
+        "Zykeria",
+        "Nikolai"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "eaebnoenonaneai"
+    },
+    {
+      "instance_id": "576",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Kiana Nour Marisol Isabella Gracee Oliver Sharika Ailey Kiera Livie Joan Leonie Boaz Rewa Keaton\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Kiana",
+        "Nour",
+        "Marisol",
+        "Isabella",
+        "Gracee",
+        "Oliver",
+        "Sharika",
+        "Ailey",
+        "Kiera",
+        "Livie",
+        "Joan",
+        "Leonie",
+        "Boaz",
+        "Rewa",
+        "Keaton"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "arlaerayaenezan"
+    },
+    {
+      "instance_id": "1098",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"hlorivgyf yttdkikhu trfgtkiyh nuioribn vlwdjulw kmrwgvetv gwitaxgtc rnhaygebw dtnrwmuz frofrmrux tcrzqpc ubhhkjdlc lqptevh itmgjdlc gptquabhx\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "hlorivgyf",
+        "yttdkikhu",
+        "trfgtkiyh",
+        "nuioribn",
+        "vlwdjulw",
+        "kmrwgvetv",
+        "gwitaxgtc",
+        "rnhaygebw",
+        "dtnrwmuz",
+        "frofrmrux",
+        "tcrzqpc",
+        "ubhhkjdlc",
+        "lqptevh",
+        "itmgjdlc",
+        "gptquabhx"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "fuhnwvcwzxcchcx"
+    },
+    {
+      "instance_id": "597",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Klaudia Cyrstal Rapheal Chimamanda Dontavious Shirleyann Gwendolyn Renesmae Mikaela Kassondra Kattaleia Lorelai Izabell Yehudis Zebulon\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Klaudia",
+        "Cyrstal",
+        "Rapheal",
+        "Chimamanda",
+        "Dontavious",
+        "Shirleyann",
+        "Gwendolyn",
+        "Renesmae",
+        "Mikaela",
+        "Kassondra",
+        "Kattaleia",
+        "Lorelai",
+        "Izabell",
+        "Yehudis",
+        "Zebulon"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "allasnneaaailsn"
+    },
+    {
+      "instance_id": "587",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jeniffer Chelsy Alayiah Tressa Emmeline Shawanda Tyeisha Kensli Miamor Ladawn Jayvien Hildred Annastasia Cerenity Rheanna\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jeniffer",
+        "Chelsy",
+        "Alayiah",
+        "Tressa",
+        "Emmeline",
+        "Shawanda",
+        "Tyeisha",
+        "Kensli",
+        "Miamor",
+        "Ladawn",
+        "Jayvien",
+        "Hildred",
+        "Annastasia",
+        "Cerenity",
+        "Rheanna"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "ryhaeaairnndaya"
+    },
+    {
+      "instance_id": "1093",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"noprfdoye hsxxzikheckj rcyhrksis qhinipnld wechyjwora wrmvacmqs fbpyuvgm asvhdhpd aesvqnphd pyuygwhw eqnfemnq lqhwrpku wkaizygq qrzskkdv ljblrkpomn\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "noprfdoye",
+        "hsxxzikheckj",
+        "rcyhrksis",
+        "qhinipnld",
+        "wechyjwora",
+        "wrmvacmqs",
+        "fbpyuvgm",
+        "asvhdhpd",
+        "aesvqnphd",
+        "pyuygwhw",
+        "eqnfemnq",
+        "lqhwrpku",
+        "wkaizygq",
+        "qrzskkdv",
+        "ljblrkpomn"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "ejsdasmddwquqvn"
+    },
+    {
+      "instance_id": "585",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Kemari Seraphina Caelan Jovanna Ariya Claudia Kiyana Eugenia Tysen Caysen Jaquelyn Haislee Nahum Kimberely Madelene\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Kemari",
+        "Seraphina",
+        "Caelan",
+        "Jovanna",
+        "Ariya",
+        "Claudia",
+        "Kiyana",
+        "Eugenia",
+        "Tysen",
+        "Caysen",
+        "Jaquelyn",
+        "Haislee",
+        "Nahum",
+        "Kimberely",
+        "Madelene"
+      ],
+      "steps_to_solve": 15,
+      "ground_truth": "ianaaaaannnemye"
+    },
+    {
+      "instance_id": "623",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Toinette Avarose Maudie Antionette Aruna Aramis Yulisa Kolbe Lakenya Tristian Kavion Suzan Evelyne Jennyfer Dionna Omarion\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Toinette",
+        "Avarose",
+        "Maudie",
+        "Antionette",
+        "Aruna",
+        "Aramis",
+        "Yulisa",
+        "Kolbe",
+        "Lakenya",
+        "Tristian",
+        "Kavion",
+        "Suzan",
+        "Evelyne",
+        "Jennyfer",
+        "Dionna",
+        "Omarion"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "eeeeasaeannneran"
+    },
+    {
+      "instance_id": "614",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Shannel Odalis Myla Dixon Goldia Loris Avril Kipp Armin Judie Dalene Sharod Letitia Jaymie Sanaya Saleem\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Shannel",
+        "Odalis",
+        "Myla",
+        "Dixon",
+        "Goldia",
+        "Loris",
+        "Avril",
+        "Kipp",
+        "Armin",
+        "Judie",
+        "Dalene",
+        "Sharod",
+        "Letitia",
+        "Jaymie",
+        "Sanaya",
+        "Saleem"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "lsanaslpneedaeam"
+    },
+    {
+      "instance_id": "608",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Ron Kevin Smith Matthew Kate Story Houston Andy November Philip True Keith Hunter Prince Doug Alice\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Ron",
+        "Kevin",
+        "Smith",
+        "Matthew",
+        "Kate",
+        "Story",
+        "Houston",
+        "Andy",
+        "November",
+        "Philip",
+        "True",
+        "Keith",
+        "Hunter",
+        "Prince",
+        "Doug",
+        "Alice"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "nnhweynyrpehrege"
+    },
+    {
+      "instance_id": "632",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jaziyah Mikaila Gianluca Briyana Othniel Avyukth Kaytlynn Kattaleia Mckynlee Jedediah Anirudh Nusaybah Maximiliano Brynnley Mckinlee Kynzlee\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jaziyah",
+        "Mikaila",
+        "Gianluca",
+        "Briyana",
+        "Othniel",
+        "Avyukth",
+        "Kaytlynn",
+        "Kattaleia",
+        "Mckynlee",
+        "Jedediah",
+        "Anirudh",
+        "Nusaybah",
+        "Maximiliano",
+        "Brynnley",
+        "Mckinlee",
+        "Kynzlee"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "haaalhnaehhhoyee"
+    },
+    {
+      "instance_id": "631",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Yamilex Yehudis Izabell Zaylynn Jahzara Tirzah Zakariya Guadalupe Treshaun Tamekia Mehlani Dorthea Yuleimy Anoushka Quayshaun Ulysses\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Yamilex",
+        "Yehudis",
+        "Izabell",
+        "Zaylynn",
+        "Jahzara",
+        "Tirzah",
+        "Zakariya",
+        "Guadalupe",
+        "Treshaun",
+        "Tamekia",
+        "Mehlani",
+        "Dorthea",
+        "Yuleimy",
+        "Anoushka",
+        "Quayshaun",
+        "Ulysses"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "xslnahaenaiayans"
+    },
+    {
+      "instance_id": "605",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Todd Promise Jay Kyle Italy Berry Michelle Ted Channel Johnny Lou Joy Rachel Tex Van Neil\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Todd",
+        "Promise",
+        "Jay",
+        "Kyle",
+        "Italy",
+        "Berry",
+        "Michelle",
+        "Ted",
+        "Channel",
+        "Johnny",
+        "Lou",
+        "Joy",
+        "Rachel",
+        "Tex",
+        "Van",
+        "Neil"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "deyeyyedlyuylxnl"
+    },
+    {
+      "instance_id": "1108",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"jwkunyyp eukhvwoy estsdorehvk shgizqdx ixjgfdj gjgsqau rzgxbkz gyqgdfc tzfvagfay ylbjnvxyv clwnimpdvf jfdkafp cukstssho odshnqz rqrtqcyx yxlonzpsn\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "jwkunyyp",
+        "eukhvwoy",
+        "estsdorehvk",
+        "shgizqdx",
+        "ixjgfdj",
+        "gjgsqau",
+        "rzgxbkz",
+        "gyqgdfc",
+        "tzfvagfay",
+        "ylbjnvxyv",
+        "clwnimpdvf",
+        "jfdkafp",
+        "cukstssho",
+        "odshnqz",
+        "rqrtqcyx",
+        "yxlonzpsn"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "pykxjuzcyvfpozxn"
+    },
+    {
+      "instance_id": "603",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Roman Steve Knight Love Hunter Guy Lu Paris Urban Ann Major Chance Rain China Frank Susan\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Roman",
+        "Steve",
+        "Knight",
+        "Love",
+        "Hunter",
+        "Guy",
+        "Lu",
+        "Paris",
+        "Urban",
+        "Ann",
+        "Major",
+        "Chance",
+        "Rain",
+        "China",
+        "Frank",
+        "Susan"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "neteryusnnrenakn"
+    },
+    {
+      "instance_id": "607",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Charles Denver Vy Ed Amy Nature Edward Legacy Brain Lux America Roman Mary Ford River Om\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Charles",
+        "Denver",
+        "Vy",
+        "Ed",
+        "Amy",
+        "Nature",
+        "Edward",
+        "Legacy",
+        "Brain",
+        "Lux",
+        "America",
+        "Roman",
+        "Mary",
+        "Ford",
+        "River",
+        "Om"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "srydyedynxanydrm"
+    },
+    {
+      "instance_id": "609",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Kyle Danny Una Jamie Beth Walker Max Lisa Newton Royal Arthur Link Mary Sam Anne Newton\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Kyle",
+        "Danny",
+        "Una",
+        "Jamie",
+        "Beth",
+        "Walker",
+        "Max",
+        "Lisa",
+        "Newton",
+        "Royal",
+        "Arthur",
+        "Link",
+        "Mary",
+        "Sam",
+        "Anne",
+        "Newton"
+      ],
+      "steps_to_solve": 16,
+      "ground_truth": "eyaehrxanlrkymen"
+    },
+    {
+      "instance_id": "1120",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"rbepywfymy iumeqdsovz vselygmouc keilrbjaj ihwydbivd lhgjxih uklpcpfs odzrqgmtd cqwhillobk stwqzpj rcwthksv tkhhjwjl tvovshkkj gaejpywak wzawvtv umadnhqhg xstmjotn\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "rbepywfymy",
+        "iumeqdsovz",
+        "vselygmouc",
+        "keilrbjaj",
+        "ihwydbivd",
+        "lhgjxih",
+        "uklpcpfs",
+        "odzrqgmtd",
+        "cqwhillobk",
+        "stwqzpj",
+        "rcwthksv",
+        "tkhhjwjl",
+        "tvovshkkj",
+        "gaejpywak",
+        "wzawvtv",
+        "umadnhqhg",
+        "xstmjotn"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "yzcjdhsdkjvljkvgn"
+    },
+    {
+      "instance_id": "650",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Kelsey Maxson Jarvis Kole Pacey Aleina Zanya Amador Charisse Brant Jena Temika Korra Carlton Sabina Zeppelin Emir\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Kelsey",
+        "Maxson",
+        "Jarvis",
+        "Kole",
+        "Pacey",
+        "Aleina",
+        "Zanya",
+        "Amador",
+        "Charisse",
+        "Brant",
+        "Jena",
+        "Temika",
+        "Korra",
+        "Carlton",
+        "Sabina",
+        "Zeppelin",
+        "Emir"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "ynseyaaretaaananr"
+    },
+    {
+      "instance_id": "1130",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"uyqenxfh gxvxcehdy dzcfdcxh aibpaedid mdxpsanl cebssqjma ihvkmiwyp fqwdyemk ekybhvje lypagbpgj tdovnndj dvmodgrhpc hyrzeegzxk zoxuvqvo szbonqnoo zfzpliiix lyvpouzck\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "uyqenxfh",
+        "gxvxcehdy",
+        "dzcfdcxh",
+        "aibpaedid",
+        "mdxpsanl",
+        "cebssqjma",
+        "ihvkmiwyp",
+        "fqwdyemk",
+        "ekybhvje",
+        "lypagbpgj",
+        "tdovnndj",
+        "dvmodgrhpc",
+        "hyrzeegzxk",
+        "zoxuvqvo",
+        "szbonqnoo",
+        "zfzpliiix",
+        "lyvpouzck"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "hyhdlapkejjckooxk"
+    },
+    {
+      "instance_id": "1123",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"zmabhldurq ubxoryflh vszmanoupdgj bpkxgfu urnlqlibq rktgvofe iwkjtpmqh ogjtgnpqf mttfboebc tmutrvwwt sjsxrfpab lfafoqk iajcewlf rrhmovcby uzpyqfxl fronylqdx xclsononeyd\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "zmabhldurq",
+        "ubxoryflh",
+        "vszmanoupdgj",
+        "bpkxgfu",
+        "urnlqlibq",
+        "rktgvofe",
+        "iwkjtpmqh",
+        "ogjtgnpqf",
+        "mttfboebc",
+        "tmutrvwwt",
+        "sjsxrfpab",
+        "lfafoqk",
+        "iajcewlf",
+        "rrhmovcby",
+        "uzpyqfxl",
+        "fronylqdx",
+        "xclsononeyd"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "qhjuqehfctbkfylxd"
+    },
+    {
+      "instance_id": "667",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Diedre Sallie Viraaj Jameka Cortez Aydenn Emmalyn Tambra Nechama Ashten Marykay Jelena Yarely Alahia Kadeja Nashla Shanell\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Diedre",
+        "Sallie",
+        "Viraaj",
+        "Jameka",
+        "Cortez",
+        "Aydenn",
+        "Emmalyn",
+        "Tambra",
+        "Nechama",
+        "Ashten",
+        "Marykay",
+        "Jelena",
+        "Yarely",
+        "Alahia",
+        "Kadeja",
+        "Nashla",
+        "Shanell"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "eejaznnaanyayaaal"
+    },
+    {
+      "instance_id": "678",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Gracelynn Kemarion Rasheeda Shawnta Nikolaos Jedediah Jahaziel Carmelita Ulysses Deziree Trevaughn Sheniqua Abdullahi Dyamond Jhacari Jahdiel Alyssia\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Gracelynn",
+        "Kemarion",
+        "Rasheeda",
+        "Shawnta",
+        "Nikolaos",
+        "Jedediah",
+        "Jahaziel",
+        "Carmelita",
+        "Ulysses",
+        "Deziree",
+        "Trevaughn",
+        "Sheniqua",
+        "Abdullahi",
+        "Dyamond",
+        "Jhacari",
+        "Jahdiel",
+        "Alyssia"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "nnaashlasenaidila"
+    },
+    {
+      "instance_id": "644",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Prince Danny Gay Neal Dash Gary Chelsea Danny Dean Kent Price Unique La Jason Echo Apollo Craig\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Prince",
+        "Danny",
+        "Gay",
+        "Neal",
+        "Dash",
+        "Gary",
+        "Chelsea",
+        "Danny",
+        "Dean",
+        "Kent",
+        "Price",
+        "Unique",
+        "La",
+        "Jason",
+        "Echo",
+        "Apollo",
+        "Craig"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "eyylhyaynteeanoog"
+    },
+    {
+      "instance_id": "664",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Desaray Zoraida Elwanda Naveen Maddix Madelon Roxane Quinten Lisandra Dyllan Debby Retha Lauran Hakeem Lorrie Zamiya Vivek\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Desaray",
+        "Zoraida",
+        "Elwanda",
+        "Naveen",
+        "Maddix",
+        "Madelon",
+        "Roxane",
+        "Quinten",
+        "Lisandra",
+        "Dyllan",
+        "Debby",
+        "Retha",
+        "Lauran",
+        "Hakeem",
+        "Lorrie",
+        "Zamiya",
+        "Vivek"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "yaanxnenanyanmeak"
+    },
+    {
+      "instance_id": "1132",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"petdlmoaup dghfjef pkrnlwv yteybgmpm yvssvmb dgvnpli spnhsvrvo ygelmamlhj ncajjargj jitigoownqam pfodtagxj nvyfbilv cacqsvzkw tuxnunq xyiacyryf cxzhqrhto ecgelfblx\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "petdlmoaup",
+        "dghfjef",
+        "pkrnlwv",
+        "yteybgmpm",
+        "yvssvmb",
+        "dgvnpli",
+        "spnhsvrvo",
+        "ygelmamlhj",
+        "ncajjargj",
+        "jitigoownqam",
+        "pfodtagxj",
+        "nvyfbilv",
+        "cacqsvzkw",
+        "tuxnunq",
+        "xyiacyryf",
+        "cxzhqrhto",
+        "ecgelfblx"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "pfvmbiojjmjvwqfox"
+    },
+    {
+      "instance_id": "1134",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"tcliookv nzxqxvoc sdvgfbfrg qjwkhk zzsswfxs vfjcxcdq cpwhijnrml qrkzrqc bffuzsvdrg ziamnmsgw cgucywqao icrhmpqcd vqrrsgk nrbmeerdevn vxcujvpa dpmxepse mbopkjxex\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "tcliookv",
+        "nzxqxvoc",
+        "sdvgfbfrg",
+        "qjwkhk",
+        "zzsswfxs",
+        "vfjcxcdq",
+        "cpwhijnrml",
+        "qrkzrqc",
+        "bffuzsvdrg",
+        "ziamnmsgw",
+        "cgucywqao",
+        "icrhmpqcd",
+        "vqrrsgk",
+        "nrbmeerdevn",
+        "vxcujvpa",
+        "dpmxepse",
+        "mbopkjxex"
+      ],
+      "steps_to_solve": 17,
+      "ground_truth": "vcgksqlcgwodknaex"
+    },
+    {
+      "instance_id": "709",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Abbigail Chimere Majesty Mittie Scotlyn Kylani Drayden Sofie Verdell Lundyn Adaya Samarth Koltyn Johnmichael Seirra Ziggy Ezio Brystol\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Abbigail",
+        "Chimere",
+        "Majesty",
+        "Mittie",
+        "Scotlyn",
+        "Kylani",
+        "Drayden",
+        "Sofie",
+        "Verdell",
+        "Lundyn",
+        "Adaya",
+        "Samarth",
+        "Koltyn",
+        "Johnmichael",
+        "Seirra",
+        "Ziggy",
+        "Ezio",
+        "Brystol"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "leyeninelnahnlayol"
+    },
+    {
+      "instance_id": "713",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Hendrixx Winnifred Jahkai Demitrius Lorelai Abigayle Jedediah Zayvion Jazaiyah Makaylee Kalliope Briyana Klaudia Estephany Dejanae Nevaeha Mykayla Adalynne\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Hendrixx",
+        "Winnifred",
+        "Jahkai",
+        "Demitrius",
+        "Lorelai",
+        "Abigayle",
+        "Jedediah",
+        "Zayvion",
+        "Jazaiyah",
+        "Makaylee",
+        "Kalliope",
+        "Briyana",
+        "Klaudia",
+        "Estephany",
+        "Dejanae",
+        "Nevaeha",
+        "Mykayla",
+        "Adalynne"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "xdisiehnheeaayeaae"
+    },
+    {
+      "instance_id": "696",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Flint Niomi Calla Bevin Oaklyn Ella Lacie Xaria Karas Linnea Dasha Jairo Usman Mia Miya Niya Christion Karlene\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Flint",
+        "Niomi",
+        "Calla",
+        "Bevin",
+        "Oaklyn",
+        "Ella",
+        "Lacie",
+        "Xaria",
+        "Karas",
+        "Linnea",
+        "Dasha",
+        "Jairo",
+        "Usman",
+        "Mia",
+        "Miya",
+        "Niya",
+        "Christion",
+        "Karlene"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "tiannaeasaaonaaane"
+    },
+    {
+      "instance_id": "715",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Kadynce Emberlynn Rudolfo Brynnley Ahtziri Cliffton Lauralee Jazmyne Mckinzie Braedon Zephaniah Blakelynn Treshaun Gwenivere Anirudh Zeynep Xochitl Tayshawn\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Kadynce",
+        "Emberlynn",
+        "Rudolfo",
+        "Brynnley",
+        "Ahtziri",
+        "Cliffton",
+        "Lauralee",
+        "Jazmyne",
+        "Mckinzie",
+        "Braedon",
+        "Zephaniah",
+        "Blakelynn",
+        "Treshaun",
+        "Gwenivere",
+        "Anirudh",
+        "Zeynep",
+        "Xochitl",
+        "Tayshawn"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "enoyineeenhnnehpln"
+    },
+    {
+      "instance_id": "1155",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"dhrjjoty ognbpxacdl rgjkdzv fintqgiw pxlcebxz dlrppwtd gglnfdgdj gheswcsipyr pkxhbheaw nslbxrwt gyduhoflvr jwgxbeqpc kxaukbb ognenljltkh ipjvlwq bzdkdbpoo zrschrwfe efxqgbv\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "dhrjjoty",
+        "ognbpxacdl",
+        "rgjkdzv",
+        "fintqgiw",
+        "pxlcebxz",
+        "dlrppwtd",
+        "gglnfdgdj",
+        "gheswcsipyr",
+        "pkxhbheaw",
+        "nslbxrwt",
+        "gyduhoflvr",
+        "jwgxbeqpc",
+        "kxaukbb",
+        "ognenljltkh",
+        "ipjvlwq",
+        "bzdkdbpoo",
+        "zrschrwfe",
+        "efxqgbv"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "ylvwzdjrwtrcbhqoev"
+    },
+    {
+      "instance_id": "680",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jim Om Tuesday Jeff Case Italy Ed Job Ada Jonathan Brandon General Clark Knowledge Vu Quest Jamie Ian\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jim",
+        "Om",
+        "Tuesday",
+        "Jeff",
+        "Case",
+        "Italy",
+        "Ed",
+        "Job",
+        "Ada",
+        "Jonathan",
+        "Brandon",
+        "General",
+        "Clark",
+        "Knowledge",
+        "Vu",
+        "Quest",
+        "Jamie",
+        "Ian"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "mmyfeydbannlkeuten"
+    },
+    {
+      "instance_id": "1143",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"pqzeticgaer knheawvdn yxehgwvff blgdrufu kazfcbz dnqqafdlu xtokkytq zstfapz halukmlxsx qxkbomvih wghruaufn gtwmxbvyd yzmqburajap kenyyepey ilagdvqf zyswuiazm cgzyzazs ypjppztw\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "pqzeticgaer",
+        "knheawvdn",
+        "yxehgwvff",
+        "blgdrufu",
+        "kazfcbz",
+        "dnqqafdlu",
+        "xtokkytq",
+        "zstfapz",
+        "halukmlxsx",
+        "qxkbomvih",
+        "wghruaufn",
+        "gtwmxbvyd",
+        "yzmqburajap",
+        "kenyyepey",
+        "ilagdvqf",
+        "zyswuiazm",
+        "cgzyzazs",
+        "ypjppztw"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "rnfuzuqzxhndpyfmsw"
+    },
+    {
+      "instance_id": "1146",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"echpcvavz vakhakjkb farifqklc cycwmej nejvhriqvw xboghyzzw vovvayv ibrjhisuccr rjmzbtb ntxkcfdd pmsryiay ssonwpgrcwh zepkclh ksmpxjqs fzazcksl hhxpcsspe rrjzcln ydldqzbg\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "echpcvavz",
+        "vakhakjkb",
+        "farifqklc",
+        "cycwmej",
+        "nejvhriqvw",
+        "xboghyzzw",
+        "vovvayv",
+        "ibrjhisuccr",
+        "rjmzbtb",
+        "ntxkcfdd",
+        "pmsryiay",
+        "ssonwpgrcwh",
+        "zepkclh",
+        "ksmpxjqs",
+        "fzazcksl",
+        "hhxpcsspe",
+        "rrjzcln",
+        "ydldqzbg"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "zbcjwwvrbdyhhsleng"
+    },
+    {
+      "instance_id": "687",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Grey Alexander Storm Jennifer Ruby Analy Cache Arrow Meta Anderson Patrick Golden Jackson Justin Urban Om Africa Queen\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Grey",
+        "Alexander",
+        "Storm",
+        "Jennifer",
+        "Ruby",
+        "Analy",
+        "Cache",
+        "Arrow",
+        "Meta",
+        "Anderson",
+        "Patrick",
+        "Golden",
+        "Jackson",
+        "Justin",
+        "Urban",
+        "Om",
+        "Africa",
+        "Queen"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "yrmryyewanknnnnman"
+    },
+    {
+      "instance_id": "1153",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"eroeungcrys hvhcojx iabohhesw cfxzbbi mfqipvjnn koattswamsd jlyejqg eddcwpnsv msgdsfulwgq qaimzrmj zjqwoaii hmvuxekr tkpknrta olulonphq vclnjawh skllsrcgbv fbhajpqt wepyngxatd\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "eroeungcrys",
+        "hvhcojx",
+        "iabohhesw",
+        "cfxzbbi",
+        "mfqipvjnn",
+        "koattswamsd",
+        "jlyejqg",
+        "eddcwpnsv",
+        "msgdsfulwgq",
+        "qaimzrmj",
+        "zjqwoaii",
+        "hmvuxekr",
+        "tkpknrta",
+        "olulonphq",
+        "vclnjawh",
+        "skllsrcgbv",
+        "fbhajpqt",
+        "wepyngxatd"
+      ],
+      "steps_to_solve": 18,
+      "ground_truth": "sxwindgvqjiraqhvtd"
+    },
+    {
+      "instance_id": "1176",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"vqbsfoa drvcvdblz sfwvcenm xfzqruv bojmfyetr wabypgdt deoreherdwu omzcqcniy insufheaetw rqxevbss iqgkutrw ishdkkemx llauwcbv ahchezjvpx koeevybkx hhfrdhjhx xesgtvtvgl incnvahukx oeljrbonf\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "vqbsfoa",
+        "drvcvdblz",
+        "sfwvcenm",
+        "xfzqruv",
+        "bojmfyetr",
+        "wabypgdt",
+        "deoreherdwu",
+        "omzcqcniy",
+        "insufheaetw",
+        "rqxevbss",
+        "iqgkutrw",
+        "ishdkkemx",
+        "llauwcbv",
+        "ahchezjvpx",
+        "koeevybkx",
+        "hhfrdhjhx",
+        "xesgtvtvgl",
+        "incnvahukx",
+        "oeljrbonf"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "azmvrtuywswxvxxxlxf"
+    },
+    {
+      "instance_id": "754",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Zorawar Emberlynn Jasmyne Rihaan Kaiyzen Deyanira Lamarcus Rebeccah Braxtyn Marcanthony Katelynne Siddharth Tayshawn Phylicia Jenavieve Zipporah Jacquelyne Mazikeen Jahdiel\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Zorawar",
+        "Emberlynn",
+        "Jasmyne",
+        "Rihaan",
+        "Kaiyzen",
+        "Deyanira",
+        "Lamarcus",
+        "Rebeccah",
+        "Braxtyn",
+        "Marcanthony",
+        "Katelynne",
+        "Siddharth",
+        "Tayshawn",
+        "Phylicia",
+        "Jenavieve",
+        "Zipporah",
+        "Jacquelyne",
+        "Mazikeen",
+        "Jahdiel"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "rnennashnyehnaehenl"
+    },
+    {
+      "instance_id": "1168",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"aqylovebpx nvsyiawh ylleimyf wbnykhiw gnundfivs mtwpywsk elfwldmz fmxebxhj uivqcvtr qlhkqzwc jesuvrmtq shjzhbka ixcogccof iuvwwskd nuvzgdj loccjdkyzx ufrnfvx psxcguwlz ysjaimhqe\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "aqylovebpx",
+        "nvsyiawh",
+        "ylleimyf",
+        "wbnykhiw",
+        "gnundfivs",
+        "mtwpywsk",
+        "elfwldmz",
+        "fmxebxhj",
+        "uivqcvtr",
+        "qlhkqzwc",
+        "jesuvrmtq",
+        "shjzhbka",
+        "ixcogccof",
+        "iuvwwskd",
+        "nuvzgdj",
+        "loccjdkyzx",
+        "ufrnfvx",
+        "psxcguwlz",
+        "ysjaimhqe"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "xhfwskzjrcqafdjxxze"
+    },
+    {
+      "instance_id": "737",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Kati Mathias Verlyn Tarah Payge Hiro Johnna Kyna Laurence Avaya Daniella Kaladin Abiel Zeppelin Rhea Haroon Rayann Aria Benji\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Kati",
+        "Mathias",
+        "Verlyn",
+        "Tarah",
+        "Payge",
+        "Hiro",
+        "Johnna",
+        "Kyna",
+        "Laurence",
+        "Avaya",
+        "Daniella",
+        "Kaladin",
+        "Abiel",
+        "Zeppelin",
+        "Rhea",
+        "Haroon",
+        "Rayann",
+        "Aria",
+        "Benji"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "isnheoaaeaanlnannai"
+    },
+    {
+      "instance_id": "1169",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"qfxwnjbl sgtvsivv msbcjqizt bdurlyiwo pfhrpnexb toyrkioo cvfcgpzse lntmruw nqztede hslmxxf egkrxhif zbpeccvjt nbwrsakn ypnkaoyw rmwkgdxt pqdnfqyca lddsucadelx btoleogog qcdigcoz\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "qfxwnjbl",
+        "sgtvsivv",
+        "msbcjqizt",
+        "bdurlyiwo",
+        "pfhrpnexb",
+        "toyrkioo",
+        "cvfcgpzse",
+        "lntmruw",
+        "nqztede",
+        "hslmxxf",
+        "egkrxhif",
+        "zbpeccvjt",
+        "nbwrsakn",
+        "ypnkaoyw",
+        "rmwkgdxt",
+        "pqdnfqyca",
+        "lddsucadelx",
+        "btoleogog",
+        "qcdigcoz"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "lvtoboewefftnwtaxgz"
+    },
+    {
+      "instance_id": "1161",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"eawbksn hwbekgux ykspxsmy gykaboordz wbpzmpeeq uiltleigvyv lemppadoofr dgrwtuq syixdzwg kpncvmsc lsqmdoaf uvotzmmz azihuusemea cbqpgbxm nhcdqoyv iwitznljx mdemxpfw aykzylao ixbjmpmyr\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "eawbksn",
+        "hwbekgux",
+        "ykspxsmy",
+        "gykaboordz",
+        "wbpzmpeeq",
+        "uiltleigvyv",
+        "lemppadoofr",
+        "dgrwtuq",
+        "syixdzwg",
+        "kpncvmsc",
+        "lsqmdoaf",
+        "uvotzmmz",
+        "azihuusemea",
+        "cbqpgbxm",
+        "nhcdqoyv",
+        "iwitznljx",
+        "mdemxpfw",
+        "aykzylao",
+        "ixbjmpmyr"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "nxyzqvrqgcfzamvxwor"
+    },
+    {
+      "instance_id": "741",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Ashtyn Yocelin Maryjane Catelyn Dajah Hawkins Alaiyah Camreigh Edgardo Kymber Mirella Mickie Keshav Ehren Oziah Solei Sholom Laynie Karizma\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Ashtyn",
+        "Yocelin",
+        "Maryjane",
+        "Catelyn",
+        "Dajah",
+        "Hawkins",
+        "Alaiyah",
+        "Camreigh",
+        "Edgardo",
+        "Kymber",
+        "Mirella",
+        "Mickie",
+        "Keshav",
+        "Ehren",
+        "Oziah",
+        "Solei",
+        "Sholom",
+        "Laynie",
+        "Karizma"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "nnenhshhoraevnhimea"
+    },
+    {
+      "instance_id": "727",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Albert Titan Tim Nova Adam Justice Meta Knowledge Joe Fox Apollo Hung Mac Aaron Saint Leon Legend Meg La\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Albert",
+        "Titan",
+        "Tim",
+        "Nova",
+        "Adam",
+        "Justice",
+        "Meta",
+        "Knowledge",
+        "Joe",
+        "Fox",
+        "Apollo",
+        "Hung",
+        "Mac",
+        "Aaron",
+        "Saint",
+        "Leon",
+        "Legend",
+        "Meg",
+        "La"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "tnmameaeexogcntndga"
+    },
+    {
+      "instance_id": "738",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Samaria Eleazar Hailey Corine Willis Carson Grayce Carly Caison Delani Alexas Kiah Bayne Tailynn Jaye Mindy Ronney Demarius Suri\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Samaria",
+        "Eleazar",
+        "Hailey",
+        "Corine",
+        "Willis",
+        "Carson",
+        "Grayce",
+        "Carly",
+        "Caison",
+        "Delani",
+        "Alexas",
+        "Kiah",
+        "Bayne",
+        "Tailynn",
+        "Jaye",
+        "Mindy",
+        "Ronney",
+        "Demarius",
+        "Suri"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "aryesneynisheneyysi"
+    },
+    {
+      "instance_id": "747",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Oziah Nashly Dondre Derricka Lilliana Johanna Lanell Flossie Aulani Honesti Dakoda Kaisen Raeann Lurline Brylee Aniela Tionne Sariya Vilma\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Oziah",
+        "Nashly",
+        "Dondre",
+        "Derricka",
+        "Lilliana",
+        "Johanna",
+        "Lanell",
+        "Flossie",
+        "Aulani",
+        "Honesti",
+        "Dakoda",
+        "Kaisen",
+        "Raeann",
+        "Lurline",
+        "Brylee",
+        "Aniela",
+        "Tionne",
+        "Sariya",
+        "Vilma"
+      ],
+      "steps_to_solve": 19,
+      "ground_truth": "hyeaaaleiianneeaeaa"
+    },
+    {
+      "instance_id": "770",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Jerrie Sharlene Philippe Eddie Khylan Farrell Nickie Clement Sarena Lona Tracee Ily Deangelo Ziya Kade Servando Bernardo Raymon Lesia Haddon\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Jerrie",
+        "Sharlene",
+        "Philippe",
+        "Eddie",
+        "Khylan",
+        "Farrell",
+        "Nickie",
+        "Clement",
+        "Sarena",
+        "Lona",
+        "Tracee",
+        "Ily",
+        "Deangelo",
+        "Ziya",
+        "Kade",
+        "Servando",
+        "Bernardo",
+        "Raymon",
+        "Lesia",
+        "Haddon"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "eeeenletaaeyoaeoonan"
+    },
+    {
+      "instance_id": "789",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Eliana Trinette Zamaria Leovanni Hussain Trevor Dawnette Bryston Maizey Paisleigh Treston Niklas Dixie Federico Orry Wynston Orrin Younes Jalil Jaiceon\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Eliana",
+        "Trinette",
+        "Zamaria",
+        "Leovanni",
+        "Hussain",
+        "Trevor",
+        "Dawnette",
+        "Bryston",
+        "Maizey",
+        "Paisleigh",
+        "Treston",
+        "Niklas",
+        "Dixie",
+        "Federico",
+        "Orry",
+        "Wynston",
+        "Orrin",
+        "Younes",
+        "Jalil",
+        "Jaiceon"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "aeainrenyhnseoynnsln"
+    },
+    {
+      "instance_id": "760",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Lewis Arial True Christ River Charles Diamond Flo Martin Penn Neil Urban Ka Aura Ann Artist Eric Junior Asia Lu\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Lewis",
+        "Arial",
+        "True",
+        "Christ",
+        "River",
+        "Charles",
+        "Diamond",
+        "Flo",
+        "Martin",
+        "Penn",
+        "Neil",
+        "Urban",
+        "Ka",
+        "Aura",
+        "Ann",
+        "Artist",
+        "Eric",
+        "Junior",
+        "Asia",
+        "Lu"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "sletrsdonnlnaantcrau"
+    },
+    {
+      "instance_id": "1186",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"yhcllkrfq hsmmfgp tmvvibsntm ttmwsxu elnshezkd ktvixhzg wzqghf bhcombqxei abqhcfonzx vioskvngz hikowhao vyzgmqz gqlyesw bmewhamlkh eazndelv imtddjte qjqsmtj aejdaedady gjkjnypw wvtmpphj\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "yhcllkrfq",
+        "hsmmfgp",
+        "tmvvibsntm",
+        "ttmwsxu",
+        "elnshezkd",
+        "ktvixhzg",
+        "wzqghf",
+        "bhcombqxei",
+        "abqhcfonzx",
+        "vioskvngz",
+        "hikowhao",
+        "vyzgmqz",
+        "gqlyesw",
+        "bmewhamlkh",
+        "eazndelv",
+        "imtddjte",
+        "qjqsmtj",
+        "aejdaedady",
+        "gjkjnypw",
+        "wvtmpphj"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "qpmudgfixzozwhvejywj"
+    },
+    {
+      "instance_id": "1196",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"okxddllxotc oiklcdexq mcwvpnllip hryqjv cinlxtbq lkeruhznm xmvqqitg kzadqqg bhkokalebkmt liqgslw pcszeogjqo uaqdoiai prmmpfcll yedjtjv gmjgdmz qkshnmv vxokhuonf psnrdzhq zeaojncr gdvqfuu\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "okxddllxotc",
+        "oiklcdexq",
+        "mcwvpnllip",
+        "hryqjv",
+        "cinlxtbq",
+        "lkeruhznm",
+        "xmvqqitg",
+        "kzadqqg",
+        "bhkokalebkmt",
+        "liqgslw",
+        "pcszeogjqo",
+        "uaqdoiai",
+        "prmmpfcll",
+        "yedjtjv",
+        "gmjgdmz",
+        "qkshnmv",
+        "vxokhuonf",
+        "psnrdzhq",
+        "zeaojncr",
+        "gdvqfuu"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "cqpvqmggtwoilvzvfqru"
+    },
+    {
+      "instance_id": "776",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Ulices Ginger Lowen Gauge Denis Maury Lyric Mateusz Sandro Orhan Tricia Vince Jaycen Fynn Imogene Jaelyn Jayse Ayman Murphy Sandi\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Ulices",
+        "Ginger",
+        "Lowen",
+        "Gauge",
+        "Denis",
+        "Maury",
+        "Lyric",
+        "Mateusz",
+        "Sandro",
+        "Orhan",
+        "Tricia",
+        "Vince",
+        "Jaycen",
+        "Fynn",
+        "Imogene",
+        "Jaelyn",
+        "Jayse",
+        "Ayman",
+        "Murphy",
+        "Sandi"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "srnesyczonaennenenyi"
+    },
+    {
+      "instance_id": "792",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Emmanuella Zaynab Makaela Loralei Caydence Jasmaine Lorretta Nehemias Ibrahima Zayvian Dulcey Kataleya Kattaleia Dontavius Lorretta Aislynn Jocelyne Xitlali Rozlynn Gwendolyn\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Emmanuella",
+        "Zaynab",
+        "Makaela",
+        "Loralei",
+        "Caydence",
+        "Jasmaine",
+        "Lorretta",
+        "Nehemias",
+        "Ibrahima",
+        "Zayvian",
+        "Dulcey",
+        "Kataleya",
+        "Kattaleia",
+        "Dontavius",
+        "Lorretta",
+        "Aislynn",
+        "Jocelyne",
+        "Xitlali",
+        "Rozlynn",
+        "Gwendolyn"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "abaieeasanyaasaneinn"
+    },
+    {
+      "instance_id": "1188",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"kmwpfgqqq panvcxiqap xwmeftb trfiuqg jsaptwcdrb bcnihxcpk nspmwjdu xfloyvzoz rckaxgwy qccksxrhyh ndqmwyryu cdacjscjy exuziitx xknrwxxt hiuuiogm jtdsgqk uoyygzl eixbyeijui stpitpyyei yttxdaixq\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "kmwpfgqqq",
+        "panvcxiqap",
+        "xwmeftb",
+        "trfiuqg",
+        "jsaptwcdrb",
+        "bcnihxcpk",
+        "nspmwjdu",
+        "xfloyvzoz",
+        "rckaxgwy",
+        "qccksxrhyh",
+        "ndqmwyryu",
+        "cdacjscjy",
+        "exuziitx",
+        "xknrwxxt",
+        "hiuuiogm",
+        "jtdsgqk",
+        "uoyygzl",
+        "eixbyeijui",
+        "stpitpyyei",
+        "yttxdaixq"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "qpbgbkuzyhuyxtmkliiq"
+    },
+    {
+      "instance_id": "771",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"Angelin Luigi Miranda Kiaya Reem Ranger Holland Sidney Bobby Jerica Vito Aayan Shade Dejuan Demir Josabet Juliane Soren Fatima Riverlyn\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "Angelin",
+        "Luigi",
+        "Miranda",
+        "Kiaya",
+        "Reem",
+        "Ranger",
+        "Holland",
+        "Sidney",
+        "Bobby",
+        "Jerica",
+        "Vito",
+        "Aayan",
+        "Shade",
+        "Dejuan",
+        "Demir",
+        "Josabet",
+        "Juliane",
+        "Soren",
+        "Fatima",
+        "Riverlyn"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "niaamrdyyaonenrtenan"
+    },
+    {
+      "instance_id": "1193",
+      "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a lowercase string of concatenated characters. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nTake the last letters of each word in \"zprntsarfw jngduuq lcahtiesp finqbexxg ohflqdsj mvdhoptyh cfvsdvqg nydvmswv kyfrwajc kaspugqcf iuddbzmz nadhzcrwcz pzmpklkrt wgkrzmmyx bbtakmgh vjktacyojo qclzpxy swpifodog wsqiklru fbmlzrdc\" and concatenate them.\n\n\n[Answer]\n",
+      "raw_instance": [
+        "zprntsarfw",
+        "jngduuq",
+        "lcahtiesp",
+        "finqbexxg",
+        "ohflqdsj",
+        "mvdhoptyh",
+        "cfvsdvqg",
+        "nydvmswv",
+        "kyfrwajc",
+        "kaspugqcf",
+        "iuddbzmz",
+        "nadhzcrwcz",
+        "pzmpklkrt",
+        "wgkrzmmyx",
+        "bbtakmgh",
+        "vjktacyojo",
+        "qclzpxy",
+        "swpifodog",
+        "wsqiklru",
+        "fbmlzrdc"
+      ],
+      "steps_to_solve": 20,
+      "ground_truth": "wqpgjhgvcfzztxhoyguc"
+    }
+  ]
+}

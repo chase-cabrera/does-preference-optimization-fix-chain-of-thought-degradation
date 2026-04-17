@@ -1,0 +1,302 @@
+\documentclass{article}
+
+\usepackage[preprint]{neurips_2024}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{xcolor}
+
+\title{Does Preference Optimization Fix Chain-of-Thought Degradation?}
+
+\author{
+  Chase Cabrera \\
+  Department of Computer Science\\
+  San Diego State University\\
+  \texttt{ccabrera2715@sdsu.edu}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Chain-of-Thought (CoT) prompting degrades sharply with problem complexity, and prior work suggests reasoning traces are pattern replications rather than genuine inference. We ask whether Direct Preference Optimization (DPO) can fix this degradation, and if so, whether the improvement reflects reasoning or pattern matching. We evaluate four interventions---step-level preference pairs, multi-domain DPO, a diagnostic ablation that trains on corrupted reasoning traces with correct final answers (Incorrect-CoT DPO), and symbolic verification at inference---on LLaMA-2-7B and Llama 3.1-8B across PEMDAS and CoinFlip. Multi-Domain DPO yields modest PEMDAS gains on both models (25.5\%$\to$32.4\% and 32.1\%$\to$34.8\%), but Incorrect-CoT DPO closes nearly all of this gap (within 0.7 and 2.7 percentage points, respectively), suggesting that DPO's improvement is largely attributable to output-format pattern matching rather than improved step-by-step reasoning. Faithfulness---the fraction of instances where every intermediate step is symbolically correct \emph{and} the final answer is correct---remains below 5\% across all variants. Symbolic verification achieves 100\% accuracy regardless of the generating model, indicating the bottleneck is in execution, not learning. These results suggest preference optimization alone cannot bridge pattern matching and genuine reasoning, and that hybrid neuro-symbolic approaches are a more promising path forward.
+\end{abstract}
+
+% ============================================================
+\section{Introduction}
+
+Chain-of-Thought (CoT) prompting is the dominant method for eliciting step-by-step reasoning from large language models~\cite{wei2022cot}. However, recent work has established two troubling findings: CoT accuracy degrades sharply as problem complexity increases~\cite{stechly2024thoughtlessness}, and reasoning traces are unfaithful pattern replications rather than genuine logical inference~\cite{zhao2024mirage}. Stechly et al.\ showed that GPT-4 Turbo accuracy on Last Letter Concatenation drops from ${\sim}88\%$ at 1--3 words to under 6\% at 18--20 words with manual CoT, while incorrect CoT traces achieve nearly identical performance to correct ones. Separately, Zhao et al.\ demonstrated through controlled distribution experiments that CoT achieves 100\% accuracy in-distribution but collapses catastrophically under distribution shift, with reasoning traces decoupled from final answers.
+
+A natural hypothesis is that preference optimization---teaching models to prefer correct reasoning paths via Direct Preference Optimization (DPO)~\cite{rafailov2023dpo}---should address these failures. Zhang et al.\ proposed Chain of Preference Optimization (CPO)~\cite{zhang2024cpo}, using Tree-of-Thought search to construct step-level preference pairs. This paper investigates whether DPO-based preference optimization can fix CoT degradation, and if so, whether the improvement reflects genuine reasoning or merely better pattern matching. We investigate four interventions:
+\begin{enumerate}
+  \item \textbf{Step-level preference pairs}: DPO at each intermediate reasoning step, not just the final answer, forcing the model to attend to the logical content of each step.
+  \item \textbf{Multi-domain preference data}: Training on preference pairs from both evaluated domains (PEMDAS and CoinFlip) to test whether cross-domain failure is a data coverage issue.
+  \item \textbf{Diagnostic ablation (Incorrect-CoT DPO)}: Training on pairs with correct final answers but scrambled intermediate steps, to separate reasoning improvement from pattern-matching improvement.
+  \item \textbf{Symbolic verification at inference}: Pairing neural CoT with a symbolic step-level verifier, testing whether the bottleneck is in learning or execution.
+\end{enumerate}
+
+% ============================================================
+\section{Related Work}
+
+\textbf{CoT prompting and its limitations.} Wei et al.~\cite{wei2022cot} introduced CoT prompting, demonstrating that step-by-step reasoning improves LLM performance on arithmetic, commonsense, and symbolic tasks. However, Stechly et al.~\cite{stechly2024thoughtlessness} showed that CoT only helps with extremely specific prompts and fails to generalize beyond demonstrated step counts. Zhao et al.~\cite{zhao2024mirage} provided a theoretical framework showing CoT generalization is bounded by distribution discrepancy, and that reasoning traces are pattern replications decoupled from answers.
+
+\textbf{Preference optimization for LLMs.} Rafailov et al.~\cite{rafailov2023dpo} proposed DPO as a stable alternative to RLHF. Zhang et al.~\cite{zhang2024cpo} extended this to CoT reasoning with CPO, using ToT search trees to construct step-level preference pairs and training with DPO without ground-truth labels.
+
+\textbf{Neuro-symbolic approaches.} Hybrid systems that combine neural generation with symbolic verification have shown promise in mathematical reasoning~\cite{hu2022lora}. Our symbolic verification experiments test whether external verification can address the execution bottleneck that preference optimization alone cannot.
+
+% ============================================================
+\section{Background and Preliminaries}
+
+\subsection{Complexity-Scaling Evaluation}
+
+Following Stechly et al., we evaluate CoT accuracy as a function of problem complexity $k$ (number of reasoning steps). The \textit{degradation delta} is:
+\[
+  \Delta = \bar{a}_{\text{hard}} - \bar{a}_{\text{easy}}
+\]
+where $\bar{a}_{\text{easy}}$ and $\bar{a}_{\text{hard}}$ are mean accuracies over the bottom and top thirds of complexity levels. A negative $\Delta$ indicates degradation; $\Delta \approx 0$ indicates robustness.
+
+\subsection{DPO Objective}
+
+Given preference pairs $(x, y_w, y_l)$ where $y_w$ is preferred over $y_l$, DPO optimizes:
+\[
+  \mathcal{L}_{\text{DPO}} = -\mathbb{E}\left[\log \sigma\left(\beta \log \frac{\pi_\theta(y_w|x)}{\pi_{\text{ref}}(y_w|x)} - \beta \log \frac{\pi_\theta(y_l|x)}{\pi_{\text{ref}}(y_l|x)}\right)\right]
+\]
+We use LoRA~\cite{hu2022lora} (rank 8, $\alpha=16$) for parameter-efficient fine-tuning on Apple Silicon MPS.
+
+\subsection{Baseline Findings}
+
+As a baseline, we first evaluate a simplified whole-trace DPO: the base model is sampled with temperature-based diversity on PEMDAS, correct traces are paired against incorrect ones, and the model is fine-tuned with DPO and LoRA. This establishes whether naive preference optimization affects degradation curves before applying the targeted interventions described in Section~4.
+
+% ============================================================
+\section{Method}
+
+\subsection{Step-Level Preference Pairs}
+
+Instead of pairing entire correct vs.\ incorrect traces, we create preference pairs at each intermediate reasoning step $i$:
+\begin{itemize}
+  \item \textbf{Chosen}: correct step $i$ given correct prefix steps $1 \ldots i{-}1$
+  \item \textbf{Rejected}: incorrect step $i$ given the same correct prefix
+\end{itemize}
+For PEMDAS, step correctness is \textit{symbolically verified} by evaluating intermediate arithmetic expressions with Python's \texttt{eval()}, eliminating reliance on the model's own judgment. We sample 8 traces per instance at temperature 0.8 and extract step-level pairs from instances with 4--10 operations.
+
+\subsection{Multi-Domain DPO}
+
+We generate preference pairs for both evaluated benchmark domains (PEMDAS and CoinFlip) using the same temperature-sampling approach: 6 samples per instance, correct vs.\ incorrect pairing. The combined dataset is used for a single DPO training run, testing whether cross-domain data addresses the transfer failure. LastLetterConcatenation is excluded for the same reason it is excluded from evaluation (see Section~\ref{sec:experiments}).
+
+\subsection{Diagnostic Ablation: Incorrect-CoT DPO}
+
+Following the incorrect-CoT methodology of Stechly et al., we create corrupted preference pairs where the chosen response preserves the correct final answer but has scrambled intermediate steps (operand swaps, wrong intermediate results, operator substitutions). If DPO trained on these corrupted pairs achieves similar accuracy to correct-CoT DPO, the improvement is attributable to pattern matching.
+
+\subsection{Symbolic Verification at Inference}
+
+We implement two modes of symbolic verification:
+\begin{itemize}
+  \item \textbf{Verify-only}: Generate CoT normally, then check each step symbolically and report faithfulness.
+  \item \textbf{Verify-and-correct}: If a step is symbolically incorrect, substitute the correct value before continuing.
+\end{itemize}
+
+For PEMDAS, each step is verified via \texttt{eval()}. For CoinFlip, coin state is tracked programmatically. For LastLetter, last characters are extracted symbolically.
+
+% ============================================================
+\section{Experiments}
+\label{sec:experiments}
+
+\textbf{Models and Hardware.} We evaluate two base models: LLaMA-2-7B (6.74B parameters) and Llama 3.1-8B (8.03B parameters), both in fp16 on Apple Silicon M5 Max (128GB). Llama 3.1-8B was trained on 15T tokens (vs 2T for LLaMA-2-7B) with an improved tokenizer, providing a stronger baseline to test whether our findings generalize across model capability levels. LoRA rank 8, 3 epochs, batch size 1 with gradient accumulation 4.
+
+\textbf{Benchmarks.} 570 subsampled instances across two domains: PEMDAS (290, steps 2--29) and CoinFlip (280, 1--28 flips), with 10 instances per complexity level. Preliminary evaluation indicated that LLaMA-2-7B and Llama 3.1-8B with zero-shot CoT fail to produce parseable responses on LastLetterConcatenation even at 1--3 words, where GPT-4 Turbo with manual CoT achieves ${\sim}88\%$~\cite{stechly2024thoughtlessness}. We exclude it from the main evaluation as the resulting accuracy floor is uninformative for measuring DPO-induced changes.
+
+\textbf{Metrics.}
+\begin{itemize}
+  \item Overall accuracy and degradation delta $\Delta$ (standard)
+  \item \textbf{Step-level accuracy}: fraction of intermediate steps that are symbolically correct
+  \item \textbf{Faithfulness score}: percentage of instances where all steps are correct \textit{and} the final answer is correct
+\end{itemize}
+
+\textbf{Experimental Conditions.}
+\begin{enumerate}
+  \item Base model (direct and CoT), for both LLaMA-2-7B and Llama 3.1-8B
+  \item Multi-Domain DPO (PEMDAS + CoinFlip preference pairs)
+  \item Step-Level DPO (per-step symbolic ground truth pairs)
+  \item Incorrect-CoT DPO (corrupted reasoning traces, diagnostic)
+  \item Symbolic verification: $\{$Base, DPO$\} \times \{$no verification, verify-and-correct$\}$
+\end{enumerate}
+
+% ============================================================
+\section{Results}
+
+\subsection{Main Results}
+
+Table~\ref{tab:main-results} presents zero-shot CoT accuracy and degradation delta $\Delta$ for all variants across both base models. Multi-Domain DPO improves PEMDAS CoT accuracy on both models: from 25.5\% to 32.4\% on LLaMA-2-7B and from 32.1\% to 34.8\% on Llama 3.1-8B. However, CoinFlip accuracy shows no consistent improvement, hovering near chance (50\%) across all variants, and CoinFlip $\Delta$ values are positive (accuracy slightly higher on hard than easy instances), which---given the near-chance overall accuracy---we interpret as noise rather than signal.
+
+The $\Delta$ column reveals a pattern not visible from overall accuracy alone. On LLaMA-2-7B, every DPO variant reduces degradation relative to base ($\Delta=-27.8$), with Incorrect-CoT DPO producing the \emph{smallest} degradation ($\Delta=-6.7$)---a flatter complexity curve than Multi-Domain DPO ($\Delta=-13.3$), despite lower easy-instance accuracy. On Llama 3.1-8B, Multi-Domain DPO \emph{worsens} degradation ($\Delta=-21.1$ vs.\ $-10.0$ for base): its 2.7-pp overall gain is driven almost entirely by easy problems, with hard-instance accuracy unchanged. These observations are consistent with the pattern-matching interpretation (§\ref{sec:diagnostic}): DPO is not selectively improving harder reasoning, and in one case its overall-accuracy gains coincide with \emph{increased} complexity-sensitivity.
+
+\begin{table}[h]
+\centering
+\caption{Zero-shot CoT accuracy (\%) and degradation delta $\Delta$ (pp, hard $-$ easy; more negative $=$ greater degradation) across model variants on PEMDAS and CoinFlip. Easy/hard are the bottom/top thirds of complexity levels.}
+\label{tab:main-results}
+\begin{tabular}{llrrrr}
+\toprule
+ & & \multicolumn{2}{c}{PEMDAS} & \multicolumn{2}{c}{CoinFlip} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Base Model & Variant & Acc & $\Delta$ & Acc & $\Delta$ \\
+\midrule
+\multirow{4}{*}{LLaMA-2-7B} & Base & 25.5 & $-27.8$ & 53.2 & $+13.3$ \\
+ & Multi-Domain DPO & 32.4 & $-13.3$ & 48.9 & $-5.6$ \\
+ & Incorrect-CoT DPO & 31.7 & $-6.7$ & 52.5 & $+12.2$ \\
+ & Step-Level DPO & 25.5 & $-27.8$ & 53.2 & $+13.3$ \\
+\midrule
+\multirow{4}{*}{Llama 3.1-8B} & Base & 32.1 & $-10.0$ & 48.2 & $+3.3$ \\
+ & Multi-Domain DPO & 34.8 & $-21.1$ & 50.4 & $+5.6$ \\
+ & Incorrect-CoT DPO & 32.1 & $-8.9$ & 49.3 & $+7.8$ \\
+ & Step-Level DPO & 31.7 & $-8.9$ & 48.6 & $+4.4$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Step-Level DPO produced only 8 preference pairs on LLaMA-2-7B and 15 on Llama 3.1-8B. While the stronger model produces nearly twice the step-level diversity, both counts remain too small for meaningful preference optimization, and the resulting models are effectively identical to their respective bases.
+
+\subsection{Degradation Curves}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{figures/pemdas_all_variants.png}
+\caption{LLaMA-2-7B PEMDAS: CoT accuracy vs.\ problem complexity.}
+\label{fig:pemdas-degradation-7b}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{figures/pemdas_llama31_variants.png}
+\caption{Llama 3.1-8B PEMDAS: CoT accuracy vs.\ problem complexity. The same pattern holds on the stronger model: DPO variants improve slightly but degradation persists.}
+\label{fig:pemdas-degradation-31}
+\end{figure}
+
+\subsection{Step-Level Analysis and Faithfulness}
+
+Table~\ref{tab:faithfulness} presents the faithfulness breakdown for PEMDAS CoT responses. Across both models and all variants, faithfulness is extremely low. Multi-Domain DPO slightly improves faithful instances, but the overwhelming majority of correct final answers are produced despite incorrect intermediate reasoning.
+
+\begin{table}[h]
+\centering
+\caption{PEMDAS faithfulness under zero-shot CoT. ``Faithful'' = all intermediate steps correct AND final answer correct.}
+\label{tab:faithfulness}
+\begin{tabular}{llr}
+\toprule
+Base Model & Variant & Faithful \\
+\midrule
+\multirow{3}{*}{LLaMA-2-7B} & Base & 7/290 \\
+ & Multi-Domain DPO & 11/290 \\
+ & Incorrect-CoT DPO & 7/290 \\
+\midrule
+\multirow{3}{*}{Llama 3.1-8B} & Base & 5/290 \\
+ & Multi-Domain DPO & 14/290 \\
+ & Incorrect-CoT DPO & 8/290 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Diagnostic Ablation: Correct vs.\ Incorrect CoT DPO}
+\label{sec:diagnostic}
+
+The central diagnostic compares Multi-Domain DPO (correct traces) against Incorrect-CoT DPO (corrupted intermediate steps, correct final answers). On LLaMA-2-7B PEMDAS CoT, Multi-Domain DPO achieves 32.4\% and Incorrect-CoT DPO achieves 31.7\%---a difference of only \textbf{0.7 percentage points}. On Llama 3.1-8B, Multi-Domain DPO achieves 34.8\% and Incorrect-CoT DPO achieves 32.1\%---a difference of \textbf{2.7 percentage points}. In both cases, corrupted reasoning traces produce results comparable to correct traces.
+
+This result supports the pattern-matching hypothesis across both models we evaluate: DPO's improvement does not depend on the logical correctness of the reasoning traces. The model learns to produce outputs that \textit{look like} good reasoning rather than learning to \textit{perform} the reasoning.
+
+\subsection{Symbolic Verification}
+
+Table~\ref{tab:symbolic} presents the 2$\times$2 comparison between neural CoT and symbolic verification. Symbolic verification achieves 100\% accuracy on both PEMDAS and CoinFlip, regardless of which model variant generates the CoT trace. This indicates that the bottleneck lies in \textit{execution} rather than \textit{learning}: the problems are solvable with deterministic computation, and the neural model's failure appears to be in carrying out the step-by-step procedure rather than in recognizing problem structure.
+
+\begin{table}[h]
+\centering
+\caption{Neural CoT accuracy vs.\ symbolic verification (\%). Symbolic verification achieves 100\% regardless of model or variant.}
+\label{tab:symbolic}
+\begin{tabular}{llrr}
+\toprule
+Base Model & Variant & PEMDAS CoT & + Symbolic \\
+\midrule
+\multirow{3}{*}{LLaMA-2-7B} & Base & 25.5 & 100.0 \\
+ & Multi-Domain DPO & 32.4 & 100.0 \\
+ & Incorrect-CoT DPO & 31.7 & 100.0 \\
+\midrule
+\multirow{3}{*}{Llama 3.1-8B} & Base & 32.1 & 100.0 \\
+ & Multi-Domain DPO & 34.8 & 100.0 \\
+ & Incorrect-CoT DPO & 32.1 & 100.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ============================================================
+\section{Discussion}
+
+\textbf{DPO improves pattern matching, not reasoning.} The diagnostic ablation is the paper's most striking result. On LLaMA-2-7B, Incorrect-CoT DPO matches Multi-Domain DPO within 0.7\% on PEMDAS (31.7\% vs 32.4\%). On Llama 3.1-8B, the gap is 2.7\% (32.1\% vs 34.8\%). In both cases, corrupted reasoning traces produce comparable results to correct ones, consistent with the interpretation that DPO is largely teaching output format rather than mathematical reasoning on the two models we evaluate.
+
+\textbf{Stronger models do not escape the pattern-matching bottleneck.} Llama 3.1-8B, trained on 7.5x more data than LLaMA-2-7B, achieves higher base PEMDAS accuracy (32.1\% vs 25.5\%) but the diagnostic ablation result holds: corrupted traces remain as effective as correct ones. A stronger base model improves the ceiling but does not change the nature of the improvement.
+
+\textbf{Symbolic verification exposes the execution bottleneck.} No DPO variant on either model exceeds 34.8\% on PEMDAS, while symbolic verification achieves 100\% on every variant. The problems are solvable with deterministic computation, suggesting the neural model's failure is predominantly in carrying out step-by-step arithmetic rather than in recognizing problem structure.
+
+\textbf{Step-level preferences remain data starved.} Even Llama 3.1-8B produces only 15 step-level preference pairs (vs 8 for LLaMA-2-7B). While the stronger model produces more diversity, both counts remain insufficient for meaningful preference optimization. True CPO-style training may require models significantly larger than 8B parameters to generate adequate step-level signal.
+
+\textbf{Limitations.} Two models were evaluated (LLaMA-2-7B and Llama 3.1-8B); larger models (70B+) may exhibit qualitatively different behavior. Two benchmark domains were tested. Step-level analysis is limited to PEMDAS where step boundaries are unambiguous. All experiments ran on Apple Silicon MPS.
+
+% ============================================================
+\section{Conclusion}
+
+We investigated four targeted interventions to address Chain-of-Thought degradation on two open models (LLaMA-2-7B and Llama 3.1-8B). Our central finding is that DPO's improvement appears largely attributable to pattern matching rather than reasoning: on both models, incorrect-CoT DPO (trained on corrupted reasoning traces) achieves accuracy comparable to correct-CoT DPO. This result holds despite Llama 3.1-8B having substantially stronger baseline capabilities. Symbolic verification eliminates degradation entirely (100\% accuracy on all variants), indicating the bottleneck lies in step-by-step execution rather than problem recognition. These results suggest that preference optimization alone may not bridge the gap between pattern matching and genuine reasoning, and that hybrid neuro-symbolic approaches offer a promising path forward.
+
+% ============================================================
+\bibliographystyle{plain}
+
+\begin{thebibliography}{7}
+
+\bibitem{wei2022cot}
+J.~Wei, et~al.
+\newblock Chain-of-thought prompting elicits reasoning in large language models.
+\newblock In \emph{NeurIPS}, vol.~35, 2022.
+
+\bibitem{stechly2024thoughtlessness}
+K.~Stechly, K.~Valmeekam, and S.~Kambhampati.
+\newblock Chain of thoughtlessness? {An} analysis of {CoT} in planning.
+\newblock In \emph{NeurIPS}, vol.~37, pp.~29106--29141, 2024.
+
+\bibitem{zhao2024mirage}
+C.~Zhao, et~al.
+\newblock Is chain-of-thought reasoning of {LLMs} a mirage? {A} data distribution lens.
+\newblock \emph{arXiv:2508.01191}, 2024.
+
+\bibitem{zhang2024cpo}
+Z.~Zhang, et~al.
+\newblock Chain of preference optimization: Improving chain-of-thought reasoning in {LLMs}.
+\newblock In \emph{NeurIPS}, vol.~37, 2024.
+
+\bibitem{rafailov2023dpo}
+R.~Rafailov, et~al.
+\newblock Direct preference optimization: Your language model is secretly a reward model.
+\newblock In \emph{NeurIPS}, vol.~36, 2023.
+
+\bibitem{touvron2023llama2}
+H.~Touvron, et~al.
+\newblock {LLaMA} 2: Open foundation and fine-tuned chat models.
+\newblock \emph{arXiv:2307.09288}, 2023.
+
+\bibitem{hu2022lora}
+E.~Hu, et~al.
+\newblock {LoRA}: Low-rank adaptation of large language models.
+\newblock In \emph{ICLR}, 2022.
+
+\bibitem{grattafiori2024llama3}
+A.~Grattafiori, et~al.
+\newblock The {L}lama 3 herd of models.
+\newblock \emph{arXiv:2407.21783}, 2024.
+
+\end{thebibliography}
+
+\end{document}

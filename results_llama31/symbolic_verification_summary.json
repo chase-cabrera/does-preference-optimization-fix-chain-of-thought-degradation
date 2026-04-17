@@ -1,0 +1,62 @@
+{
+  "llama31_base_pemdas": {
+    "tag": "llama31_base",
+    "domain": "pemdas",
+    "total": 290,
+    "model_acc": 32.1,
+    "faithful": 5,
+    "sym_corrected": 100.0
+  },
+  "llama31_base_coinflip": {
+    "tag": "llama31_base",
+    "domain": "coinflip",
+    "total": 280,
+    "model_acc": 48.2,
+    "sym_acc": 100.0
+  },
+  "llama31_dpo_multidomain_pemdas": {
+    "tag": "llama31_dpo_multidomain",
+    "domain": "pemdas",
+    "total": 290,
+    "model_acc": 34.8,
+    "faithful": 14,
+    "sym_corrected": 100.0
+  },
+  "llama31_dpo_multidomain_coinflip": {
+    "tag": "llama31_dpo_multidomain",
+    "domain": "coinflip",
+    "total": 280,
+    "model_acc": 50.4,
+    "sym_acc": 100.0
+  },
+  "llama31_dpo_corrupted_pemdas": {
+    "tag": "llama31_dpo_corrupted",
+    "domain": "pemdas",
+    "total": 290,
+    "model_acc": 32.1,
+    "faithful": 8,
+    "sym_corrected": 100.0
+  },
+  "llama31_dpo_corrupted_coinflip": {
+    "tag": "llama31_dpo_corrupted",
+    "domain": "coinflip",
+    "total": 280,
+    "model_acc": 49.3,
+    "sym_acc": 100.0
+  },
+  "llama31_dpo_steplevel_pemdas": {
+    "tag": "llama31_dpo_steplevel",
+    "domain": "pemdas",
+    "total": 290,
+    "model_acc": 31.7,
+    "faithful": 4,
+    "sym_corrected": 100.0
+  },
+  "llama31_dpo_steplevel_coinflip": {
+    "tag": "llama31_dpo_steplevel",
+    "domain": "coinflip",
+    "total": 280,
+    "model_acc": 48.6,
+    "sym_acc": 100.0
+  }
+}

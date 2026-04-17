@@ -1,0 +1,1577 @@
+[
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\n\nSo, you can simplify 1 * (9) into 9. You can find out more about this in the next section.",
+    "rejected": " 18",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 * (9)",
+    "rejected": " 18",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 18",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 + (2)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 13",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 + (2)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 1\n\nThis is the end of the problem set.",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (1)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "6",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (1)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "6",
+    "rejected": " 1\n\nCongratulations! You have successfully completed the exercise.",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (1)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "6",
+    "rejected": " 5\n[Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (1)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 6.",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (1)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 6.",
+    "rejected": " 1\n\nCongratulations! You have successfully completed the exercise.",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (1)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 6.",
+    "rejected": " 5\n[Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (8)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 9",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (8)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 9",
+    "rejected": " 7",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (8)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 9",
+    "rejected": " 11",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " -1",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\nExplanation\nWe begin by evaluating the parentheses first. We know that 3 is a positive number, so the subtraction sign in the parentheses is actually a negative sign. This means that the value inside the parentheses is -3.",
+    "rejected": " -1",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (8)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (8)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 7",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (8)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\n\nThe solution of this exercise is 1",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (8)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\n\nThe solution of this exercise is 1",
+    "rejected": " 7",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (8)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\n\nThe solution of this exercise is 1",
+    "rejected": " -1",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "8",
+    "rejected": " 9\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "8",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "5 + (3) = 8",
+    "rejected": " 9\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "5 + (3) = 8",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7\n\n[Question]",
+    "rejected": " 8",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7\n\n[Question]",
+    "rejected": " 1",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7\n\n[Question]",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7\n\nExplanation:",
+    "rejected": " 8",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7\n\nExplanation:",
+    "rejected": " 1",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (3)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7\n\nExplanation:",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (4)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 9",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (4)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 9",
+    "rejected": " 5 + (4)",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (4)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (4)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 5 + (4)",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (4)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\n\nLet's go to the next question",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (4)\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\n\nLet's go to the next question",
+    "rejected": " 5 + (4)",
+    "domain": "pemdas",
+    "steps_to_solve": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (7))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 * (1 * (7))\n1 * 1 * 7\n1 * 7",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (7))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 * (1 * (7))\n1 * 1 * 7\n1 * 7",
+    "rejected": " [Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (7))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 * (1 * (7))\n1 * 1 * 7\n1 * 7",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (7))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 * 1 * 7 = 7",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (7))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 * 1 * 7 = 7",
+    "rejected": " [Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (7))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 * 1 * 7 = 7",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 + (8 - (6))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "We start with 6 + 8\n6 - 8 = 14\nThen, we simplify the expression (14 - 6)",
+    "rejected": " 12",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 + (8 - (6))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "We start with 6 + 8\n6 + 8 = 17\nThen, we simplify the expression (14 - 6)",
+    "rejected": " 9",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 + (8 - (6))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "We start with 6 + 8\n8 + 6 = 14\nThen, we simplify the expression (14 - 6)",
+    "rejected": " 10\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 * (9 - (8))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "8*9 - (8*8) = 72 - 64 = 6\n8",
+    "rejected": " 32",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 * (9 - (8))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "8*9 - (8*8) = 72 - 64 = 11\n8",
+    "rejected": " Let's start by solving the equation inside the parenthesis: 9 - 8 = 1\nNow, let's multiply that result by 8: 8 * 1 = 8\nSo, the final answer is 8.",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 * (9 - (8))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "8*9 - (8*8) = 72 - 64 = 11\n8",
+    "rejected": " 72\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (5 + (1))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 - 6 = 3",
+    "rejected": " 1",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (5 + (1))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 - 6 = 3",
+    "rejected": " -1",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (5 + (1))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 - 6 = 3",
+    "rejected": " -5",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 45",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The first step is to simplify the expression 1 * (9). We can do this by multiplying the two numbers together to get 9. So, our expression becomes 1 * 9.\n\nNow, let's simplify the expression 1 * 9. We can do this by multiplying the two numbers together to get 9. So, our expression becomes 9.",
+    "rejected": " 45",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\nExplanation:\n9 is the simplified form of 1 * (1 * (9)).",
+    "rejected": " 45",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (8 - (4))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4\n\nExplanation:",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (8 - (4))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4\n\nExplanation:",
+    "rejected": " -4\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (8 - (4))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (8 - (4))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4",
+    "rejected": " -4\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 9 / (1 * (9))",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 9 / (1 * (9))\n= 9 / 9\n= 1",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 2",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / 9 = 1",
+    "rejected": " 9 / (1 * (9))",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / 9 = 1",
+    "rejected": " 9 / (1 * (9))\n= 9 / 9\n= 1",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / 9 = 1",
+    "rejected": " 2",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\n[Question]",
+    "rejected": " 9 / (1 * (9))",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\n[Question]",
+    "rejected": " 9 / (1 * (9))\n= 9 / 9\n= 1",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\n[Question]",
+    "rejected": " 2",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 / (7 - (4))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Answer: 1",
+    "rejected": " [Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 / (7 - (4))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Answer: 1",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 / (7 - (4))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Answer: 1",
+    "rejected": " 3/4",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 / (7 - (4))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " [Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 / (7 - (4))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 3/4",
+    "domain": "pemdas",
+    "steps_to_solve": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 * (9 / (1 * (9)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4",
+    "rejected": " We can start with 4 * (9 / (1 * (9))).\nLet's simplify (9 / (1 * (9))).\nWe can rewrite it as 9 / (1 * 9).",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 * (9 / (1 * (9)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4",
+    "rejected": " 9\n[Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 * (9 / (1 * (9)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4",
+    "rejected": " 9",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (8 + (5 / (5)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (8 + (5 / (5)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 12",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (8 + (5 / (5)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 0.25\n[Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (2 + (1 * (7)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (2 + (1 * (7))) = 9 / (2 + 7) = 9 / 9 = 1",
+    "rejected": " 0",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (2 + (1 * (7)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (2 + (1 * (7))) = 9 / (2 + 7) = 9 / 9 = 1",
+    "rejected": " [Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (2 + (1 * (7)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (2 + (1 * (7))) = 9 / (2 + 7) = 9 / 9 = 1",
+    "rejected": " 7",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (1 * (9)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 9",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (1 * (9)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 1 / (9 / (1 * (9))) = 1 / (9 / 81) = 1 / (9 / 9 * 9) = 1 / (9 * 9) = 1 / 81 = 0.012345679012345679",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (1 * (9)))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 9\n\n[Explanation]",
+    "domain": "pemdas",
+    "steps_to_solve": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (2 + (6 / (9 - (3))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4",
+    "rejected": " 7 - (2 + (6 / (9 - (3))))\n\nWe start with the inner parentheses, because it is the smallest one.",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (2 + (6 / (9 - (3))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4",
+    "rejected": " Answer:",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9 - (9 - (4 / (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The above expression is equivalent to 1 * (9 - (9 - (4 / (4)))). The multiplication operator is evaluated first, followed by the subtraction and division operators. The order of operations is given by PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction). In this case, the parentheses are evaluated first, so we get (9 - (9 - (4 / (4)))). Next, the division is evaluated, giving us (9 - (9 - (4 / 4))). Finally, the subtraction is evaluated, giving us (9 - (9 - 1",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9 - (9 - (4 / (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The above expression is equivalent to 1 * (9 - (9 - (4 / (4)))). The multiplication operator is evaluated first, followed by the subtraction and division operators. The order of operations is given by PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction). In this case, the parentheses are evaluated first, so we get (9 - (9 - (4 / (4)))). Next, the division is evaluated, giving us (9 - (9 - (4 / 4))). Finally, the subtraction is evaluated, giving us (9 - (9 - 1",
+    "rejected": " 1 * (9 - (9 - (4 / (4))))",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9 - (9 - (4 / (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The above expression is equivalent to 1 * (9 - (9 - (4 / (4)))). The multiplication operator is evaluated first, followed by the subtraction and division operators. The order of operations is given by PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction). In this case, the parentheses are evaluated first, so we get (9 - (9 - (4 / (4)))). Next, the division is evaluated, giving us (9 - (9 - (4 / 4))). Finally, the subtraction is evaluated, giving us (9 - (9 - 1",
+    "rejected": " 9 - (9 - (4 / (4)))\n9 - 9 + 4 / 4\n9 - 9 + 1",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 + (7 - (1))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 9 / 1 * (3 + (7 - 1)) = 9 / 1 * (3 + 6) = 9 / 1 * 9 = 9",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 + (7 - (1))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 11.0\n\nThe solution above was written by [The-DM] in 0.00 seconds.",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 + (7 - (1))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (1 * (3 + (7 - (1)))) = 9 / (1 * (3 + (7 - 1))) = 9 / (1 * (3 + 6)) = 9 / (1 * 9) = 1",
+    "rejected": " 9 / 1 * (3 + (7 - 1)) = 9 / 1 * (3 + 6) = 9 / 1 * 9 = 9",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 + (7 - (1))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (1 * (3 + (7 - (1)))) = 9 / (1 * (3 + (7 - 1))) = 9 / (1 * (3 + 6)) = 9 / (1 * 9) = 1",
+    "rejected": " 11.0\n\nThe solution above was written by [The-DM] in 0.00 seconds.",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 + (7 - (1))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (1 * (3 + (7 - (1))))\n9 / (1 * (3 + (6)))\n9 / (1 * (9))",
+    "rejected": " 9 / 1 * (3 + (7 - 1)) = 9 / 1 * (3 + 6) = 9 / 1 * 9 = 9",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 + (7 - (1))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (1 * (3 + (7 - (1))))\n9 / (1 * (3 + (6)))\n9 / (1 * (9))",
+    "rejected": " 11.0\n\nThe solution above was written by [The-DM] in 0.00 seconds.",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 + (7 - (1))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (1 * (3 + (7 - (1))))",
+    "rejected": " 9 / 1 * (3 + (7 - 1)) = 9 / 1 * (3 + 6) = 9 / 1 * 9 = 9",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 + (7 - (1))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (1 * (3 + (7 - (1))))",
+    "rejected": " 11.0\n\nThe solution above was written by [The-DM] in 0.00 seconds.",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1.5",
+    "rejected": " 7 / (4 + (8 - (1 + (4))))\n\n7 / (4 + (8 - 5))",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1.5",
+    "rejected": " 0",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1.5",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 7 / (4 + (8 - (1 + (4))) = 7 / 4 = 1.75",
+    "rejected": " 7 / (4 + (8 - (1 + (4))))\n\n7 / (4 + (8 - 5))",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 7 / (4 + (8 - (1 + (4))) = 7 / 4 = 1.75",
+    "rejected": " 0",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 7 / (4 + (8 - (1 + (4))) = 7 / 4 = 1.75",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Answer to the question: \"7 / (4 + (8 - (1 + (4))))\" is: 1\n\nDo you have an answer? Leave a review or some feedback for this answer!",
+    "rejected": " 7 / (4 + (8 - (1 + (4))))\n\n7 / (4 + (8 - 5))",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Answer to the question: \"7 / (4 + (8 - (1 + (4))))\" is: 1\n\nDo you have an answer? Leave a review or some feedback for this answer!",
+    "rejected": " 0",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Answer to the question: \"7 / (4 + (8 - (1 + (4))))\" is: 1\n\nDo you have an answer? Leave a review or some feedback for this answer!",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2 + (1 + (6 - (8 / (8))))\n2 + (1 + (6 - 1))\n2 + (1 + 5)",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2 + (1 + (6 - (8 / (8))))\n2 + (1 + (6 - 1))\n2 + (1 + 5)",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2 + (1 + (6 - (8 / (8))))\n2 + (1 + (6 - 1))\n2 + (1 + 5)",
+    "rejected": " 42",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2 + (1 + (6 - (8 / (8))))",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2 + (1 + (6 - (8 / (8))))",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2 + (1 + (6 - (8 / (8))))",
+    "rejected": " 42",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1. Let's calculate 6 - (8 / (8)).\n[Answer]",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1. Let's calculate 6 - (8 / (8)).\n[Answer]",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1. Let's calculate 6 - (8 / (8)).\n[Answer]",
+    "rejected": " 42",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 - (1 * (1 * (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 / (9 - (1 * (1 * (8)))) = 1 / (9 - (1 * 8)) = 1 / (9 - 8) = 1 / 1 = 1",
+    "rejected": " [Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 - (1 * (1 * (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 / (9 - (1 * (1 * (8)))) = 1 / (9 - (1 * 8)) = 1 / (9 - 8) = 1 / 1 = 1",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 - (1 * (1 * (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 / (9 - (1 * (1 * (8)))) = 1 / (9 - (1 * 8)) = 1 / (9 - 8) = 1 / 1 = 1",
+    "rejected": " 1 / (9 - (1 * (1 * (8))))\n= 1 / (9 - (1 * (1 * (8))))\n= 1 / (9 - (1 * (1 * (8))))",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 - (1 * (1 * (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 / (9 - (1 * (1 * (8)))) = 1 / (9 - 8) = 1 * 1 = 1\nAnswer: 1\n[Question]",
+    "rejected": " [Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 - (1 * (1 * (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 / (9 - (1 * (1 * (8)))) = 3 / (9 - 8) = 3 / 1 = 3\nAnswer: 1\n[Question]",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 - (1 * (1 * (8))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 / (9 - (1 * (1 * (8)))) = 1 / (9 - 8) = 1 / 1 = 1\nAnswer: 1\n[Question]",
+    "rejected": " 1 / (9 - (1 * (1 * (8))))\n= 1 / (9 - (1 * (1 * (8))))\n= 1 / (9 - (1 * (1 * (8))))",
+    "domain": "pemdas",
+    "steps_to_solve": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 * (9 - (3 * (5 - (1 * (3)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 3 * (9 - (3 * (5 - (1 * (3)))))\n= 3 * (9 - (3 * (5 - (3))))\n= 3 * (9 - (3 * (5 - 3)))",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 * (9 - (3 * (5 - (1 * (3)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 1\n\n[Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 * (9 - (3 * (5 - (1 * (3)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 3 * (9 - (3 * (5 - (1 * (3)))))\n= 3 * (9 - (3 * (5 - 3)))\n= 3 * (9 - (3 * (5 - 3)))",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (2 * (6 - (8 - (6 / (1)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 15",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (2 * (6 - (8 - (6 / (1)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 1 + (2 * (6 - (8 - (6 / (1)))))\n1 + (2 * (6 - (8 - 6)))\n1 + (2 * (6 - (8 - 6)))",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (2 * (6 - (8 - (6 / (1)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 11",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (4 / (8 / (3 + (5 * (1)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Let's start with the innermost parentheses, which are (5 * (1)) = 5.\nThen, we have 3 + 5 = 8.\nNext, we have (8 / (3 + 5)) = (8 / 8) = 1.",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (4 / (8 / (3 + (5 * (1)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Let's start with the innermost parentheses, which are (5 * (1)) = 5.\nThen, we have 3 + 5 = 8.\nNext, we have (8 / (3 + 5)) = (8 / 8) = 1.",
+    "rejected": " We start by multiplying 4 by 1 to get 4. Then we divide 4 by 8 to get 1/2. Then we add 1/2 to 3 to get 5/2. Then we add 5/2 to 5 to get 15/2. Then we multiply 15/2 by 1 to get 15/2. Then we add 15/2 to 1 to get 17/2. Finally, we divide 17/2 by 1 to get 17/2. The final answer is 17/2.\n[Answer]",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (4 / (8 / (3 + (5 * (1)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Let's start with the innermost parentheses, which are (5 * (1)) = 5.\nThen, we have 3 + 5 = 8.\nNext, we have (8 / (3 + 5)) = (8 / 8) = 1.",
+    "rejected": " 8",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (3 + (1 * (4 + (6 - (4)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (3 + (1 * (4 + (6 - (4))))) = 9 / (3 + 1 * 6) = 9 / (3 + 6) = 9 / 9 = 1",
+    "rejected": " 6",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (3 + (1 * (4 + (6 - (4)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (3 + (1 * (4 + (6 - (4))))) = 9 / (3 + 1 * 6) = 9 / (3 + 6) = 9 / 9 = 1",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 + (2 / (9 / (7 + (2 * (1)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "First, we simplify the expression inside the parentheses: 7 + (2 / (9 / (7 + (2 * (1))))). The expression inside the parentheses is (7 + (2 * (1))), which is 7 + 2, which is 9.\n\n[Answer]",
+    "rejected": " 21\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 + (2 / (9 / (7 + (2 * (1)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "First, we simplify the expression inside the parentheses: 7 + (2 / (9 / (7 + (2 * (1))))). The expression inside the parentheses is (7 + (2 * (1))), which is 7 + 2, which is 9.\n\n[Answer]",
+    "rejected": " 0.0",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 + (2 / (9 / (7 + (2 * (1)))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "First, we simplify the expression inside the parentheses: 7 + (2 / (9 / (7 + (2 * (1))))). The expression inside the parentheses is (7 + (2 * (1))), which is 7 + 2, which is 9.\n\n[Answer]",
+    "rejected": " 7",
+    "domain": "pemdas",
+    "steps_to_solve": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (6 - (8 / (1 * (1 * (4 + (4))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "3\n[Instructions]",
+    "rejected": " 1",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (6 - (8 / (1 * (1 * (4 + (4))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "3\n[Instructions]",
+    "rejected": " 6",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (6 - (8 / (1 * (1 * (4 + (4))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "3\n[Instructions]",
+    "rejected": " 8 - (6 - (8 / (1 * (1 * (4 + (4))))))",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 - (9 / (1 * (1 + (5 + (9 - (6))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2",
+    "rejected": " -2",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 - (9 / (1 * (1 + (5 + (9 - (6))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2",
+    "rejected": " 10",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 - (9 / (1 * (1 + (5 + (9 - (6))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2",
+    "rejected": " The first thing to do is to evaluate the parentheses. The most inner parenthesis is:\n\n[Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 - (9 / (1 * (1 + (5 + (9 - (6))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "3 - (9 / (1 * (1 + (5 + (9 - (6)))))) = 3 - (9 / (1 * (1 + (5 + (3))))) = 3 - (9 / (1 * (1 + 8))) = 3 - (9 / (1 * 9)) = 3 - (9 / 9) = 3 - 1 = 2",
+    "rejected": " -2",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 - (9 / (1 * (1 + (5 + (9 - (6))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "3 - (9 / (1 * (1 + (5 + (9 - (6)))))) = 3 - (9 / (1 * (1 + (5 + (3))))) = 3 - (9 / (1 * (1 + 8))) = 3 - (9 / (1 * 9)) = 3 - (9 / 9) = 3 - 1 = 2",
+    "rejected": " 10",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 - (9 / (1 * (1 + (5 + (9 - (6))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "3 - (9 / (1 * (1 + (5 + (9 - (6)))))) = 3 - (9 / (1 * (1 + (5 + (3))))) = 3 - (9 / (1 * (1 + 8))) = 3 - (9 / (1 * 9)) = 3 - (9 / 9) = 3 - 1 = 2",
+    "rejected": " The first thing to do is to evaluate the parentheses. The most inner parenthesis is:\n\n[Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (3 + (1 * (5 + (9 - (4 * (2))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 0",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (3 + (1 * (5 + (9 - (4 * (2))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 45",
+    "domain": "pemdas",
+    "steps_to_solve": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (2 + (7 * (9 / (1 + (2 + (6)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (1 * (1 * (1 * (1 + (1 + (7)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\nExplanation:\nYou might think it's too easy to answer 1, but you'd be wrong. It's very common to get a question that is too easy for the challenge. So even if you get 1 as the answer, you still need to check if that is the final answer. If it is, then you're done, but if it isn't, then you need to continue simplifying the expression.",
+    "rejected": " 9 / (1 * (1 * (1 * (1 * (1 + (1 + (7)))))))\n\n= 9 / (1 * (1 * (1 * (1 * (1 + (1 + (7)))))))",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (1 * (1 * (1 * (1 + (1 + (7)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\nExplanation:\nYou might think it's too easy to answer 1, but you'd be wrong. It's very common to get a question that is too easy for the challenge. So even if you get 1 as the answer, you still need to check if that is the final answer. If it is, then you're done, but if it isn't, then you need to continue simplifying the expression.",
+    "rejected": " 3",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (1 * (1 * (1 * (1 + (1 + (7)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\nExplanation:\nYou might think it's too easy to answer 1, but you'd be wrong. It's very common to get a question that is too easy for the challenge. So even if you get 1 as the answer, you still need to check if that is the final answer. If it is, then you're done, but if it isn't, then you need to continue simplifying the expression.",
+    "rejected": " 1. The first thing to notice is that the [Question] is not asking for the value of 1 * (1 * (1 * (1 * (1 + (1 + (7)))))).",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (3 / (7 - (3 * (2 * (6 / (9 - (3)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "3 * (7 - (3 * (2 * (6 / (9 - (3))))))\n= 3 * (7 - (3 * (2 * (6 / (6)))))\n= 3 * (7 - (3 * (2 * (1))))",
+    "rejected": " 9",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (3 / (7 - (3 * (2 * (6 / (9 - (3)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "3 * (7 - (3 * (2 * (6 / (9 - (3))))))\n= 3 * (7 - (3 * (2 * (6 / (6)))))\n= 3 * (7 - (3 * (2 * (1))))",
+    "rejected": " 10",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (3 / (7 - (3 * (2 * (6 / (9 - (3)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 * (3 / (7 - (3 * (2 * (6 / (9 - (3))))))) = 3 / (7 - (3 * (2 * (6 / (9 - (3))))))",
+    "rejected": " 9",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (3 / (7 - (3 * (2 * (6 / (9 - (3)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 * (3 / (7 - (3 * (2 * (6 / (9 - (3))))))) = 3 / (7 - (3 * (2 * (6 / (9 - (3))))))",
+    "rejected": " 10",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 + (3 + (4 + (4 - (3 / (9 - (8)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\n[Question]",
+    "rejected": " 1 * (1 + (3 + (4 + (4 - (3 / (9 - (8)))))))",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 + (3 + (4 + (4 - (3 / (9 - (8)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\n[Question]",
+    "rejected": " The following expression should be simplified to a single number: 1 * (1 + (3 + (4 + (4 - (3 / (9 - (8)))))))\n\n1 * (1 + (3 + (4 + (4 - (3 / (9 - (8))))))) = 1 * (1 + (3 + (4 + (4 - (3 / (9 - (8))))))) = 1 * (1 + (3 + (4 + (4 - (3 / (9 - (8))))))) = 1 * (1 + (3 + (4 + (4 -",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 + (3 + (4 + (4 - (3 / (9 - (8)))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\n[Question]",
+    "rejected": " 2\n\n[Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n= 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))",
+    "rejected": " 15\n\n[Answer] 15",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n= 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))",
+    "rejected": " 4\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n= 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))",
+    "rejected": " 0\n\nI think that's the answer to the question. You may be wondering why we have to answer so many questions before getting the answer. We are not wasting your time, we are not trying to find your limit. We are trying to build your logic to solve the problem.",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 15\n\n[Answer] 15",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 4\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 0\n\nI think that's the answer to the question. You may be wondering why we have to answer so many questions before getting the answer. We are not wasting your time, we are not trying to find your limit. We are trying to build your logic to solve the problem.",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 / (3 + (5 - (6 - (3 / (8 / (1 * (4 + (4))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " Answer: 0.8\n\nThe expression simplifies to 5 / 8. The answer is 0.8.",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 / (3 + (5 - (6 - (3 / (8 / (1 * (4 + (4))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 3\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (1 * (1 * (1 * (4 + (1 + (3 + (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 3",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (1 * (1 * (1 * (4 + (1 + (3 + (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\n[Answer]",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (1 * (1 * (1 * (4 + (1 + (3 + (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\n[Answer]",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (1 * (1 * (1 * (4 + (1 + (3 + (1))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1\n[Answer]",
+    "rejected": " 3",
+    "domain": "pemdas",
+    "steps_to_solve": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The first step is to simplify the expression inside the parentheses. We can do this by multiplying each term inside the parentheses by the denominator.\n1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2))))))))) = 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2))))))))) = 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2))))))))) = 1 /",
+    "rejected": " 3",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The first step is to simplify the expression inside the parentheses. We can do this by multiplying each term inside the parentheses by the denominator.\n1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2))))))))) = 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2))))))))) = 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2))))))))) = 1 /",
+    "rejected": " 9",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The first step is to simplify the expression inside the parentheses. We can do this by multiplying each term inside the parentheses by the denominator.\n1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2))))))))) = 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2))))))))) = 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2))))))))) = 1 /",
+    "rejected": " 1 / 9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2)))))))))",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (7 + (6 - (7 - (5 - (2 / (9 / (1 * (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1.0\n[Question]",
+    "rejected": " 6",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (7 + (6 - (7 - (5 - (2 / (9 / (1 * (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1.0\n[Question]",
+    "rejected": " 2",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (7 + (6 - (7 - (5 - (2 / (9 / (1 * (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1.0\n[Question]",
+    "rejected": " 4.5",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\n[Answer]",
+    "rejected": " 8\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\n[Answer]",
+    "rejected": " 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))) = 1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))) = 1 * (8 + (9 / (8 + (7 - (7 - 1)))))) = 1 * (8 + (9 / (8 + (7 - (7 - 1))))) = 1 * (8 + (9 / (8 + (7 - (7 - 1))))) =",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9\n[Answer]",
+    "rejected": " The result is: 1",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n= 9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))\n= 9 / (1 * (8 + (9 / (8 + (7 - (7 - (1)))))))",
+    "rejected": " 8\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n= 9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))\n= 9 / (1 * (8 + (9 / (8 + (7 - (7 - (1)))))))",
+    "rejected": " 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))) = 1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))) = 1 * (8 + (9 / (8 + (7 - (7 - 1)))))) = 1 * (8 + (9 / (8 + (7 - (7 - 1))))) = 1 * (8 + (9 / (8 + (7 - (7 - 1))))) =",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n= 9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))\n= 9 / (1 * (8 + (9 / (8 + (7 - (7 - (1)))))))",
+    "rejected": " The result is: 1",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Answer = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))) = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))) = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))) = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 /",
+    "rejected": " 8\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Answer = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))) = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))) = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))) = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 /",
+    "rejected": " 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))) = 1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))) = 1 * (8 + (9 / (8 + (7 - (7 - 1)))))) = 1 * (8 + (9 / (8 + (7 - (7 - 1))))) = 1 * (8 + (9 / (8 + (7 - (7 - 1))))) =",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "Answer = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))) = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))) = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9))))))))) = 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 /",
+    "rejected": " The result is: 1",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (3 - (9 / (1 * (1 * (1 * (5 + (4 * (3 / (3)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2",
+    "rejected": " 9",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (3 - (9 / (1 * (1 * (1 * (5 + (4 * (3 / (3)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2",
+    "rejected": " 4",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (3 - (9 / (1 * (1 * (1 * (5 + (4 * (3 / (3)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2",
+    "rejected": " 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (3 / (9 - (2 * (2 + (2 / (9 - (2 + (6 * (1)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "We're going to take the expression one step at a time. Let's start with the innermost parentheses:\n\n9 - (2 + (6 * (1)))",
+    "rejected": " The final answer is 4",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (3 / (9 - (2 * (2 + (2 / (9 - (2 + (6 * (1)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "We're going to take the expression one step at a time. Let's start with the innermost parentheses:\n\n9 - (2 + (6 * (1)))",
+    "rejected": " Solution\n\nThe final answer is 3.",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (3 / (9 - (2 * (2 + (2 / (9 - (2 + (6 * (1)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "We're going to take the expression one step at a time. Let's start with the innermost parentheses:\n\n9 - (2 + (6 * (1)))",
+    "rejected": " 2",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (3 / (9 - (2 * (2 + (2 / (9 - (2 + (6 * (1)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " The final answer is 4",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (3 / (9 - (2 * (2 + (2 / (9 - (2 + (6 * (1)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " Solution\n\nThe final answer is 3.",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 / (1 * (8 * (2 - (3 / (9 - (1 * (3 * (5 - (3)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 8\n[Answer]",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 / (1 * (8 * (2 - (3 / (9 - (1 * (3 * (5 - (3)))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1",
+    "rejected": " 8\n[Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))) = 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))) = 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))) = 9 / (1 * (3 * (7 - (4 / (2 - (1 *",
+    "rejected": " 3",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))) = 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))) = 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))) = 9 / (1 * (3 * (7 - (4 / (2 - (1 *",
+    "rejected": " 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5))))))))))\n= 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5))))))))))\n= 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5))))))))))",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))) = 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))) = 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))) = 9 / (1 * (3 * (7 - (4 / (2 - (1 *",
+    "rejected": " (9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5)))))))))))",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 * (9 / (1 + (1 + (7 / (9 - (5 + (2 + (9 / (1 + (8))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "6",
+    "rejected": " 6*9/(1+(1+(7/(9-(5+(2+(9/(1+(8)))))))))\n\n6*9/(1+(1+(7/(9-(5+(2+9/(1+8)))))))",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 * (9 / (1 + (1 + (7 / (9 - (5 + (2 + (9 / (1 + (8))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "6",
+    "rejected": " The first step is to remove the parentheses. We see that we have 6 times 9 divided by 1 plus 1 plus 7 divided by 9 minus 5 plus 2 plus 9 divided by 1 plus 8. The result of 6 times 9 is 54, but we need to divide it by 1 plus 1 plus 7 divided by 9 minus 5 plus 2 plus 9 divided by 1 plus 8. Now, let's calculate the division in the denominator. We have 1 plus 1 plus 7 divided by 9 minus 5 plus",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 * (9 / (1 + (1 + (7 / (9 - (5 + (2 + (9 / (1 + (8))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "6",
+    "rejected": " 1",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 2. What is the next step?\n4 / 3 = 1.3333333333333333\n3 - 9 / 1 = 2",
+    "rejected": " 8",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 2. What is the next step?\n4 / 3 = 1.3333333333333333\n3 - 9 / 1 = 2",
+    "rejected": " 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3)))))))))) = 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3)))))))))) = 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3)))))))))) = 4 / (3 - (9 / (1 * (9 * (3 - (1 +",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "The answer is 2. What is the next step?\n4 * 3 = 1.3333333333333333\n3 - 9 / 1 = 2",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2.5",
+    "rejected": " 8",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2.5",
+    "rejected": " 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3)))))))))) = 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3)))))))))) = 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3)))))))))) = 4 / (3 - (9 / (1 * (9 * (3 - (1 +",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "2.5",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (3 * (6 / (4 - (6 / (5 - (8 - (7 - (6 / (6))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 1 * (1 * (3 * (6 / (4 - (6 / (5 - (8 - (7 - (6 / (6))))))))))\n\n= 1 * (1 * (3 * (6 / (4 - (6 / (5 - (8 - (7 - (6 / (6))))))))))",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (3 * (6 / (4 - (6 / (5 - (8 - (7 - (6 / (6))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 8",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (3 * (6 / (4 - (6 / (5 - (8 - (7 - (6 / (6))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "9",
+    "rejected": " 5\n[Answer]",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n= 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n= 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))",
+    "rejected": " 0",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n= 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n= 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n= 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n= 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))",
+    "rejected": " ",
+    "domain": "pemdas",
+    "steps_to_solve": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (3 + (6 - (1 + (7 - (3 / (2 - (1 / (1 * (9 / (9)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7",
+    "rejected": " 9",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (3 + (6 - (1 + (7 - (3 / (2 - (1 / (1 * (9 / (9)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7",
+    "rejected": " [Question]",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (3 + (6 - (1 + (7 - (3 / (2 - (1 / (1 * (9 / (9)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "7",
+    "rejected": " 3\n\nExplanation:",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5))))))))))))) = 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))) = 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))) = 4 + (9 - (2 * (9",
+    "rejected": " 1",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5))))))))))))) = 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))) = 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))) = 4 + (9 - (2 * (9",
+    "rejected": " 0",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5))))))))))))) = 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))) = 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))) = 4 + (9 - (2 * (9",
+    "rejected": " 7",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))\n\n6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))",
+    "rejected": " 5",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))\n\n6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))",
+    "rejected": " 2",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))\n\n6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))",
+    "rejected": " 7",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (5 + (3 + (7 / (1 * (1 + (5 + (9 / (1 * (1 * (3 + (6)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1.9/5=1.8\n\n[Answer]",
+    "rejected": " 10",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (5 + (3 + (7 / (1 * (1 + (5 + (9 / (1 * (1 * (3 + (6)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1.9/5=1.8\n\n[Answer]",
+    "rejected": " The final answer is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (5 + (3 + (7 / (1 * (1 + (5 + (9 / (1 * (1 * (3 + (6)))))))))))\n\n\nLet's think step by step.\n\n[Answer]\n",
+    "chosen": "1.9/5=1.8\n\n[Answer]",
+    "rejected": " 9",
+    "domain": "pemdas",
+    "steps_to_solve": 12
+  }
+]
