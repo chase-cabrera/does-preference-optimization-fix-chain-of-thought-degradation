@@ -1,0 +1,802 @@
+[
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (7))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 7 = 7\n  1 * 7 = 7\nAnswer: 7",
+    "rejected": "   1 * 7 = 7\n  1 * 7 = 7\nAnswer: 10",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 + (8 - (6))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   8 - 6 = 2\n  6 + 2 = 8\nAnswer: 8",
+    "rejected": "   8 - 6 = 2\n  6 + 2 = 8\nAnswer: 5",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 * (9 - (8))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 - 8 = 1\n  8 * 1 = 8\nAnswer: 8",
+    "rejected": "   9 - 8 = 1\n  8 * 1 = 8\nAnswer: 5",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (5 + (1))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   5 + 1 = 6\n  9 - 6 = 3\nAnswer: 3",
+    "rejected": "   5 + 1 = 6\n  9 - 6 = 3\nAnswer: 6",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (9))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 9 = 9\n  1 * 9 = 9\nAnswer: 9",
+    "rejected": "   1 * 9 = 9\n  1 * 9 = 9\nAnswer: 8",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (8 - (4))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   8 - 4 = 4\n  8 - 4 = 4\nAnswer: 4",
+    "rejected": "   8 - 4 = 4\n  8 - 4 = 4\nAnswer: 2",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 * (9 - (8))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 - 8 = 1\n  7 * 1 = 7\nAnswer: 7",
+    "rejected": "   9 - 8 = 1\n  7 * 1 = 7\nAnswer: 5",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 - (4 / (1))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 / 1 = 4\n  6 - 4 = 2\nAnswer: 2",
+    "rejected": "   4 / 1 = 4\n  6 - 4 = 2\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (9))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 9 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   1 * 9 = 9\n  9 / 9 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 / (7 - (4))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   7 - 4 = 3\n  3 / 3 = 1\nAnswer: 1",
+    "rejected": "   7 - 4 = 3\n  3 / 3 = 1\nAnswer: -2",
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "n_arith_steps": 2
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (5 - (5 - (1)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   5 - 1 = 4\n  5 - 4 = 1\n  7 - 1 = 6\nAnswer: 6",
+    "rejected": "   5 - 1 = 4\n  5 - 4 = 1\n  7 - 1 = 6\nAnswer: 9",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 * (9 / (1 * (9)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 9 = 9\n  9 / 9 = 1\n  4 * 1 = 4\nAnswer: 4",
+    "rejected": "   1 * 9 = 9\n  9 / 9 = 1\n  4 * 1 = 4\nAnswer: 7",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (9 - (4 + (2)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 + 2 = 6\n  9 - 6 = 3\n  9 - 3 = 6\nAnswer: 6",
+    "rejected": "   4 + 2 = 6\n  9 - 6 = 3\n  9 - 3 = 6\nAnswer: 8",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 * (5 - (4 / (1)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 / 1 = 4\n  5 - 4 = 1\n  6 * 1 = 6\nAnswer: 6",
+    "rejected": "   4 / 1 = 4\n  5 - 4 = 1\n  6 * 1 = 6\nAnswer: 3",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (8 + (5 / (5)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   5 / 5 = 1\n  8 + 1 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   5 / 5 = 1\n  8 + 1 = 9\n  9 / 9 = 1\nAnswer: 3",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (2 + (1 * (7)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 7 = 7\n  2 + 7 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   1 * 7 = 7\n  2 + 7 = 9\n  9 / 9 = 1\nAnswer: 2",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (1 * (9)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 9 = 9\n  9 / 9 = 1\n  1 / 1 = 1\nAnswer: 1",
+    "rejected": "   1 * 9 = 9\n  9 / 9 = 1\n  1 / 1 = 1\nAnswer: -2",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (3 * (3)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   3 * 3 = 9\n  1 * 9 = 9\n  1 * 9 = 9\nAnswer: 9",
+    "rejected": "   3 * 3 = 9\n  1 * 9 = 9\n  1 * 9 = 9\nAnswer: 6",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9 / (9 - (6)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 - 6 = 3\n  9 / 3 = 3\n  1 * 3 = 3\nAnswer: 3",
+    "rejected": "   9 - 6 = 3\n  9 / 3 = 3\n  1 * 3 = 3\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 * (6 - (1 * (5)))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 5 = 5\n  6 - 5 = 1\n  3 * 1 = 3\nAnswer: 3",
+    "rejected": "   1 * 5 = 5\n  6 - 5 = 1\n  3 * 1 = 3\nAnswer: 1",
+    "domain": "pemdas",
+    "steps_to_solve": 4,
+    "n_arith_steps": 3
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (2 + (6 / (9 - (3))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 - 3 = 6\n  6 / 6 = 1\n  2 + 1 = 3\n  7 - 3 = 4\nAnswer: 4",
+    "rejected": "   9 - 3 = 6\n  6 / 6 = 1\n  2 + 1 = 3\n  7 - 3 = 4\nAnswer: 2",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9 - (9 - (4 / (4))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 / 4 = 1\n  9 - 1 = 8\n  9 - 8 = 1\n  1 * 1 = 1\nAnswer: 1",
+    "rejected": "   4 / 4 = 1\n  9 - 1 = 8\n  9 - 8 = 1\n  1 * 1 = 1\nAnswer: 3",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (6 + (5 / (7 - (2))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   7 - 2 = 5\n  5 / 5 = 1\n  6 + 1 = 7\n  9 - 7 = 2\nAnswer: 2",
+    "rejected": "   7 - 2 = 5\n  5 / 5 = 1\n  6 + 1 = 7\n  9 - 7 = 2\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (2 - (9 / (9 * (1))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 * 1 = 9\n  9 / 9 = 1\n  2 - 1 = 1\n  1 + 1 = 2\nAnswer: 2",
+    "rejected": "   9 * 1 = 9\n  9 / 9 = 1\n  2 - 1 = 1\n  1 + 1 = 2\nAnswer: -1",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (7 - (6 - (5 * (1))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   5 * 1 = 5\n  6 - 5 = 1\n  7 - 1 = 6\n  8 - 6 = 2\nAnswer: 2",
+    "rejected": "   5 * 1 = 5\n  6 - 5 = 1\n  7 - 1 = 6\n  8 - 6 = 2\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (6 + (8 - (1 + (6))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 6 = 7\n  8 - 7 = 1\n  6 + 1 = 7\n  7 / 7 = 1\nAnswer: 1",
+    "rejected": "   1 + 6 = 7\n  8 - 7 = 1\n  6 + 1 = 7\n  7 / 7 = 1\nAnswer: -1",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 + (7 - (1))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   7 - 1 = 6\n  3 + 6 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   7 - 1 = 6\n  3 + 6 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (4 + (8 - (1 + (4))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 4 = 5\n  8 - 5 = 3\n  4 + 3 = 7\n  7 / 7 = 1\nAnswer: 1",
+    "rejected": "   1 + 4 = 5\n  8 - 5 = 3\n  4 + 3 = 7\n  7 / 7 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (6 - (8 / (8))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   8 / 8 = 1\n  6 - 1 = 5\n  1 + 5 = 6\n  2 + 6 = 8\nAnswer: 8",
+    "rejected": "   8 / 8 = 1\n  6 - 1 = 5\n  1 + 5 = 6\n  2 + 6 = 8\nAnswer: 11",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 - (1 * (1 * (8))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 8 = 8\n  1 * 8 = 8\n  9 - 8 = 1\n  1 / 1 = 1\nAnswer: 1",
+    "rejected": "   1 * 8 = 8\n  1 * 8 = 8\n  9 - 8 = 1\n  1 / 1 = 1\nAnswer: 3",
+    "domain": "pemdas",
+    "steps_to_solve": 5,
+    "n_arith_steps": 4
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 * (9 - (3 * (5 - (1 * (3)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 3 = 3\n  5 - 3 = 2\n  3 * 2 = 6\n  9 - 6 = 3\n  3 * 3 = 9\nAnswer: 9",
+    "rejected": "   1 * 3 = 3\n  5 - 3 = 2\n  3 * 2 = 6\n  9 - 6 = 3\n  3 * 3 = 9\nAnswer: 10",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 + (1 + (1 * (7 - (4 - (2)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 - 2 = 2\n  7 - 2 = 5\n  1 * 5 = 5\n  1 + 5 = 6\n  3 + 6 = 9\nAnswer: 9",
+    "rejected": "   4 - 2 = 2\n  7 - 2 = 5\n  1 * 5 = 5\n  1 + 5 = 6\n  3 + 6 = 9\nAnswer: 7",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9 - (1 * (7 + (3 / (3)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   3 / 3 = 1\n  7 + 1 = 8\n  1 * 8 = 8\n  9 - 8 = 1\n  1 * 1 = 1\nAnswer: 1",
+    "rejected": "   3 / 3 = 1\n  7 + 1 = 8\n  1 * 8 = 8\n  9 - 8 = 1\n  1 * 1 = 1\nAnswer: 2",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 / (5 + (4 - (3 - (6 - (4)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   6 - 4 = 2\n  3 - 2 = 1\n  4 - 1 = 3\n  5 + 3 = 8\n  8 / 8 = 1\nAnswer: 1",
+    "rejected": "   6 - 4 = 2\n  3 - 2 = 1\n  4 - 1 = 3\n  5 + 3 = 8\n  8 / 8 = 1\nAnswer: 3",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 + (2 * (9 - (7 - (2)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   7 - 2 = 5\n  9 - 5 = 4\n  2 * 4 = 8\n  1 + 8 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   7 - 2 = 5\n  9 - 5 = 4\n  2 * 4 = 8\n  1 + 8 = 9\n  9 / 9 = 1\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (2 * (6 - (8 - (6 / (1)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   6 / 1 = 6\n  8 - 6 = 2\n  6 - 2 = 4\n  2 * 4 = 8\n  1 + 8 = 9\nAnswer: 9",
+    "rejected": "   6 / 1 = 6\n  8 - 6 = 2\n  6 - 2 = 4\n  2 * 4 = 8\n  1 + 8 = 9\nAnswer: 6",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 + (4 / (8 / (3 + (5 * (1)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   5 * 1 = 5\n  3 + 5 = 8\n  8 / 8 = 1\n  4 / 1 = 4\n  1 + 4 = 5\nAnswer: 5",
+    "rejected": "   5 * 1 = 5\n  3 + 5 = 8\n  8 / 8 = 1\n  4 / 1 = 4\n  1 + 4 = 5\nAnswer: 3",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (3 + (1 * (4 + (6 - (4)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   6 - 4 = 2\n  4 + 2 = 6\n  1 * 6 = 6\n  3 + 6 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   6 - 4 = 2\n  4 + 2 = 6\n  1 * 6 = 6\n  3 + 6 = 9\n  9 / 9 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 + (2 / (9 / (7 + (2 * (1)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   2 * 1 = 2\n  7 + 2 = 9\n  9 / 9 = 1\n  2 / 1 = 2\n  7 + 2 = 9\nAnswer: 9",
+    "rejected": "   2 * 1 = 2\n  7 + 2 = 9\n  9 / 9 = 1\n  2 / 1 = 2\n  7 + 2 = 9\nAnswer: 10",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (4 * (2 * (9 / (9 * (1)))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 * 1 = 9\n  9 / 9 = 1\n  2 * 1 = 2\n  4 * 2 = 8\n  1 * 8 = 8\nAnswer: 8",
+    "rejected": "   9 * 1 = 9\n  9 / 9 = 1\n  2 * 1 = 2\n  4 * 2 = 8\n  1 * 8 = 8\nAnswer: 7",
+    "domain": "pemdas",
+    "steps_to_solve": 6,
+    "n_arith_steps": 5
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 / (2 * (9 / (3 + (6 / (7 / (7))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   7 / 7 = 1\n  6 / 1 = 6\n  3 + 6 = 9\n  9 / 9 = 1\n  2 * 1 = 2\n  6 / 2 = 3\nAnswer: 3",
+    "rejected": "   7 / 7 = 1\n  6 / 1 = 6\n  3 + 6 = 9\n  9 / 9 = 1\n  2 * 1 = 2\n  6 / 2 = 3\nAnswer: 2",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (6 - (8 / (1 * (1 * (4 + (4))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 + 4 = 8\n  1 * 8 = 8\n  1 * 8 = 8\n  8 / 8 = 1\n  6 - 1 = 5\n  8 - 5 = 3\nAnswer: 3",
+    "rejected": "   4 + 4 = 8\n  1 * 8 = 8\n  1 * 8 = 8\n  8 / 8 = 1\n  6 - 1 = 5\n  8 - 5 = 3\nAnswer: 1",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (2 + (4 + (6 - (5 - (8 / (4))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   8 / 4 = 2\n  5 - 2 = 3\n  6 - 3 = 3\n  4 + 3 = 7\n  2 + 7 = 9\n  1 * 9 = 9\nAnswer: 9",
+    "rejected": "   8 / 4 = 2\n  5 - 2 = 3\n  6 - 3 = 3\n  4 + 3 = 7\n  2 + 7 = 9\n  1 * 9 = 9\nAnswer: 7",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 + (2 * (8 - (6 - (9 / (1 * (9))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 9 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  8 - 5 = 3\n  2 * 3 = 6\n  3 + 6 = 9\nAnswer: 9",
+    "rejected": "   1 * 9 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  8 - 5 = 3\n  2 * 3 = 6\n  3 + 6 = 9\nAnswer: 8",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 / (9 - (8 * (7 / (7 * (6 / (6))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   6 / 6 = 1\n  7 * 1 = 7\n  7 / 7 = 1\n  8 * 1 = 8\n  9 - 8 = 1\n  2 / 1 = 2\nAnswer: 2",
+    "rejected": "   6 / 6 = 1\n  7 * 1 = 7\n  7 / 7 = 1\n  8 * 1 = 8\n  9 - 8 = 1\n  2 / 1 = 2\nAnswer: -1",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (1 + (5 - (9 - (3 + (7 - (4))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   7 - 4 = 3\n  3 + 3 = 6\n  9 - 6 = 3\n  5 - 3 = 2\n  1 + 2 = 3\n  4 - 3 = 1\nAnswer: 1",
+    "rejected": "   7 - 4 = 3\n  3 + 3 = 6\n  9 - 6 = 3\n  5 - 3 = 2\n  1 + 2 = 3\n  4 - 3 = 1\nAnswer: -2",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (8 / (9 / (9 * (9 - (5 + (3))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   5 + 3 = 8\n  9 - 8 = 1\n  9 * 1 = 9\n  9 / 9 = 1\n  8 / 1 = 8\n  9 - 8 = 1\nAnswer: 1",
+    "rejected": "   5 + 3 = 8\n  9 - 8 = 1\n  9 * 1 = 9\n  9 / 9 = 1\n  8 / 1 = 8\n  9 - 8 = 1\nAnswer: 2",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 + (9 - (7 + (9 / (8 + (9 / (9))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 / 9 = 1\n  8 + 1 = 9\n  9 / 9 = 1\n  7 + 1 = 8\n  9 - 8 = 1\n  6 + 1 = 7\nAnswer: 7",
+    "rejected": "   9 / 9 = 1\n  8 + 1 = 9\n  9 / 9 = 1\n  7 + 1 = 8\n  9 - 8 = 1\n  6 + 1 = 7\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 - (9 / (1 * (1 + (5 + (9 - (6))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 - 6 = 3\n  5 + 3 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 - 1 = 2\nAnswer: 2",
+    "rejected": "   9 - 6 = 3\n  5 + 3 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 - 1 = 2\nAnswer: 1",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (3 + (1 * (5 + (9 - (4 * (2))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 * 2 = 8\n  9 - 8 = 1\n  5 + 1 = 6\n  1 * 6 = 6\n  3 + 6 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   4 * 2 = 8\n  9 - 8 = 1\n  5 + 1 = 6\n  1 * 6 = 6\n  3 + 6 = 9\n  9 / 9 = 1\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 7,
+    "n_arith_steps": 6
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (9 / (1 * (6 + (3 / (9 / (4 + (5)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 + 5 = 9\n  9 / 9 = 1\n  3 / 1 = 3\n  6 + 3 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  5 + 1 = 6\nAnswer: 6",
+    "rejected": "   4 + 5 = 9\n  9 / 9 = 1\n  3 / 1 = 3\n  6 + 3 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  5 + 1 = 6\nAnswer: 8",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 + (5 / (6 - (5 / (9 / (3 + (3 * (2)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   3 * 2 = 6\n  3 + 6 = 9\n  9 / 9 = 1\n  5 / 1 = 5\n  6 - 5 = 1\n  5 / 1 = 5\n  3 + 5 = 8\nAnswer: 8",
+    "rejected": "   3 * 2 = 6\n  3 + 6 = 9\n  9 / 9 = 1\n  5 / 1 = 5\n  6 - 5 = 1\n  5 / 1 = 5\n  3 + 5 = 8\nAnswer: 7",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 * (7 - (1 * (3 + (8 / (3 + (1 + (4)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 4 = 5\n  3 + 5 = 8\n  8 / 8 = 1\n  3 + 1 = 4\n  1 * 4 = 4\n  7 - 4 = 3\n  2 * 3 = 6\nAnswer: 6",
+    "rejected": "   1 + 4 = 5\n  3 + 5 = 8\n  8 / 8 = 1\n  3 + 1 = 4\n  1 * 4 = 4\n  7 - 4 = 3\n  2 * 3 = 6\nAnswer: 3",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (2 + (7 * (9 / (1 + (2 + (6)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   2 + 6 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  7 * 1 = 7\n  2 + 7 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   2 + 6 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  7 * 1 = 7\n  2 + 7 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (1 * (1 * (1 * (1 + (1 + (7)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 7 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   1 + 7 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 2",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 / (6 - (4 + (9 / (3 * (9 - (1 * (6)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 6 = 6\n  9 - 6 = 3\n  3 * 3 = 9\n  9 / 9 = 1\n  4 + 1 = 5\n  6 - 5 = 1\n  3 / 1 = 3\nAnswer: 3",
+    "rejected": "   1 * 6 = 6\n  9 - 6 = 3\n  3 * 3 = 9\n  9 / 9 = 1\n  4 + 1 = 5\n  6 - 5 = 1\n  3 / 1 = 3\nAnswer: 5",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (4 + (6 - (3 - (8 / (1 + (7)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 7 = 8\n  8 / 8 = 1\n  3 - 1 = 2\n  6 - 2 = 4\n  4 + 4 = 8\n  1 * 8 = 8\n  1 * 8 = 8\nAnswer: 8",
+    "rejected": "   1 + 7 = 8\n  8 / 8 = 1\n  3 - 1 = 2\n  6 - 2 = 4\n  4 + 4 = 8\n  1 * 8 = 8\n  1 * 8 = 8\nAnswer: 5",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 * (9 - (1 * (3 + (9 - (1 * (8 - (3)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   8 - 3 = 5\n  1 * 5 = 5\n  9 - 5 = 4\n  3 + 4 = 7\n  1 * 7 = 7\n  9 - 7 = 2\n  4 * 2 = 8\nAnswer: 8",
+    "rejected": "   8 - 3 = 5\n  1 * 5 = 5\n  9 - 5 = 4\n  3 + 4 = 7\n  1 * 7 = 7\n  9 - 7 = 2\n  4 * 2 = 8\nAnswer: 9",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (3 / (7 - (3 * (2 * (6 / (9 - (3)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 - 3 = 6\n  6 / 6 = 1\n  2 * 1 = 2\n  3 * 2 = 6\n  7 - 6 = 1\n  3 / 1 = 3\n  1 * 3 = 3\nAnswer: 3",
+    "rejected": "   9 - 3 = 6\n  6 / 6 = 1\n  2 * 1 = 2\n  3 * 2 = 6\n  7 - 6 = 1\n  3 / 1 = 3\n  1 * 3 = 3\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 + (3 + (4 + (4 - (3 / (9 - (8)))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 - 8 = 1\n  3 / 1 = 3\n  4 - 3 = 1\n  4 + 1 = 5\n  3 + 5 = 8\n  1 + 8 = 9\n  1 * 9 = 9\nAnswer: 9",
+    "rejected": "   9 - 8 = 1\n  3 / 1 = 3\n  4 - 3 = 1\n  4 + 1 = 5\n  3 + 5 = 8\n  1 + 8 = 9\n  1 * 9 = 9\nAnswer: 11",
+    "domain": "pemdas",
+    "steps_to_solve": 8,
+    "n_arith_steps": 7
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (6 / (2 + (4 / (7 / (8 - (6 - (2 + (3))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   2 + 3 = 5\n  6 - 5 = 1\n  8 - 1 = 7\n  7 / 7 = 1\n  4 / 1 = 4\n  2 + 4 = 6\n  6 / 6 = 1\n  4 + 1 = 5\nAnswer: 5",
+    "rejected": "   2 + 3 = 5\n  6 - 5 = 1\n  8 - 1 = 7\n  7 / 7 = 1\n  4 / 1 = 4\n  2 + 4 = 6\n  6 / 6 = 1\n  4 + 1 = 5\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 - (6 * (9 / (1 * (3 + (6 / (6 - (5 / (1))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   5 / 1 = 5\n  6 - 5 = 1\n  6 / 1 = 6\n  3 + 6 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  6 * 1 = 6\n  7 - 6 = 1\nAnswer: 1",
+    "rejected": "   5 / 1 = 5\n  6 - 5 = 1\n  6 / 1 = 6\n  3 + 6 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  6 * 1 = 6\n  7 - 6 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 7 / (5 / (6 - (9 / (1 * (1 * (1 * (1 * (9))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  5 / 5 = 1\n  7 / 1 = 7\nAnswer: 7",
+    "rejected": "   1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  5 / 5 = 1\n  7 / 1 = 7\nAnswer: 9",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (4 * (6 / (4 + (6 / (3 * (1 / (9 - (8))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 - 8 = 1\n  1 / 1 = 1\n  3 * 1 = 3\n  6 / 3 = 2\n  4 + 2 = 6\n  6 / 6 = 1\n  4 * 1 = 4\n  2 + 4 = 6\nAnswer: 6",
+    "rejected": "   9 - 8 = 1\n  1 / 1 = 1\n  3 * 1 = 3\n  6 / 3 = 2\n  4 + 2 = 6\n  6 / 6 = 1\n  4 * 1 = 4\n  2 + 4 = 6\nAnswer: 5",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 * (3 - (7 - (3 * (1 + (8 - (7 * (8 / (8))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   8 / 8 = 1\n  7 * 1 = 7\n  8 - 7 = 1\n  1 + 1 = 2\n  3 * 2 = 6\n  7 - 6 = 1\n  3 - 1 = 2\n  3 * 2 = 6\nAnswer: 6",
+    "rejected": "   8 / 8 = 1\n  7 * 1 = 7\n  8 - 7 = 1\n  1 + 1 = 2\n  3 * 2 = 6\n  7 - 6 = 1\n  3 - 1 = 2\n  3 * 2 = 6\nAnswer: 8",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9 / (1 * (1 * (1 * (4 + (1 + (9 - (5))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 - 5 = 4\n  1 + 4 = 5\n  4 + 5 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  1 * 1 = 1\nAnswer: 1",
+    "rejected": "   9 - 5 = 4\n  1 + 4 = 5\n  4 + 5 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  1 * 1 = 1\nAnswer: -1",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 / (3 + (5 - (6 - (3 / (8 / (1 * (4 + (4))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 + 4 = 8\n  1 * 8 = 8\n  8 / 8 = 1\n  3 / 1 = 3\n  6 - 3 = 3\n  5 - 3 = 2\n  3 + 2 = 5\n  5 / 5 = 1\nAnswer: 1",
+    "rejected": "   4 + 4 = 8\n  1 * 8 = 8\n  8 / 8 = 1\n  3 / 1 = 3\n  6 - 3 = 3\n  5 - 3 = 2\n  3 + 2 = 5\n  5 / 5 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 - (9 - (1 + (9 - (7 - (7 - (4 - (6 / (6))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   6 / 6 = 1\n  4 - 1 = 3\n  7 - 3 = 4\n  7 - 4 = 3\n  9 - 3 = 6\n  1 + 6 = 7\n  9 - 7 = 2\n  3 - 2 = 1\nAnswer: 1",
+    "rejected": "   6 / 6 = 1\n  4 - 1 = 3\n  7 - 3 = 4\n  7 - 4 = 3\n  9 - 3 = 6\n  1 + 6 = 7\n  9 - 7 = 2\n  3 - 2 = 1\nAnswer: -2",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 - (7 - (6 - (9 / (1 * (1 + (1 * (1 + (7))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 7 = 8\n  1 * 8 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  7 - 5 = 2\n  5 - 2 = 3\nAnswer: 3",
+    "rejected": "   1 + 7 = 8\n  1 * 8 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  7 - 5 = 2\n  5 - 2 = 3\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (1 * (1 * (1 * (4 + (1 + (3 + (1))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   3 + 1 = 4\n  1 + 4 = 5\n  4 + 5 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   3 + 1 = 4\n  1 + 4 = 5\n  4 + 5 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 9,
+    "n_arith_steps": 8
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (1 * (1 * (1 * (1 * (2 + (2 + (3 + (2)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   3 + 2 = 5\n  2 + 5 = 7\n  2 + 7 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  1 / 1 = 1\nAnswer: 1",
+    "rejected": "   3 + 2 = 5\n  2 + 5 = 7\n  2 + 7 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  1 / 1 = 1\nAnswer: -1",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (7 + (6 - (7 - (5 - (2 / (9 / (1 * (9)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 9 = 9\n  9 / 9 = 1\n  2 / 1 = 2\n  5 - 2 = 3\n  7 - 3 = 4\n  6 - 4 = 2\n  7 + 2 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   1 * 9 = 9\n  9 / 9 = 1\n  2 / 1 = 2\n  5 - 2 = 3\n  7 - 3 = 4\n  6 - 4 = 2\n  7 + 2 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (8 + (9 / (8 + (7 - (7 - (9 / (9)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 / 9 = 1\n  7 - 1 = 6\n  7 - 6 = 1\n  8 + 1 = 9\n  9 / 9 = 1\n  8 + 1 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  9 / 1 = 9\nAnswer: 9",
+    "rejected": "   9 / 9 = 1\n  7 - 1 = 6\n  7 - 6 = 1\n  8 + 1 = 9\n  9 / 9 = 1\n  8 + 1 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  9 / 1 = 9\nAnswer: 6",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 3 * (9 / (1 * (6 + (8 - (9 - (8 - (9 - (1 + (4)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 4 = 5\n  9 - 5 = 4\n  8 - 4 = 4\n  9 - 4 = 5\n  8 - 5 = 3\n  6 + 3 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 * 1 = 3\nAnswer: 3",
+    "rejected": "   1 + 4 = 5\n  9 - 5 = 4\n  8 - 4 = 4\n  9 - 4 = 5\n  8 - 5 = 3\n  6 + 3 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 * 1 = 3\nAnswer: 1",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (3 - (9 / (1 * (1 * (1 * (5 + (4 * (3 / (3)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   3 / 3 = 1\n  4 * 1 = 4\n  5 + 4 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 - 1 = 2\n  1 * 2 = 2\nAnswer: 2",
+    "rejected": "   3 / 3 = 1\n  4 * 1 = 4\n  5 + 4 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 - 1 = 2\n  1 * 2 = 2\nAnswer: -1",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (4 + (1 + (1 + (6 / (2 * (9 / (9 / (8 - (7)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   8 - 7 = 1\n  9 / 1 = 9\n  9 / 9 = 1\n  2 * 1 = 2\n  6 / 2 = 3\n  1 + 3 = 4\n  1 + 4 = 5\n  4 + 5 = 9\n  1 * 9 = 9\nAnswer: 9",
+    "rejected": "   8 - 7 = 1\n  9 / 1 = 9\n  9 / 9 = 1\n  2 * 1 = 2\n  6 / 2 = 3\n  1 + 3 = 4\n  1 + 4 = 5\n  4 + 5 = 9\n  1 * 9 = 9\nAnswer: 10",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (3 / (9 - (2 * (2 + (2 / (9 - (2 + (6 * (1)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   6 * 1 = 6\n  2 + 6 = 8\n  9 - 8 = 1\n  2 / 1 = 2\n  2 + 2 = 4\n  2 * 4 = 8\n  9 - 8 = 1\n  3 / 1 = 3\n  4 - 3 = 1\nAnswer: 1",
+    "rejected": "   6 * 1 = 6\n  2 + 6 = 8\n  9 - 8 = 1\n  2 / 1 = 2\n  2 + 2 = 4\n  2 * 4 = 8\n  9 - 8 = 1\n  3 / 1 = 3\n  4 - 3 = 1\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (5 + (4 * (7 - (7 - (3 - (2 * (3 / (3)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   3 / 3 = 1\n  2 * 1 = 2\n  3 - 2 = 1\n  7 - 1 = 6\n  7 - 6 = 1\n  4 * 1 = 4\n  5 + 4 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   3 / 3 = 1\n  2 * 1 = 2\n  3 - 2 = 1\n  7 - 1 = 6\n  7 - 6 = 1\n  4 * 1 = 4\n  5 + 4 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 2",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (1 + (3 * (9 / (3 + (6 / (9 / (1 + (3 + (5)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   3 + 5 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  6 / 1 = 6\n  3 + 6 = 9\n  9 / 9 = 1\n  3 * 1 = 3\n  1 + 3 = 4\n  4 + 4 = 8\nAnswer: 8",
+    "rejected": "   3 + 5 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  6 / 1 = 6\n  3 + 6 = 9\n  9 / 9 = 1\n  3 * 1 = 3\n  1 + 3 = 4\n  4 + 4 = 8\nAnswer: 11",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 / (1 * (8 * (2 - (3 / (9 - (1 * (3 * (5 - (3)))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   5 - 3 = 2\n  3 * 2 = 6\n  1 * 6 = 6\n  9 - 6 = 3\n  3 / 3 = 1\n  2 - 1 = 1\n  8 * 1 = 8\n  1 * 8 = 8\n  8 / 8 = 1\nAnswer: 1",
+    "rejected": "   5 - 3 = 2\n  3 * 2 = 6\n  1 * 6 = 6\n  9 - 6 = 3\n  3 / 3 = 1\n  2 - 1 = 1\n  8 * 1 = 8\n  1 * 8 = 8\n  8 / 8 = 1\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 10,
+    "n_arith_steps": 9
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (2 + (9 / (4 + (6 - (9 / (1 * (1 * (9 * (9 / (9))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 / 9 = 1\n  9 * 1 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  4 + 5 = 9\n  9 / 9 = 1\n  2 + 1 = 3\n  9 - 3 = 6\nAnswer: 6",
+    "rejected": "   9 / 9 = 1\n  9 * 1 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  4 + 5 = 9\n  9 / 9 = 1\n  2 + 1 = 3\n  9 - 3 = 6\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (1 * (3 * (7 - (4 / (2 - (1 * (7 - (1 * (1 + (5))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 5 = 6\n  1 * 6 = 6\n  7 - 6 = 1\n  1 * 1 = 1\n  2 - 1 = 1\n  4 / 1 = 4\n  7 - 4 = 3\n  3 * 3 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   1 + 5 = 6\n  1 * 6 = 6\n  7 - 6 = 1\n  1 * 1 = 1\n  2 - 1 = 1\n  4 / 1 = 4\n  7 - 4 = 3\n  3 * 3 = 9\n  1 * 9 = 9\n  9 / 9 = 1\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 * (9 / (1 + (1 + (7 / (9 - (5 + (2 + (9 / (1 + (8))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 8 = 9\n  9 / 9 = 1\n  2 + 1 = 3\n  5 + 3 = 8\n  9 - 8 = 1\n  7 / 1 = 7\n  1 + 7 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  6 * 1 = 6\nAnswer: 6",
+    "rejected": "   1 + 8 = 9\n  9 / 9 = 1\n  2 + 1 = 3\n  5 + 3 = 8\n  9 - 8 = 1\n  7 / 1 = 7\n  1 + 7 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  6 * 1 = 6\nAnswer: 5",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 / (3 - (9 / (1 * (9 * (3 - (1 + (8 / (1 + (4 + (3))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   4 + 3 = 7\n  1 + 7 = 8\n  8 / 8 = 1\n  1 + 1 = 2\n  3 - 2 = 1\n  9 * 1 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 - 1 = 2\n  4 / 2 = 2\nAnswer: 2",
+    "rejected": "   4 + 3 = 7\n  1 + 7 = 8\n  8 / 8 = 1\n  1 + 1 = 2\n  3 - 2 = 1\n  9 * 1 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 - 1 = 2\n  4 / 2 = 2\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 8 - (1 + (2 * (9 - (1 + (1 * (9 - (6 - (3 - (8 - (7))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   8 - 7 = 1\n  3 - 1 = 2\n  6 - 2 = 4\n  9 - 4 = 5\n  1 * 5 = 5\n  1 + 5 = 6\n  9 - 6 = 3\n  2 * 3 = 6\n  1 + 6 = 7\n  8 - 7 = 1\nAnswer: 1",
+    "rejected": "   8 - 7 = 1\n  3 - 1 = 2\n  6 - 2 = 4\n  9 - 4 = 5\n  1 * 5 = 5\n  1 + 5 = 6\n  9 - 6 = 3\n  2 * 3 = 6\n  1 + 6 = 7\n  8 - 7 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (5 - (5 - (3 / (9 / (1 * (1 * (4 + (4 + (5 / (5))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   5 / 5 = 1\n  4 + 1 = 5\n  4 + 5 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 / 1 = 3\n  5 - 3 = 2\n  5 - 2 = 3\n  4 - 3 = 1\nAnswer: 1",
+    "rejected": "   5 / 5 = 1\n  4 + 1 = 5\n  4 + 5 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  3 / 1 = 3\n  5 - 3 = 2\n  5 - 2 = 3\n  4 - 3 = 1\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (1 * (3 * (6 / (4 - (6 / (5 - (8 - (7 - (6 / (6))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   6 / 6 = 1\n  7 - 1 = 6\n  8 - 6 = 2\n  5 - 2 = 3\n  6 / 3 = 2\n  4 - 2 = 2\n  6 / 2 = 3\n  3 * 3 = 9\n  1 * 9 = 9\n  1 * 9 = 9\nAnswer: 9",
+    "rejected": "   6 / 6 = 1\n  7 - 1 = 6\n  8 - 6 = 2\n  5 - 2 = 3\n  6 / 3 = 2\n  4 - 2 = 2\n  6 / 2 = 3\n  3 * 3 = 9\n  1 * 9 = 9\n  1 * 9 = 9\nAnswer: 12",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 / (9 / (9 * (9 / (9 * (5 / (3 + (8 / (8 / (2 / (1))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   2 / 1 = 2\n  8 / 2 = 4\n  8 / 4 = 2\n  3 + 2 = 5\n  5 / 5 = 1\n  9 * 1 = 9\n  9 / 9 = 1\n  9 * 1 = 9\n  9 / 9 = 1\n  1 / 1 = 1\nAnswer: 1",
+    "rejected": "   2 / 1 = 2\n  8 / 2 = 4\n  8 / 4 = 2\n  3 + 2 = 5\n  5 / 5 = 1\n  9 * 1 = 9\n  9 / 9 = 1\n  9 * 1 = 9\n  9 / 9 = 1\n  1 / 1 = 1\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (4 - (9 / (4 + (4 + (9 / (7 + (9 - (1 + (1 + (5))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 5 = 6\n  1 + 6 = 7\n  9 - 7 = 2\n  7 + 2 = 9\n  9 / 9 = 1\n  4 + 1 = 5\n  4 + 5 = 9\n  9 / 9 = 1\n  4 - 1 = 3\n  9 - 3 = 6\nAnswer: 6",
+    "rejected": "   1 + 5 = 6\n  1 + 6 = 7\n  9 - 7 = 2\n  7 + 2 = 9\n  9 / 9 = 1\n  4 + 1 = 5\n  4 + 5 = 9\n  9 / 9 = 1\n  4 - 1 = 3\n  9 - 3 = 6\nAnswer: 9",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 - (9 / (1 + (1 + (8 - (9 / (1 + (2 + (3 * (1 + (1))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 1 = 2\n  3 * 2 = 6\n  2 + 6 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  8 - 1 = 7\n  1 + 7 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  4 - 1 = 3\nAnswer: 3",
+    "rejected": "   1 + 1 = 2\n  3 * 2 = 6\n  2 + 6 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  8 - 1 = 7\n  1 + 7 = 8\n  1 + 8 = 9\n  9 / 9 = 1\n  4 - 1 = 3\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 11,
+    "n_arith_steps": 10
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (8 / (8 - (1 + (3 * (9 - (1 * (8 * (9 / (9 / (9 / (9)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 / 9 = 1\n  9 / 1 = 9\n  9 / 9 = 1\n  8 * 1 = 8\n  1 * 8 = 8\n  9 - 8 = 1\n  3 * 1 = 3\n  1 + 3 = 4\n  8 - 4 = 4\n  8 / 4 = 2\n  1 * 2 = 2\nAnswer: 2",
+    "rejected": "   9 / 9 = 1\n  9 / 1 = 9\n  9 / 9 = 1\n  8 * 1 = 8\n  1 * 8 = 8\n  9 - 8 = 1\n  3 * 1 = 3\n  1 + 3 = 4\n  8 - 4 = 4\n  8 / 4 = 2\n  1 * 2 = 2\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (9 / (1 * (1 * (3 + (3 + (4 - (9 / (1 * (1 + (1 * (8)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 * 8 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  4 - 1 = 3\n  3 + 3 = 6\n  3 + 6 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  9 / 1 = 9\nAnswer: 9",
+    "rejected": "   1 * 8 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  4 - 1 = 3\n  3 + 3 = 6\n  3 + 6 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  9 / 1 = 9\nAnswer: 12",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 - (7 / (9 / (9 / (1 / (6 - (5 * (9 / (8 + (9 / (2 + (7)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   2 + 7 = 9\n  9 / 9 = 1\n  8 + 1 = 9\n  9 / 9 = 1\n  5 * 1 = 5\n  6 - 5 = 1\n  1 / 1 = 1\n  9 / 1 = 9\n  9 / 9 = 1\n  7 / 1 = 7\n  9 - 7 = 2\nAnswer: 2",
+    "rejected": "   2 + 7 = 9\n  9 / 9 = 1\n  8 + 1 = 9\n  9 / 9 = 1\n  5 * 1 = 5\n  6 - 5 = 1\n  1 / 1 = 1\n  9 / 1 = 9\n  9 / 9 = 1\n  7 / 1 = 7\n  9 - 7 = 2\nAnswer: 0",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 2 + (1 + (3 + (6 - (1 + (7 - (3 / (2 - (1 / (1 * (9 / (9)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 / 9 = 1\n  1 * 1 = 1\n  1 / 1 = 1\n  2 - 1 = 1\n  3 / 1 = 3\n  7 - 3 = 4\n  1 + 4 = 5\n  6 - 5 = 1\n  3 + 1 = 4\n  1 + 4 = 5\n  2 + 5 = 7\nAnswer: 7",
+    "rejected": "   9 / 9 = 1\n  1 * 1 = 1\n  1 / 1 = 1\n  2 - 1 = 1\n  3 / 1 = 3\n  7 - 3 = 4\n  1 + 4 = 5\n  6 - 5 = 1\n  3 + 1 = 4\n  1 + 4 = 5\n  2 + 5 = 7\nAnswer: 9",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 4 + (9 - (2 * (9 - (7 / (9 / (3 + (7 - (8 - (1 + (1 + (5)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 5 = 6\n  1 + 6 = 7\n  8 - 7 = 1\n  7 - 1 = 6\n  3 + 6 = 9\n  9 / 9 = 1\n  7 / 1 = 7\n  9 - 7 = 2\n  2 * 2 = 4\n  9 - 4 = 5\n  4 + 5 = 9\nAnswer: 9",
+    "rejected": "   1 + 5 = 6\n  1 + 6 = 7\n  8 - 7 = 1\n  7 - 1 = 6\n  3 + 6 = 9\n  9 / 9 = 1\n  7 / 1 = 7\n  9 - 7 = 2\n  2 * 2 = 4\n  9 - 4 = 5\n  4 + 5 = 9\nAnswer: 12",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 6 - (9 - (4 * (9 - (5 + (4 - (9 / (1 * (1 * (7 + (1 + (1)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 1 = 2\n  7 + 2 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  4 - 1 = 3\n  5 + 3 = 8\n  9 - 8 = 1\n  4 * 1 = 4\n  9 - 4 = 5\n  6 - 5 = 1\nAnswer: 1",
+    "rejected": "   1 + 1 = 2\n  7 + 2 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  4 - 1 = 3\n  5 + 3 = 8\n  9 - 8 = 1\n  4 * 1 = 4\n  9 - 4 = 5\n  6 - 5 = 1\nAnswer: -1",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 5 + (8 / (3 + (9 - (2 * (4 / (1 * (8 - (3 * (2 * (9 / (9)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   9 / 9 = 1\n  2 * 1 = 2\n  3 * 2 = 6\n  8 - 6 = 2\n  1 * 2 = 2\n  4 / 2 = 2\n  2 * 2 = 4\n  9 - 4 = 5\n  3 + 5 = 8\n  8 / 8 = 1\n  5 + 1 = 6\nAnswer: 6",
+    "rejected": "   9 / 9 = 1\n  2 * 1 = 2\n  3 * 2 = 6\n  8 - 6 = 2\n  1 * 2 = 2\n  4 / 2 = 2\n  2 * 2 = 4\n  9 - 4 = 5\n  3 + 5 = 8\n  8 / 8 = 1\n  5 + 1 = 6\nAnswer: 4",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 1 * (9 - (6 - (9 / (2 + (1 * (3 + (3 + (9 - (1 * (1 + (7)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   1 + 7 = 8\n  1 * 8 = 8\n  9 - 8 = 1\n  3 + 1 = 4\n  3 + 4 = 7\n  1 * 7 = 7\n  2 + 7 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  9 - 5 = 4\n  1 * 4 = 4\nAnswer: 4",
+    "rejected": "   1 + 7 = 8\n  1 * 8 = 8\n  9 - 8 = 1\n  3 + 1 = 4\n  3 + 4 = 7\n  1 * 7 = 7\n  2 + 7 = 9\n  9 / 9 = 1\n  6 - 1 = 5\n  9 - 5 = 4\n  1 * 4 = 4\nAnswer: 5",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 / (5 + (3 + (7 / (1 * (1 + (5 + (9 / (1 * (1 * (3 + (6)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   3 + 6 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  5 + 1 = 6\n  1 + 6 = 7\n  1 * 7 = 7\n  7 / 7 = 1\n  3 + 1 = 4\n  5 + 4 = 9\n  9 / 9 = 1\nAnswer: 1",
+    "rejected": "   3 + 6 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  5 + 1 = 6\n  1 + 6 = 7\n  1 * 7 = 7\n  7 / 7 = 1\n  3 + 1 = 4\n  5 + 4 = 9\n  9 / 9 = 1\nAnswer: 2",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  },
+  {
+    "prompt": "[Instructions]\nAfter the [Answer] tag, you may only respond with a single number representing the final value of the calculation. Do not include anything else after that tag. The [Answer] tag must precede the final answer.\nProblem to solve:\n\n[Question]\nSimplify the following expression into a single number: 9 * (9 / (8 + (9 / (1 * (1 * (1 * (1 * (1 + (4 * (6 - (4)))))))))))\n\n\nLet's think step by step. Show each arithmetic step on its own line as 'a op b = c', then write the final answer on a line 'Answer: <number>'.\n\n[Answer]\n",
+    "chosen": "   6 - 4 = 2\n  4 * 2 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  8 + 1 = 9\n  9 / 9 = 1\n  9 * 1 = 9\nAnswer: 9",
+    "rejected": "   6 - 4 = 2\n  4 * 2 = 8\n  1 + 8 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  1 * 9 = 9\n  9 / 9 = 1\n  8 + 1 = 9\n  9 / 9 = 1\n  9 * 1 = 9\nAnswer: 8",
+    "domain": "pemdas",
+    "steps_to_solve": 12,
+    "n_arith_steps": 11
+  }
+]
