@@ -15,7 +15,7 @@
 \usepackage{multirow}
 \usepackage{xcolor}
 
-\title{Does Preference Optimization Fix Chain-of-Thought Degradation?\footnote{Code, preference data, and raw result files: \url{https://github.com/chase-cabrera/does-preference-optimization-fix-chain-of-thought-degradation}}}
+\title{Does Preference Optimization Fix Chain-of-Thought Degradation?}
 
 \author{
   Chase Cabrera \\
@@ -126,7 +126,7 @@ For PEMDAS, each step is verified via \texttt{eval()}. For CoinFlip, coin state 
 \section{Experiments}
 \label{sec:experiments}
 
-\textbf{Models and Hardware.} We evaluate two base models: LLaMA-2-7B (6.74B parameters) and Llama 3.1-8B (8.03B parameters), both in fp16 on Apple Silicon M5 Max (128GB). Llama 3.1-8B was trained on 15T tokens (vs 2T for LLaMA-2-7B) with an improved tokenizer, providing a stronger baseline to test whether our findings generalize across model capability levels. LoRA rank 8, 3 epochs, batch size 1 with gradient accumulation 4.
+\textbf{Models and Hardware.} We evaluate two base models: LLaMA-2-7B~\cite{touvron2023llama2} (6.74B parameters) and Llama 3.1-8B~\cite{grattafiori2024llama3} (8.03B parameters), both in fp16 on Apple Silicon M5 Max (128GB). Llama 3.1-8B was trained on 15T tokens (vs 2T for LLaMA-2-7B) with an improved tokenizer, providing a stronger baseline to test whether our findings generalize across model capability levels. LoRA rank 8, 3 epochs, batch size 1 with gradient accumulation 4.
 
 \textbf{Benchmarks.} 570 subsampled instances across two domains: PEMDAS (290, steps 2--30, 29 complexity levels) and CoinFlip (280, 1--29 flips, 28 complexity levels), with 10 instances per complexity level. Preliminary evaluation indicated that LLaMA-2-7B and Llama 3.1-8B with zero-shot CoT fail to produce parseable responses on LastLetterConcatenation even at 1--3 words, where GPT-4 Turbo with manual CoT achieves ${\sim}88\%$~\cite{stechly2024thoughtlessness}. We exclude it from the main evaluation as the resulting accuracy floor is uninformative for measuring DPO-induced changes.
 
@@ -186,6 +186,8 @@ Base Model & Variant & Acc & $\Delta$ & Acc & $\Delta$ \\
 Step-Level DPO produced only 8 preference pairs on LLaMA-2-7B and 15 on Llama 3.1-8B. While the stronger model produces nearly twice the step-level diversity, both counts remain too small for meaningful preference optimization, and the resulting models are effectively identical to their respective bases.
 
 \subsection{Degradation Curves}
+
+Figures~\ref{fig:pemdas-degradation-7b} and~\ref{fig:pemdas-degradation-31} plot zero-shot CoT accuracy against problem complexity $k$ (number of PEMDAS operations) for all five variants of each base model. On both models, accuracy starts near 100\% at $k{=}2$ and collapses to the 10--30\% band by $k{\geq}10$, with all DPO variants tracking the base model's curve closely beyond easy problems. The Multi-Domain and Synthetic-CoT DPO curves on LLaMA-2-7B sit consistently above base in the mid-complexity range ($k{=}10$--25) but converge back toward base accuracy at the hardest levels, while Incorrect-CoT DPO tracks base or drops below it throughout. On Llama 3.1-8B the per-$k$ variance is larger and no variant produces a visibly flatter curve. These curves make concrete the Table~\ref{tab:main-results} finding that $\Delta$ improvements from DPO are modest and model-dependent.
 
 \begin{figure}[h]
 \centering
