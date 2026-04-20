@@ -1,0 +1,53 @@
+[
+  {
+    "instance_id": "25",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "409",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "22",
+    "steps_to_solve": 3,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "8 * (9) = 72",
+      "Answer: 435648020000000000000000000000000000"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "21",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "419",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  }
+]

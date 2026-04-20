@@ -1,37 +1,29 @@
-"""
-Analyze evaluation results and generate degradation curve figures.
-
-Usage:
-  python3 analyze_results.py --plot
-  python3 analyze_results.py --plot --latex
-"""
+"""Degradation curves, trace-correctness bars, and LaTeX row dumps from eval JSONs."""
 import json
 import os
 import argparse
 from collections import defaultdict
 
 FIGURES_DIR = "../paper/figures"
-
 DOMAIN_LABELS = {"pemdas": "PEMDAS", "coinflip": "CoinFlip"}
-
-MODEL_TAGS = ["base", "dpo_multidomain", "dpo_steplevel", "dpo_synthetic", "dpo_corrupted_v2"]
+MODEL_TAGS = ["base", "dpo_multidomain", "dpo_steplevel",
+              "dpo_synthetic", "dpo_corrupted_v2", "dpo_cpo"]
 
 TAG_COLORS = {
     "base": "#1f77b4", "dpo_multidomain": "#2ca02c",
     "dpo_steplevel": "#9467bd", "dpo_synthetic": "#d62728",
-    "dpo_corrupted_v2": "#ff7f0e",
+    "dpo_corrupted_v2": "#ff7f0e", "dpo_cpo": "#17becf",
 }
-
 TAG_LABELS = {
     "base": "Base", "dpo_multidomain": "Multi-Domain DPO",
     "dpo_steplevel": "Step-Level DPO", "dpo_synthetic": "Synthetic-CoT DPO",
-    "dpo_corrupted_v2": "Incorrect-CoT DPO",
+    "dpo_corrupted_v2": "Incorrect-CoT DPO", "dpo_cpo": "CPO",
 }
 
-# Per-model configuration: (results_dir, file_pattern, model_label, figure_suffix)
+# (results_dir, file_pattern, model_label, figure_suffix)
 MODEL_CONFIGS = {
-    "llama2": ("../results", "{domain}_{tag}.json", "LLaMA-2-7B", "all_variants"),
-    "llama31": ("../results_llama31", "{domain}_llama31_{tag}.json", "Llama 3.1-8B", "llama31_variants"),
+    "llama2":  ("../results",          "{domain}_{tag}.json",          "LLaMA-2-7B",  "all_variants"),
+    "llama31": ("../results_llama31",  "{domain}_llama31_{tag}.json",  "Llama 3.1-8B", "llama31_variants"),
 }
 
 
@@ -132,9 +124,9 @@ def plot_faithfulness():
 
     os.makedirs(FIGURES_DIR, exist_ok=True)
 
-    categories = ["All steps + answer correct", "Wrong steps, right answer",
-                   "Right steps, wrong answer", "Wrong steps + answer"]
-    faith_tags = ["base", "dpo_multidomain", "dpo_synthetic", "dpo_corrupted_v2"]
+    categories = ["Trace-correct", "Wrong-trace, right answer",
+                   "Right steps, wrong answer", "Wrong-trace, wrong answer"]
+    faith_tags = ["base", "dpo_multidomain", "dpo_synthetic", "dpo_corrupted_v2", "dpo_cpo"]
 
     fig, axes = plt.subplots(1, 2, figsize=(16, 7), sharey=True)
 
@@ -166,7 +158,7 @@ def plot_faithfulness():
         ax.set_xticks(x)
         ax.set_xticklabels(categories, fontsize=9)
         ax.set_ylabel("Percentage of Instances (%)", fontsize=11)
-        ax.set_title(f"{model_label}: PEMDAS Faithfulness Breakdown (CoT)", fontsize=13)
+        ax.set_title(f"{model_label}: PEMDAS Trace-Correctness Breakdown (CoT)", fontsize=13)
         ax.legend(fontsize=8)
         ax.grid(True, alpha=0.3, axis="y")
 
@@ -191,10 +183,10 @@ def main():
             print(f"No results found for {model_label}.")
             continue
 
-        print(f"\n{'#'*60}\n  {model_label} — tags: {available}\n{'#'*60}")
+        print(f"\n== {model_label} ({', '.join(available)}) ==")
 
         for domain in DOMAIN_LABELS:
-            print(f"\n{'='*60}\n  {DOMAIN_LABELS[domain]}\n{'='*60}")
+            print(f"\n[{DOMAIN_LABELS[domain]}]")
             for tag in available:
                 results = load_results(results_dir, pattern, domain, tag)
                 if not results:

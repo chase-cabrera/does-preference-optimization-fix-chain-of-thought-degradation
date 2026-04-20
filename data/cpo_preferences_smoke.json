@@ -1,0 +1,16 @@
+[
+  {
+    "prompt": "Compute the following expression step by step. Each step has the form 'a op b = c'. End with a line 'Answer: <number>'.\nExpression: 8 * (9 - (8))\nStep 1: ",
+    "chosen": " 8 * (9) = 72",
+    "rejected": " 8 * 9 = 72",
+    "depth": 0,
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "chosen_score": 2.546875,
+    "rejected_score": 1.765625,
+    "chosen_kind": "arith",
+    "rejected_kind": "arith",
+    "chosen_arith_correct": true,
+    "rejected_arith_correct": true
+  }
+]

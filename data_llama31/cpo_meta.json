@@ -1,0 +1,17 @@
+[
+  {
+    "instance_id": "25",
+    "steps_to_solve": 3,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 3,
+    "chosen_steps": [
+      "1 * (7) = 7",
+      "Answer: 49"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  }
+]

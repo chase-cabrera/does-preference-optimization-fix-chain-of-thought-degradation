@@ -1,0 +1,1294 @@
+[
+  {
+    "instance_id": "25",
+    "steps_to_solve": 3,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 3,
+    "chosen_steps": [
+      "11 *(7) = 7",
+      "Answer: 49035"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "409",
+    "steps_to_solve": 3,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "6 + 0 = 6"
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "22",
+    "steps_to_solve": 3,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "8*9=72"
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "21",
+    "steps_to_solve": 3,
+    "depth_reached": 6,
+    "stop_reason": "max_depth",
+    "n_pairs": 14,
+    "chosen_steps": [
+      "9-5=4, add 1 to both sides => 9+6=1O\u0000A7O2O",
+      "4+(1) = 5 , subtract 1 from both side => 3-(1)=2\u0000A7O2O",
+      "33-(-1) = 2, multiply each side => 2 = 2",
+      "1(2)*10/2 = 20",
+      "20*2 = 40",
+      "440-5 = 35"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "instance_id": "419",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "34",
+    "steps_to_solve": 3,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "8 - (8) = 0"
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "35",
+    "steps_to_solve": 3,
+    "depth_reached": 3,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 8,
+    "chosen_steps": [
+      "77*3=21",
+      "480-25=-60",
+      "Answer: -60"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "37",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "400",
+    "steps_to_solve": 3,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "9 / 1 = 9",
+      "Answer: 222222"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "20",
+    "steps_to_solve": 3,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "33 / 6 = 2/ Step 2: 7 (or 5 x"
+    ],
+    "chosen_arith_correct_chain": [
+      false
+    ]
+  },
+  {
+    "instance_id": "435",
+    "steps_to_solve": 4,
+    "depth_reached": 2,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 4,
+    "chosen_steps": [
+      "7 - 5 = 2",
+      "2 - (-5) = 3"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      false
+    ]
+  },
+  {
+    "instance_id": "52",
+    "steps_to_solve": 4,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "4*9=36"
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "434",
+    "steps_to_solve": 4,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "426",
+    "steps_to_solve": 4,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 3,
+    "chosen_steps": [
+      "6 * 5 = 30",
+      "Answer: 30"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "54",
+    "steps_to_solve": 4,
+    "depth_reached": 3,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 6,
+    "chosen_steps": [
+      "9 / (8) = 3/4",
+      "3/4 * (5) = 6/4",
+      "Answer: 0.75"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "428",
+    "steps_to_solve": 4,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "57",
+    "steps_to_solve": 4,
+    "depth_reached": 2,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 2,
+    "chosen_steps": [
+      "1 / (9) = 0.1111...",
+      "0.1111 / (1 * (9)) = 0.1111/9 = 0.123456789...."
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      false
+    ]
+  },
+  {
+    "instance_id": "40",
+    "steps_to_solve": 4,
+    "depth_reached": 4,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 6,
+    "chosen_steps": [
+      "1 * (1 * (3)) = 1 * (3) = 3",
+      "1 * (3) = 3",
+      "3 * (3) = 9",
+      "Answer: 36"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      true,
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "50",
+    "steps_to_solve": 4,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "422",
+    "steps_to_solve": 4,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "448",
+    "steps_to_solve": 5,
+    "depth_reached": 3,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 4,
+    "chosen_steps": [
+      "7 - 2 = 5",
+      "55 - 4 = 0",
+      "8 - 3 = 5"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "instance_id": "442",
+    "steps_to_solve": 5,
+    "depth_reached": 3,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 6,
+    "chosen_steps": [
+      "1 * 9 = 9",
+      "9 - 9 = 0",
+      "Answer: 90563878783"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "78",
+    "steps_to_solve": 5,
+    "depth_reached": 3,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 5,
+    "chosen_steps": [
+      "9-6=3",
+      "3+5/7=-0.71428...",
+      "0.71428/-2=0.35714...."
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      false,
+      false
+    ]
+  },
+  {
+    "instance_id": "69",
+    "steps_to_solve": 5,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "73",
+    "steps_to_solve": 5,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "458",
+    "steps_to_solve": 5,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "66",
+    "steps_to_solve": 5,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "65",
+    "steps_to_solve": 5,
+    "depth_reached": 3,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 5,
+    "chosen_steps": [
+      "7 / (4) = 2",
+      "7 * 3/5 = 6",
+      "Answer: 0.6"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "72",
+    "steps_to_solve": 5,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "2 + 1 = 3"
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "63",
+    "steps_to_solve": 5,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "1/(9-(1*((1)*(8)))= 0/6=0.33..."
+    ],
+    "chosen_arith_correct_chain": [
+      false
+    ]
+  },
+  {
+    "instance_id": "462",
+    "steps_to_solve": 6,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "479",
+    "steps_to_solve": 6,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "3 + (1) = 4",
+      "Answer: 4"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "96",
+    "steps_to_solve": 6,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 4,
+    "chosen_steps": [
+      "1*9=9",
+      "Answer: 9"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "82",
+    "steps_to_solve": 6,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "469",
+    "steps_to_solve": 6,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "474",
+    "steps_to_solve": 6,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "87",
+    "steps_to_solve": 6,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "1 + (4/8) = 26",
+      "Answer: 26.000000000000000000000000000000000000"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "464",
+    "steps_to_solve": 6,
+    "depth_reached": 4,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 9,
+    "chosen_steps": [
+      "9 / (3) = 0",
+      "9 / 3 = 3",
+      "3: 9 / 3 = 3",
+      "Answer: 3."
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      true,
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "85",
+    "steps_to_solve": 6,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "97",
+    "steps_to_solve": 6,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "118",
+    "steps_to_solve": 7,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "483",
+    "steps_to_solve": 7,
+    "depth_reached": 4,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 7,
+    "chosen_steps": [
+      "8 - 6 = 2",
+      "2 8 / (1) = 0",
+      "0 1 * (1) = 0",
+      "Answer: -5"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      false,
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "496",
+    "steps_to_solve": 7,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 2,
+    "chosen_steps": [
+      "1 * 2 = 2",
+      "Answer: 2"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "112",
+    "steps_to_solve": 7,
+    "depth_reached": 5,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 6,
+    "chosen_steps": [
+      "3 + 0 = 3",
+      "2 + 4 = 6",
+      "8 - 6 = 2",
+      "3 + 2 + 6 + 2 = 13",
+      "Answer: 13"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      true,
+      true,
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "104",
+    "steps_to_solve": 7,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "102",
+    "steps_to_solve": 7,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "4 - (1) = 3"
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "114",
+    "steps_to_solve": 7,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "499",
+    "steps_to_solve": 7,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "105",
+    "steps_to_solve": 7,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "487",
+    "steps_to_solve": 7,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "134",
+    "steps_to_solve": 8,
+    "depth_reached": 2,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 3,
+    "chosen_steps": [
+      "5 + 0 = 5",
+      "5 + 1 = 6"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      true
+    ]
+  },
+  {
+    "instance_id": "126",
+    "steps_to_solve": 8,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "3 + (5) = 8"
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "504",
+    "steps_to_solve": 8,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "2*7=14",
+      "Answer: 14"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "137",
+    "steps_to_solve": 8,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "9 / (1) = 9/1"
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "509",
+    "steps_to_solve": 8,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "503",
+    "steps_to_solve": 8,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "130",
+    "steps_to_solve": 8,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "514",
+    "steps_to_solve": 8,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "4 * (9) = 36",
+      "Answer: 36"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "502",
+    "steps_to_solve": 8,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "1 * (3/7) = 0.42857142857..."
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "518",
+    "steps_to_solve": 8,
+    "depth_reached": 4,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 4,
+    "chosen_steps": [
+      "1 * 1 = 1",
+      "1 * (1 + 3) = 5",
+      "5 * (1 + 4) = 16",
+      "Answer: 16"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      false,
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "157",
+    "steps_to_solve": 9,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 2,
+    "chosen_steps": [
+      "4 + 0 = 4",
+      "Answer: 4"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "144",
+    "steps_to_solve": 9,
+    "depth_reached": 6,
+    "stop_reason": "max_depth",
+    "n_pairs": 10,
+    "chosen_steps": [
+      "7 - 0 = 7",
+      "2: 6 - 0 = 6",
+      "7 - 6 = 1",
+      "8: 9/1 = 9",
+      "7 - 9 = -2",
+      "7 - (-2) = 9"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "instance_id": "150",
+    "steps_to_solve": 9,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "534",
+    "steps_to_solve": 9,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "155",
+    "steps_to_solve": 9,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "537",
+    "steps_to_solve": 9,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "529",
+    "steps_to_solve": 9,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "524",
+    "steps_to_solve": 9,
+    "depth_reached": 3,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 3,
+    "chosen_steps": [
+      "3 - 9 = 6",
+      "6/6 = 1",
+      "Answer: 5"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "539",
+    "steps_to_solve": 9,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "533",
+    "steps_to_solve": 9,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "555",
+    "steps_to_solve": 10,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "174",
+    "steps_to_solve": 10,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "540",
+    "steps_to_solve": 10,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "163",
+    "steps_to_solve": 10,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "3*9/1=27"
+    ],
+    "chosen_arith_correct_chain": [
+      true
+    ]
+  },
+  {
+    "instance_id": "558",
+    "steps_to_solve": 10,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "1 * (3) = 3",
+      "Answer: 0.2661877926187926187926187926187926187"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "162",
+    "steps_to_solve": 10,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 4,
+    "chosen_steps": [
+      "1 * 4 = 4",
+      "Answer: 4"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "557",
+    "steps_to_solve": 10,
+    "depth_reached": 3,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 5,
+    "chosen_steps": [
+      "4 - 0 = 4",
+      "3 - 0 = 3",
+      "3 - 1 = 2"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "instance_id": "545",
+    "steps_to_solve": 10,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "177",
+    "steps_to_solve": 10,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "554",
+    "steps_to_solve": 10,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "193",
+    "steps_to_solve": 11,
+    "depth_reached": 2,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "9 - (2) = 7",
+      "2: 7 - (9/4) = 3"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      false
+    ]
+  },
+  {
+    "instance_id": "576",
+    "steps_to_solve": 11,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "560",
+    "steps_to_solve": 11,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "579",
+    "steps_to_solve": 11,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "4 / (3) = 2/1"
+    ],
+    "chosen_arith_correct_chain": [
+      false
+    ]
+  },
+  {
+    "instance_id": "571",
+    "steps_to_solve": 11,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "8 - (1) = 7",
+      "Answer: 7"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "565",
+    "steps_to_solve": 11,
+    "depth_reached": 6,
+    "stop_reason": "max_depth",
+    "n_pairs": 13,
+    "chosen_steps": [
+      "4 - 5 = 0",
+      "4 - (-5) = 9",
+      "9 - (-5) = 14",
+      "14 - (-5) = 9",
+      "9 / 14 = 6,750%",
+      "1*1=1"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      true,
+      true,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "instance_id": "569",
+    "steps_to_solve": 11,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 4,
+    "chosen_steps": [
+      "1 * 1 = 1",
+      "Answer: 1"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "189",
+    "steps_to_solve": 11,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "196",
+    "steps_to_solve": 11,
+    "depth_reached": 3,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 5,
+    "chosen_steps": [
+      "9 - 4 = 5",
+      "9 - 4 = 5",
+      "Answer: 3068732"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "184",
+    "steps_to_solve": 11,
+    "depth_reached": 6,
+    "stop_reason": "max_depth",
+    "n_pairs": 10,
+    "chosen_steps": [
+      "4 - (9) = 0",
+      "0 - 9 = -9",
+      "5 - 1 = -4",
+      "6-1 = -17",
+      "1+(-17)=-16",
+      "1/1=1"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "instance_id": "215",
+    "steps_to_solve": 12,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "595",
+    "steps_to_solve": 12,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "594",
+    "steps_to_solve": 12,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "216",
+    "steps_to_solve": 12,
+    "depth_reached": 6,
+    "stop_reason": "max_depth",
+    "n_pairs": 11,
+    "chosen_steps": [
+      "2 + 1 = 3",
+      "3 + (3) = 9",
+      "9 - (3) = 6",
+      "6 - (1) = 5",
+      "5 + (3) = 8",
+      "8 - (3) = 5"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "instance_id": "587",
+    "steps_to_solve": 12,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 3,
+    "chosen_steps": [
+      "4 + 0 = 4",
+      "Answer: 4"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "585",
+    "steps_to_solve": 12,
+    "depth_reached": 4,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 8,
+    "chosen_steps": [
+      "6 - 9 = 3",
+      "2: 3 - 4 = -1",
+      "0: -1 - 4 = -5",
+      "Answer: -5"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      true,
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "583",
+    "steps_to_solve": 12,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "214",
+    "steps_to_solve": 12,
+    "depth_reached": 4,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 5,
+    "chosen_steps": [
+      "1 * (9) = 9",
+      "9 - (6) = 3",
+      "9 - (6) = 54",
+      "Answer: 54"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      true,
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "208",
+    "steps_to_solve": 12,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 5,
+    "chosen_steps": [
+      "9 / (5) = 2",
+      "Answer: 2"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "596",
+    "steps_to_solve": 12,
+    "depth_reached": 2,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "9 * 9/8 = 32/8",
+      "32/8 * (8 + 9/8) = 57/8"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      false
+    ]
+  }
+]

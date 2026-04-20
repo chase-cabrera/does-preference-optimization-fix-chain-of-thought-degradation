@@ -1,0 +1,44 @@
+[
+  {
+    "prompt": "Compute the following expression step by step. Each step has the form 'a op b = c'. End with a line 'Answer: <number>'.\nExpression: 1 * (1 * (7))\nStep 1: ",
+    "chosen": " 1 * (7) = 7",
+    "rejected": " 1 * (1 + 2) = 3",
+    "depth": 0,
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "chosen_score": 1.1171875,
+    "rejected_score": -0.40625,
+    "chosen_kind": "arith",
+    "rejected_kind": "arith",
+    "chosen_arith_correct": true,
+    "rejected_arith_correct": true
+  },
+  {
+    "prompt": "Compute the following expression step by step. Each step has the form 'a op b = c'. End with a line 'Answer: <number>'.\nExpression: 1 * (1 * (7))\nStep 1: ",
+    "chosen": " 1 * (7) = 7",
+    "rejected": " 1 * 1 = 1",
+    "depth": 0,
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "chosen_score": 1.1171875,
+    "rejected_score": -9.4765625,
+    "chosen_kind": "arith",
+    "rejected_kind": "arith",
+    "chosen_arith_correct": true,
+    "rejected_arith_correct": true
+  },
+  {
+    "prompt": "Compute the following expression step by step. Each step has the form 'a op b = c'. End with a line 'Answer: <number>'.\nExpression: 1 * (1 * (7))\nStep 1: ",
+    "chosen": " 1 * (7) = 7",
+    "rejected": " 1 * (1) = 1",
+    "depth": 0,
+    "domain": "pemdas",
+    "steps_to_solve": 3,
+    "chosen_score": 1.1171875,
+    "rejected_score": 1.078125,
+    "chosen_kind": "arith",
+    "rejected_kind": "arith",
+    "chosen_arith_correct": true,
+    "rejected_arith_correct": true
+  }
+]

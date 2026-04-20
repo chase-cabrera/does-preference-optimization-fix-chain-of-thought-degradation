@@ -1,0 +1,120 @@
+[
+  {
+    "instance_id": "25",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "409",
+    "steps_to_solve": 3,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "6 + (8 - 6) = 10",
+      "Answer: 10"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "22",
+    "steps_to_solve": 3,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 1,
+    "chosen_steps": [
+      "8 * (9 - 8) = 0",
+      "Answer: 1"
+    ],
+    "chosen_arith_correct_chain": [
+      false,
+      null
+    ]
+  },
+  {
+    "instance_id": "21",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "419",
+    "steps_to_solve": 3,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 5,
+    "chosen_steps": [
+      "1 * (1) = 1",
+      "Answer: 81"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "34",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "35",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "37",
+    "steps_to_solve": 3,
+    "depth_reached": 2,
+    "stop_reason": "answer_emitted",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "6 - (4/1) = 2",
+      "Answer: 2"
+    ],
+    "chosen_arith_correct_chain": [
+      true,
+      null
+    ]
+  },
+  {
+    "instance_id": "400",
+    "steps_to_solve": 3,
+    "depth_reached": 0,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [],
+    "chosen_arith_correct_chain": []
+  },
+  {
+    "instance_id": "20",
+    "steps_to_solve": 3,
+    "depth_reached": 1,
+    "stop_reason": "no_parseable_candidates",
+    "n_pairs": 0,
+    "chosen_steps": [
+      "3 / (7 - 4) = 3 / 3"
+    ],
+    "chosen_arith_correct_chain": [
+      false
+    ]
+  }
+]

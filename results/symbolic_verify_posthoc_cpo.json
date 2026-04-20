@@ -1,0 +1,11 @@
+{
+  "dpo_cpo": {
+    "n": 290,
+    "model_acc": 32.1,
+    "has_step_share_pct": 2.1,
+    "has_answer_line_pct": 0.0,
+    "answer_aware_acc": 32.1,
+    "verify_and_correct_acc": 32.1,
+    "responses_changed": 82
+  }
+}
